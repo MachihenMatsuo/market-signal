@@ -1,0 +1,7 @@
+<footer class="site"><div class="wrap">
+  <p>題名・日付・締切・対象地域は、発表元のデータをそのまま載せています。利用の前に、必ず発表元の原文でご確認ください。</p>
+  {% if edition == "paid" %}<p>「AIによる見立て」はAIが付けた参考情報で、発表元の見解ではありません。</p>{% endif %}
+  <p>{% include "_credits.html" %}</p>
+  <p>発行：{{ cfg.operator.name }}　{{ cfg.operator.address }}　お問い合わせ：{{ cfg.operator.contact_email }}</p>
+  <p><a href="{{ '../' if issue_page else '' }}privacy.html">個人情報の取り扱い</a></p>
+</div></footer>

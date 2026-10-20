@@ -1,0 +1,56 @@
+{% set F = "font-family:'Hiragino Kaku Gothic ProN','Hiragino Sans','Yu Gothic',Meiryo,sans-serif;" %}
+{% macro row(it) -%}
+<tr><td style="padding:12px 0;border-bottom:1px solid #e4dfd6;{{ F }}">
+  <div style="font-size:15px;font-weight:bold;line-height:1.6;">
+    {%- if edition == "paid" and it.importance == "高" %}<span style="background:#fbeae7;color:#a33a2b;font-size:12px;padding:1px 6px;border-radius:3px;margin-right:6px;">重要</span>{% endif -%}
+    <a href="{{ it.url }}" style="color:#1f1d1a;text-decoration:none;">{{ it.title }}</a>
+  </div>
+  <div style="font-size:13px;color:#5f5a52;line-height:1.7;margin-top:4px;">
+    {{ it.publisher }}{% if it.published_dt %}｜{{ "受付開始" if it.kind == "補助金・公募" else "公表" }} {{ it.published_dt | jdate }}{% endif %}
+    {% if it.deadline_dt %}{% set left = days_left(it) %}<br><b style="color:{{ '#a33a2b' if left is not none and left <= 7 else '#1f1d1a' }};">締切 {{ it.deadline_dt | jdatetime }}{% if left is not none %}（残り{{ left }}日）{% endif %}</b>{% endif %}
+    <br>{{ it.regions | join('・') }}{% if it.business_types %}｜{{ it.business_types | join('・') }}{% endif %}
+  </div>
+  {% if edition == "paid" and it.ai_note %}
+  <div style="font-size:13px;margin-top:6px;padding:4px 8px;border-left:3px solid #2f5d4e;background:#faf8f4;"><span style="color:#5f5a52;font-size:11px;">AIによる見立て（参考）</span><br>{{ it.ai_note }}</div>
+  {% endif %}
+</td></tr>
+{%- endmacro %}
+{% macro section(title, items, over=0) -%}
+<tr><td style="padding:24px 0 4px;{{ F }}font-size:17px;font-weight:bold;color:#2f5d4e;border-bottom:2px solid #2f5d4e;">{{ title }}（{{ items | length }}件）</td></tr>
+{% for it in items %}{{ row(it) }}{% else %}<tr><td style="padding:10px 0;{{ F }}font-size:13px;color:#5f5a52;">今週はありません。</td></tr>{% endfor %}
+{% if over %}<tr><td style="padding:10px 0;{{ F }}font-size:13px;color:#5f5a52;">ほか{{ over }}件は省略しました。すべてはウェブ版でご覧ください。</td></tr>{% endif %}
+{%- endmacro %}
+<!doctype html>
+<html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"></head>
+<body style="margin:0;padding:0;background:#faf8f4;">
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background:#faf8f4;"><tr><td align="center" style="padding:16px;">
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="max-width:600px;background:#ffffff;border:1px solid #e4dfd6;border-radius:8px;">
+<tr><td style="padding:20px 20px 0;{{ F }}">
+  <div style="font-size:13px;color:#5f5a52;">{{ cfg.service.name }}</div>
+  <div style="font-size:20px;font-weight:bold;line-height:1.5;color:#1f1d1a;margin-top:4px;">{{ issue_date }}号<br>飲食・食品の補助金・公募と行政の動き</div>
+  <div style="font-size:13px;color:#5f5a52;margin-top:4px;">対象期間：{{ period }}</div>
+  <div style="font-size:14px;color:#1f1d1a;margin-top:12px;line-height:1.8;">
+    締切が近い補助金・公募（{{ soon_days }}日以内）{{ counts.soon }}件／新しく見つかった補助金・公募 {{ counts.new }}件{% if show_recall %}／回収・注意喚起 {{ counts.recall }}件{% endif %}／行政の発表 {{ counts.gov }}件
+  </div>
+  {% if cfg.site.url %}<div style="font-size:13px;margin-top:8px;"><a href="{{ cfg.site.url.rstrip('/') }}/issues/{{ issue_slug }}.html" style="color:#2f5d4e;">ウェブで読む</a></div>{% endif %}
+</td></tr>
+<tr><td style="padding:0 20px 20px;">
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0">
+{{ section("締切が近い補助金・公募", groups.soon, overflow.soon) }}
+{{ section("新しく見つかった補助金・公募", groups.new, overflow.new) }}
+{% if show_recall %}{{ section("回収・注意喚起", groups.recall) }}{% endif %}
+{{ section("行政の発表", groups.gov, overflow.gov) }}
+</table>
+</td></tr>
+<tr><td style="padding:16px 20px 24px;border-top:1px solid #e4dfd6;{{ F }}font-size:12px;color:#5f5a52;line-height:1.8;">
+  題名・日付・締切・対象地域は、発表元のデータをそのまま載せています。利用の前に、必ず発表元の原文でご確認ください。各項目の出典は、項目ごとのリンク先です。<br>
+  {% if edition == "paid" %}「AIによる見立て」はAIが付けた参考情報で、発表元の見解ではありません。<br>{% endif %}
+  {% include "_credits.html" %}<br>
+  このメールは、{{ cfg.service.name }}の配信に登録された方にお送りしています。<br>
+  送信者：{{ cfg.operator.name }}　{{ cfg.operator.address }}<br>
+  お問い合わせ：{{ cfg.operator.contact_email }}<br>
+  配信の停止：{{ cfg.email.unsubscribe_html | safe }}
+</td></tr>
+</table>
+</td></tr></table>
+</body></html>

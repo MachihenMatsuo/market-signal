@@ -1,0 +1,49 @@
+{% macro section(title, items, over=0) %}
+■{{ title }}（{{ items | length }}件）
+
+{% for it in items %}
+・{% if edition == "paid" and it.importance == "高" %}【重要】{% endif %}{{ it.title }}
+　{{ it.publisher }}{% if it.published_dt %}／{{ "受付開始" if it.kind == "補助金・公募" else "公表" }} {{ it.published_dt | jdate }}{% endif %}
+
+{% if it.deadline_dt %}{% set left = days_left(it) %}
+　締切 {{ it.deadline_dt | jdatetime }}{% if left is not none %}（残り{{ left }}日）{% endif %}
+
+{% endif %}
+　{{ it.regions | join('・') }}{% if it.business_types %}／{{ it.business_types | join('・') }}{% endif %}
+
+{% if edition == "paid" and it.ai_note %}
+　AIによる見立て（参考）：{{ it.ai_note }}
+{% endif %}
+　{{ it.url }}
+
+{% else %}
+今週はありません。
+
+{% endfor %}
+{% if over %}
+ほか{{ over }}件は省略しました。すべてはウェブ版でご覧ください。
+
+{% endif %}
+{% endmacro %}
+{{ cfg.service.name }}
+{{ issue_date }}号　飲食・食品の補助金・公募と行政の動き
+対象期間：{{ period }}
+{% if cfg.site.url %}
+ウェブで読む：{{ cfg.site.url.rstrip('/') }}/issues/{{ issue_slug }}.html
+{% endif %}
+
+{{ section("締切が近い補助金・公募（" ~ soon_days ~ "日以内）", groups.soon, overflow.soon) }}
+{{ section("新しく見つかった補助金・公募", groups.new, overflow.new) }}
+{% if show_recall %}{{ section("回収・注意喚起", groups.recall, overflow.recall) }}{% endif %}
+{{ section("行政の発表", groups.gov, overflow.gov) }}
+――――――――――
+題名・日付・締切・対象地域は、発表元のデータをそのまま載せています。利用の前に、必ず発表元の原文でご確認ください。
+{% if edition == "paid" %}
+「AIによる見立て」はAIが付けた参考情報で、発表元の見解ではありません。
+{% endif %}
+{% include "_credits.html" %}
+
+このメールは、{{ cfg.service.name }}の配信に登録された方にお送りしています。
+送信者：{{ cfg.operator.name }}　{{ cfg.operator.address }}
+お問い合わせ：{{ cfg.operator.contact_email }}
+配信の停止：{{ cfg.email.unsubscribe_text }}

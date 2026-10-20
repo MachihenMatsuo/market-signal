@@ -1,0 +1,20 @@
+{
+ "_note": "2026年10月20日に jGrants 公開API（keyword=飲食, acceptance=1）から取得した一覧と詳細をもとにした見本。業種欄は取得ツールの都合で一部しか読めなかったものがある。",
+ "search_keyword": "飲食",
+ "list": {"metadata": {"resultset": {"count": 6}}, "result": [
+  {"id": "a0WJ200000CDeYeMAL", "title": "観光関連事業者のDX・経営力強化支援事業補助金（令和８年度第２回募集）", "target_area_search": "東京都", "acceptance_start_datetime": "2026-10-18T15:00:00.000Z", "acceptance_end_datetime": "2026-11-30T14:59:00.000Z", "institution_name": null},
+  {"id": "a0WJ200000CDeRiMAL", "title": "令和8年度_受動喫煙防止対策助成金", "target_area_search": "全国", "acceptance_start_datetime": "2026-09-30T15:00:00.000Z", "acceptance_end_datetime": "2027-01-31T14:59:00.000Z", "institution_name": null},
+  {"id": "a0WJ200000CDddZMAT", "title": "【福岡県宗像市】令和8年度 食のまち宗像推進補助金", "target_area_search": "福岡県", "acceptance_start_datetime": "2026-06-01T00:00:00.000Z", "acceptance_end_datetime": "2026-12-25T02:00:00.000Z", "institution_name": null},
+  {"id": "a0WJ200000CDYfxMAH", "title": "古賀市中小企業等向け太陽光発電設備導入補助金", "target_area_search": "福岡県", "acceptance_start_datetime": "2026-03-13T00:00:00.000Z", "acceptance_end_datetime": "2026-11-30T08:00:00.000Z", "institution_name": null},
+  {"id": "a0WJ200000CDY24MAH", "title": "【長野県茅野市】消費喚起イベント事業補助金", "target_area_search": "長野県", "acceptance_start_datetime": "2026-03-31T15:00:00.000Z", "acceptance_end_datetime": "2029-03-31T14:59:00.000Z", "institution_name": null},
+  {"id": "a0WJ200000CDY1kMAH", "title": "【長野県茅野市】受注及び販路開拓支援事業補助金", "target_area_search": "長野県", "acceptance_start_datetime": "2026-03-31T15:00:00.000Z", "acceptance_end_datetime": "2027-03-17T14:59:00.000Z", "institution_name": null}
+ ]},
+ "details": {
+  "a0WJ200000CDeYeMAL": {"industry": "サービス業（他に分類されないもの） / 宿泊業、飲食サービス業", "use_purpose": "新たな事業を行いたい / 設備整備・IT導入をしたい", "subsidy_catch_phrase": "東京都内の中小企業の観光関連事業者によるDXやデジタル化、新商品・サービス開発等を支援します！", "acceptance_end_datetime": "2026-11-30T14:59Z"},
+  "a0WJ200000CDeRiMAL": {"industry": "漁業 / 建設業 / 製造業 / 卸売業、小売業 / 宿泊業、飲食サービス業 / 医療、福祉", "use_purpose": "設備整備・IT導入をしたい", "subsidy_rate": "３分の２（主たる業種の産業分類が飲食店以外は２分の１）", "acceptance_end_datetime": "2027-01-31T14:59Z"},
+  "a0WJ200000CDddZMAT": {"industry": "製造業 / サービス業（他に分類されないもの） / 卸売業、小売業 / 宿泊業、飲食サービス業", "use_purpose": "新たな事業を行いたい / 販路拡大・海外展開をしたい / イベント・事業運営支援がほしい / まちづくり・地域振興支援がほしい", "acceptance_end_datetime": "2026-12-25T02:00Z"},
+  "a0WJ200000CDYfxMAH": {"industry": "漁業 / 建設業 / 製造業 / 電気・ガス・熱供給・水道業 / 情報通信業 / 複合サービス事業", "use_purpose": "設備整備・IT導入をしたい / エコ・SDGs活動支援がほしい", "subsidy_catch_phrase": "古賀市内中小企業・中堅企業のエネルギー価格高騰対策と脱炭素化を支援！太陽光発電設備導入費用を最大450万円補助します。", "acceptance_end_datetime": "2026-11-30T08:00Z"},
+  "a0WJ200000CDY24MAH": {"industry": "卸売業、小売業 / 宿泊業、飲食サービス業", "use_purpose": "販路拡大・海外展開をしたい / まちづくり・地域振興支援がほしい", "subsidy_catch_phrase": "複数店舗の協力で新たな集客を！茅野市の「消費喚起イベント」開催費用をサポート", "acceptance_end_datetime": "2029-03-31T14:59Z"},
+  "a0WJ200000CDY1kMAH": {"industry": "製造業 / 情報通信業 / 卸売業、小売業 / 宿泊業、飲食サービス業", "use_purpose": "販路拡大・海外展開をしたい", "subsidy_catch_phrase": "茅野市内の中小企業を応援！展示会・見本市への出展経費を最大40万円補助し、販路開拓を強力にサポートします。", "acceptance_end_datetime": "2027-03-17T14:59Z"}
+ }
+}

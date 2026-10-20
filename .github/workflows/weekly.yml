@@ -1,0 +1,92 @@
+name: 毎週の配信
+
+on:
+  schedule:
+    - cron: "23 21 * * 0"   # 毎週月曜 6:23（日本時間）。収集の後に動く。毎時0分は混むためずらす
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "試し実行（メールは送らない）"
+        type: boolean
+        default: true
+
+permissions:
+  contents: write
+  issues: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: market-signal
+  cancel-in-progress: false
+
+jobs:
+  weekly:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    environment:
+      name: github-pages
+    env:
+      PYTHONPATH: src
+      ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+      EMAIL_API_KEY: ${{ secrets.EMAIL_API_KEY }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+
+      - name: 集める→選ぶ→照合→ページとメールを作る→配信
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ] && [ "${{ inputs.dry_run }}" = "true" ]; then
+            python -m market_signal weekly --dry-run
+          else
+            python -m market_signal weekly
+          fi
+
+      - name: 記録を保存
+        if: always()
+        run: |
+          git config user.name "market-signal-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data site
+          git diff --cached --quiet || git commit -m "週次 $(TZ=Asia/Tokyo date +%F)"
+          git push
+
+      - name: 公開ページを更新
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+      - uses: actions/deploy-pages@v4
+
+      - name: 月1回の点検（毎月最初の月曜）
+        if: success() && github.event_name == 'schedule'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if [ "$(TZ=Asia/Tokyo date +%d)" -le 7 ]; then
+            python -m market_signal audit
+            gh issue create --title "月1回の点検（$(TZ=Asia/Tokyo date +%Y年%-m月)）" --body-file out/audit.md
+          fi
+
+      - name: 配信について知らせることがあれば知らせる（登録者が上限に近い、APIキーが未登録など）
+        if: success()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if [ -f out/warning.txt ]; then
+            gh issue create --title "配信についてのお知らせ（$(TZ=Asia/Tokyo date +%F)）" --body-file out/warning.txt
+          fi
+
+      - name: 止まったら知らせる
+        if: failure()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          REASON="$(cat out/stop_reason.txt 2>/dev/null || echo '実行中にエラーが出ました')"
+          gh issue create --title "今週の配信を止めました（$(TZ=Asia/Tokyo date +%F)）" \
+            --body "理由：${REASON}
+
+          実行の記録：${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"

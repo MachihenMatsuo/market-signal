@@ -1,0 +1,32 @@
+{% set issue_page = false %}
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>飲食・食品の事業者向け 今週の補助金・公募と行政の動き｜{{ cfg.service.name }}</title>
+<meta name="description" content="飲食店・食品メーカー・食品卸の方へ。補助金・公募の締切と国の発表を毎週まとめ、発表元の原文リンク付きで届けます。">
+{% if cfg.site.url %}<link rel="canonical" href="{{ cfg.site.url.rstrip('/') }}/">{% endif %}
+{% include "_style.html" %}
+</head>
+<body>
+<header class="site"><div class="wrap">
+  <p class="brand">{{ cfg.service.name }}</p>
+  <h1>飲食・食品の事業者向け<br>今週の補助金・公募と行政の動き</h1>
+  <p class="sub">{{ cfg.service.tagline }}</p>
+</div></header>
+<main class="wrap">
+  {% include "_signup.html" %}
+  <h2>最新号：{{ issue_date }}号</h2>
+  <p class="sub">対象期間：{{ period }}　<a href="issues/{{ issue_slug }}.html">この号のページ</a></p>
+  {% include "_issue_body.html" %}
+  {% if archive %}
+  <h2>これまでの号</h2>
+  <ul class="archive">
+    {% for a in archive %}<li><a href="issues/{{ a.slug }}.html">{{ a.label }}号</a>（{{ a.total }}件）</li>{% endfor %}
+  </ul>
+  {% endif %}
+</main>
+{% include "_footer.html" %}
+</body>
+</html>

@@ -1,0 +1,29 @@
+{% set issue_page = false %}
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>個人情報の取り扱い｜{{ cfg.service.name }}</title>
+{% include "_style.html" %}
+</head>
+<body>
+<header class="site"><div class="wrap">
+  <p class="brand"><a href="index.html">{{ cfg.service.name }}</a></p>
+  <h1>個人情報の取り扱い</h1>
+</div></header>
+<main class="wrap">
+  <h2>預かる情報</h2>
+  <p>配信の登録でいただくメールアドレスと、登録時に選んでいただく業態・都道府県です。</p>
+  <h2>使う目的</h2>
+  <p>{{ cfg.service.name }}の配信と、配信内容の改善（開封やクリックの集計）にだけ使います。それ以外の目的には使いません。</p>
+  <h2>第三者への提供</h2>
+  <p>法令に基づく場合を除き、本人の同意なく第三者に提供しません。配信には、メール配信サービス（{{ cfg.email.provider_label }}）を使っています。</p>
+  <h2>配信の停止・情報の削除</h2>
+  <p>毎回のメールの末尾にある「配信停止」から、いつでも止められます。登録情報の削除は、下記の問い合わせ先までご連絡ください。</p>
+  <h2>事業者</h2>
+  <p>{{ cfg.operator.name }}<br>{{ cfg.operator.address }}<br>お問い合わせ：{{ cfg.operator.contact_email }}</p>
+</main>
+{% include "_footer.html" %}
+</body>
+</html>

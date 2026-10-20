@@ -1,0 +1,59 @@
+# ─────────────────────────────────────────────
+# 基本設定。【要記入】が残っている間は、メールを配信しません（自動で止まります）。
+# ─────────────────────────────────────────────
+
+service:
+  name: 食の補助金・行政ウォッチ   # 公開ページ・メールに出る名前（登録フォームと合わせる。旧仮称：Market Signal Japan）
+  short_name: 食の補助金・行政ウォッチ
+  tagline: 飲食・食品の事業者が使える補助金・公募の締切と、国の発表を、発表元の原文リンク付きで毎週まとめます。
+
+# 送信者の表示（特定電子メール法で、メールごとに表示が必要）
+operator:
+  name: まちへん合同会社
+  address: 大阪市中央区久太郎町1-9-7
+  contact_email: info@machihen.com   # Cloudflareの転送で松尾さんのGmailに届く
+
+site:
+  # GitHub Pagesの公開URL（GitHubのアカウント MachihenMatsuo のリポジトリ market-signal）
+  url: https://machihenmatsuo.github.io/market-signal/
+
+signup:
+  # Brevoで作った登録フォーム（「食の補助金・行政ウォッチ 配信登録」）のURL
+  url: https://34ffeb13.sibforms.com/serve/MUIFANA2zsNwfOLZW9legzNNjLJ3A5fhDBE2SHsWnKuj1rsUnl0Z3kCGWSDDRXmpc4GBKnRavSxbVqJ_4hpAFsZnK22cvv8MGc5l-Hfx9qeQaJw9pvi2D5d2cnyY9Pu9avm-2H21q6Oj3JyAAwjsCs_pSkTwbiYPT_0bvlUeSUnfE4OOS6t8cnIugggan8fT3GcVzocCLVHjkiO7RQ==
+
+issue:
+  window_days: 7          # 1号でまとめる期間
+  deadline_soon_days: 30  # 「締切が近い」とする日数
+  max_per_section: 40     # メールの1つの欄に載せる上限（超えた分はウェブ版で全件）
+
+thresholds:
+  min_items: 1                 # これより少なければ配信を止める
+  max_broken_link_ratio: 0.3   # リンク切れがこの割合を超えたら止める
+  source_fail_days: 3          # 情報源の取得失敗がこの日数続いたら知らせる
+
+collect:
+  pause_seconds: 2   # 情報源へのアクセスの間隔
+
+ai:
+  enabled: true                  # APIキーが無ければ自動で使わない
+  model: claude-haiku-5-5        # 分類・抽出向けの最も安いClaude（2026年10月時点）
+  monthly_budget_jpy: 2000       # これに達した月は、AIを使わず判定基準だけで動く
+  usd_jpy: 170                   # 円換算は不利な側（円安側）で計算
+  tax_rate: 0.10                 # 消費税がかかる前提で上乗せ
+  price_input_usd_per_mtok: 0.10 # 1回の入力が10万トークン以下のときの料金
+  price_output_usd_per_mtok: 0.50
+  max_tokens: 1500               # 1回の出力の上限（費用の上限にもなる）
+  max_items_per_run: 150
+  batch_size: 10
+
+email:
+  provider: brevo    # APIキー（EMAIL_API_KEY）が未登録の間は、メールを送らずに知らせる
+  provider_label: Brevo
+  list_id: 3                       # Brevoの登録者リスト「食の補助金・行政ウォッチ 登録者」の番号
+  sender_name: 食の補助金・行政ウォッチ   # 受信者に見える差出人名（登録フォームの名前と合わせる）
+  sender_email: news@machihen.com   # 送信専用。Brevoで machihen.com を認証済み（2026年10月20日）
+  reply_to: info@machihen.com
+  daily_limit: 300                 # Brevo無料プランの1日の上限
+  # 配信停止リンク（Brevoの差し込み記号。送信時にBrevoが本人用のリンクに置き換える）
+  unsubscribe_html: '<a href="{{ unsubscribe }}" style="color:#2f5d4e;">配信を停止する</a>'
+  unsubscribe_text: メール末尾の「配信を停止する」から

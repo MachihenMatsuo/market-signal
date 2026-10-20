@@ -1,0 +1,24 @@
+{% macro item_card(it, edition, days_left, attr) -%}
+<article class="item">
+  <p class="t">
+    {%- if edition == "paid" and it.importance == "高" %}<span class="imp h">重要</span>{% endif -%}
+    <a href="{{ it.url }}" rel="noopener" target="_blank">{{ it.title }}</a>
+  </p>
+  <div class="meta">
+    <span>{{ it.publisher }}</span>
+    {% if it.published_dt %}<span>{{ "受付開始" if it.kind == "補助金・公募" else "公表" }} {{ it.published_dt | jdate }}</span>{% endif %}
+    {% if it.deadline_dt %}
+      {% set left = days_left(it) %}
+      <span class="dl{% if left is not none and left <= 7 %} urgent{% endif %}">締切 {{ it.deadline_dt | jdatetime }}{% if left is not none %}（残り{{ left }}日）{% endif %}</span>
+    {% endif %}
+  </div>
+  <div class="tags">
+    {% for r in it.regions %}<span class="tag">{{ r }}</span>{% endfor %}
+    {% for b in it.business_types %}<span class="tag">{{ b }}</span>{% endfor %}
+  </div>
+  {% if edition == "paid" and it.ai_note %}
+  <div class="note"><b>AIによる見立て（参考）</b>{{ it.ai_note }}</div>
+  {% endif %}
+  <div class="src"><a href="{{ it.url }}" rel="noopener" target="_blank">{{ attr.get(it.source_id, "出典：" ~ it.publisher) }}</a></div>
+</article>
+{%- endmacro %}

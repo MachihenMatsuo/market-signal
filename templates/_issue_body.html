@@ -1,0 +1,28 @@
+{% from "_item.html" import item_card %}
+<section class="summary">
+  <strong>今週の件数</strong>
+  <ul>
+    <li>締切が近い補助金・公募（{{ soon_days }}日以内）：{{ counts.soon }}件</li>
+    <li>新しく見つかった補助金・公募：{{ counts.new }}件</li>
+    {% if show_recall %}<li>回収・注意喚起：{{ counts.recall }}件</li>{% endif %}
+    <li>行政の発表：{{ counts.gov }}件</li>
+  </ul>
+</section>
+
+<h2>締切が近い補助金・公募<span class="n">{{ counts.soon }}件</span></h2>
+{% for it in groups.soon %}{{ item_card(it, edition, days_left, attr) }}{% else %}<p class="empty">今週はありません。</p>{% endfor %}
+{% if overflow.soon %}<p class="empty">ほか{{ overflow.soon }}件は省略しました（並び順の上から{{ cfg.issue.max_per_section or 40 }}件まで載せています）。</p>{% endif %}
+
+<h2>新しく見つかった補助金・公募<span class="n">{{ counts.new }}件</span></h2>
+{% for it in groups.new %}{{ item_card(it, edition, days_left, attr) }}{% else %}<p class="empty">今週はありません。</p>{% endfor %}
+{% if overflow.new %}<p class="empty">ほか{{ overflow.new }}件は省略しました（並び順の上から{{ cfg.issue.max_per_section or 40 }}件まで載せています）。</p>{% endif %}
+
+{% if show_recall %}
+<h2>回収・注意喚起<span class="n">{{ counts.recall }}件</span></h2>
+{% for it in groups.recall %}{{ item_card(it, edition, days_left, attr) }}{% else %}<p class="empty">今週はありません。</p>{% endfor %}
+{% if overflow.recall %}<p class="empty">ほか{{ overflow.recall }}件は省略しました（並び順の上から{{ cfg.issue.max_per_section or 40 }}件まで載せています）。</p>{% endif %}
+{% endif %}
+
+<h2>行政の発表<span class="n">{{ counts.gov }}件</span></h2>
+{% for it in groups.gov %}{{ item_card(it, edition, days_left, attr) }}{% else %}<p class="empty">今週はありません。</p>{% endfor %}
+{% if overflow.gov %}<p class="empty">ほか{{ overflow.gov }}件は省略しました（並び順の上から{{ cfg.issue.max_per_section or 40 }}件まで載せています）。</p>{% endif %}
