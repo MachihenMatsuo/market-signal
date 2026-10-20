@@ -3,3 +3,4 @@ date,event,collected_new,issue_items,excluded_broken_link,excluded_out_of_period
 2026-10-20T16:46:02+09:00,weekly_dry_run,,50,0,37,0,0,0,0,0,,0,APIキーなし
 2026-10-20T17:21:35+09:00,collect,108,,,,,,,,,,,
 2026-10-20T17:22:05+09:00,weekly_dry_run,,58,0,37,2,0,0,0,0,0,0,APIキーなし
+2026-10-21T08:57:09+09:00,collect,110,,,,,,,,,,,
