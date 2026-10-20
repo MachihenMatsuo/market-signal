@@ -94,8 +94,9 @@ def cmd_weekly(cfg: Config, dry_run: bool, skip_collect: bool, check_url=url_ok)
     archive = [{"slug": i["slug"], "label": i["label"], "total": i["total"]} for i in reversed(issues)]
     page = render.write_site(ctx, archive)
 
-    result = {"sent": 0, "subscribers": ""}
-    if not dry_run:
+    if dry_run:
+        result = send.check_connection(cfg)  # 試し実行では送らず、配信サービスにつながるかだけ確かめる
+    else:
         result = send.send_issue(cfg, subject, html, text, campaign_name=f"{ctx['issue_slug']} 週刊号")
     row.update({"sent": result.get("sent", 0), "subscribers": result.get("subscribers", "")})
     if dry_run:

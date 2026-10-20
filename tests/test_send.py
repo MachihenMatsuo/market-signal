@@ -72,6 +72,20 @@ def test_brevo_missing_settings_block_sending():
     assert "返信を受け取るメールアドレス" in missing and "配信サービスの登録者リスト番号" in missing
 
 
+def test_check_connection_reads_list_without_sending(cfg, monkeypatch):
+    monkeypatch.setattr(send.requests, "get", lambda *a, **k: Resp(200, {"uniqueSubscribers": 3}))
+    monkeypatch.setattr(send.requests, "post", lambda *a, **k: pytest.fail("試し実行で送ってはいけない"))
+    r = send.check_connection(cfg)
+    assert r["subscribers"] == 3 and r["sent"] == 0
+
+
+def test_check_connection_bad_key_stops_with_reason(cfg, monkeypatch, tmp_path):
+    monkeypatch.setattr(send.requests, "get", lambda *a, **k: Resp(401, text="unauthorized"))
+    with pytest.raises(RuntimeError):
+        send.check_connection(cfg)
+    assert "EMAIL_API_KEY" in (tmp_path / "stop_reason.txt").read_text(encoding="utf-8")
+
+
 def test_brevo_without_api_key_skips_and_warns(cfg, monkeypatch, tmp_path):
     monkeypatch.delenv("EMAIL_API_KEY")
     monkeypatch.setattr(send.requests, "get", lambda *a, **k: pytest.fail("鍵が無いのに問い合わせてはいけない"))

@@ -66,6 +66,24 @@ def send_brevo(cfg: Config, subject: str, html: str, campaign_name: str) -> dict
     return result
 
 
+def check_connection(cfg: Config) -> dict[str, Any]:
+    """試し実行用：送らずに、配信サービスにつながるか（APIキーが有効で、登録者リストを読めるか）だけ確かめる。"""
+    if cfg.s("email", "provider", default="dryrun") != "brevo":
+        return {"sent": 0, "subscribers": "", "provider": "dryrun（配信サービス未設定）"}
+    if not os.environ.get("EMAIL_API_KEY"):
+        return {"sent": 0, "subscribers": "", "provider": "brevo（APIキー未登録のため接続確認なし）"}
+    list_id = int(cfg.s("email", "list_id", default=0) or 0)
+    try:
+        subs = brevo_subscribers(list_id)
+    except Exception as e:  # キーの誤り・権限不足・リスト番号の誤りなど
+        reason = (f"Brevoの登録者リスト（番号{list_id}）を読めませんでした。APIキー（EMAIL_API_KEY）の値と、"
+                  f"キーの権限（Contacts：Read、Email campaigns：All）を確認してください。詳細：{str(e)[:200]}")
+        OUT_DIR.mkdir(parents=True, exist_ok=True)
+        (OUT_DIR / "stop_reason.txt").write_text(reason, encoding="utf-8")
+        raise RuntimeError(reason) from e
+    return {"sent": 0, "subscribers": subs, "provider": "brevo（接続確認のみ。送信なし）"}
+
+
 def send_issue(cfg: Config, subject: str, html: str, text: str, campaign_name: str = "") -> dict[str, Any]:
     provider = cfg.s("email", "provider", default="dryrun")
     if provider == "dryrun":
