@@ -55,11 +55,13 @@ jobs:
           git diff --cached --quiet || git commit -m "週次 $(TZ=Asia/Tokyo date +%F)"
           git push
 
-      - name: 公開ページを更新
+      - name: 公開ページを更新（メールの送信に失敗しても、照合を通った号のページは出す）
+        if: ${{ !cancelled() }}
         uses: actions/upload-pages-artifact@v3
         with:
           path: site
-      - uses: actions/deploy-pages@v4
+      - if: ${{ !cancelled() }}
+        uses: actions/deploy-pages@v4
 
       - name: 月1回の点検（毎月最初の月曜）
         if: success() && github.event_name == 'schedule'

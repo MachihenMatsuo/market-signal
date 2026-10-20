@@ -97,7 +97,15 @@ def cmd_weekly(cfg: Config, dry_run: bool, skip_collect: bool, check_url=url_ok)
     if dry_run:
         result = send.check_connection(cfg)  # 試し実行では送らず、配信サービスにつながるかだけ確かめる
     else:
-        result = send.send_issue(cfg, subject, html, text, campaign_name=f"{ctx['issue_slug']} 週刊号")
+        try:
+            result = send.send_issue(cfg, subject, html, text, campaign_name=f"{ctx['issue_slug']} 週刊号")
+        except Exception as e:
+            # 公開ページはこの後のGitHubの手順で出す。メールが送れなかった理由だけ知らせに残す
+            row["note"] = f"送信失敗: {str(e)[:200]}"
+            store.append_metric(row)
+            (OUT_DIR / "stop_reason.txt").write_text(
+                f"公開ページは更新しましたが、メールを送れませんでした。{e}", encoding="utf-8")
+            raise
     row.update({"sent": result.get("sent", 0), "subscribers": result.get("subscribers", "")})
     if dry_run:
         row["event"] = "weekly_dry_run"

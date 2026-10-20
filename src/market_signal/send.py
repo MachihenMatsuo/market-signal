@@ -57,10 +57,12 @@ def send_brevo(cfg: Config, subject: str, html: str, campaign_name: str) -> dict
     if reply_to and "【要記入】" not in str(reply_to):
         body["replyTo"] = reply_to  # 返信は、受け取れるアドレスに届くようにする
     r = requests.post(f"{BREVO}/emailCampaigns", headers=_brevo_headers(), json=body, timeout=60)
-    r.raise_for_status()
+    if r.status_code >= 400:
+        raise RuntimeError(f"Brevoで号を作れませんでした（{r.status_code}）：{r.text[:300]}")
     cid = r.json()["id"]
     s = requests.post(f"{BREVO}/emailCampaigns/{cid}/sendNow", headers=_brevo_headers(), timeout=60)
     if s.status_code != 204:
+        # 電話番号の確認が済んでいない、送信元が未認証、などのときにここで止まる
         raise RuntimeError(f"Brevoで送信できませんでした（{s.status_code}）：{s.text[:300]}")
     result.update({"sent": min(subs, limit), "campaign_id": cid})
     return result

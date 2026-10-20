@@ -39,7 +39,7 @@ PR TIMES等（有償目的の利用を禁止）。使う場合は各機関の許
 | 4 | 送信者の表示（まちへん合同会社・住所・info@machihen.com）を `config/settings.yaml` に記入 | 済 |
 | 5 | Brevo：電話番号の確認（最初の配信の前に必要） | 松尾さん |
 | 6 | GitHub：アカウント MachihenMatsuo に公開リポジトリ `market-signal` を作り、Claudeと連携。公開ページ https://machihenmatsuo.github.io/market-signal/ を公開 | 済（2026年10月20日） |
-| 7 | Brevo：APIキーを発行し、GitHubのリポジトリの Settings → Secrets に `EMAIL_API_KEY` として入れる | 松尾さん |
+| 7 | Brevo：APIキー（権限：Email campaigns＝All、Contacts＝Read、期限2027年10月20日）を発行し、GitHubの Secrets に `EMAIL_API_KEY` として登録。接続を確認 | 済（2026年10月20日） |
 | 8 | （任意）AI：Anthropic の Console でAPIキーを発行し、月の上限額を設定 → Secrets に `ANTHROPIC_API_KEY` | 松尾さん |
 
 - `EMAIL_API_KEY` が未登録の間は、公開ページだけ更新し、メールは送らずにGitHubで知らせます。

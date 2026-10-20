@@ -72,6 +72,15 @@ def test_brevo_missing_settings_block_sending():
     assert "返信を受け取るメールアドレス" in missing and "配信サービスの登録者リスト番号" in missing
 
 
+def test_brevo_send_refused_raises_with_reason(cfg, monkeypatch):
+    monkeypatch.setattr(send.requests, "get", lambda *a, **k: Resp(200, {"uniqueSubscribers": 1}))
+    monkeypatch.setattr(send.requests, "post",
+                        lambda url, **k: Resp(201, {"id": 5}) if url.endswith("/emailCampaigns")
+                        else Resp(403, text="phone not verified"))
+    with pytest.raises(RuntimeError, match="送信できませんでした"):
+        send.send_issue(cfg, "件名", "<p></p>", "")
+
+
 def test_check_connection_reads_list_without_sending(cfg, monkeypatch):
     monkeypatch.setattr(send.requests, "get", lambda *a, **k: Resp(200, {"uniqueSubscribers": 3}))
     monkeypatch.setattr(send.requests, "post", lambda *a, **k: pytest.fail("試し実行で送ってはいけない"))
