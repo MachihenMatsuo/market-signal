@@ -15,6 +15,22 @@
 J-Net21（商業目的の利用を禁止）、厚生労働省の食品回収情報（営利目的の複製・頒布を禁止）、
 PR TIMES等（有償目的の利用を禁止）。使う場合は各機関の許可が必要です。
 
+## 公開ページ（https://hojokin.machihen.com/）
+
+毎朝の収集のあとに、次のページを作り直して公開します（号とは別。検索から来る人の入口）。
+
+| ページ | 中身 |
+|---|---|
+| トップ `/` | 締切が近いもの（30日以内）、この14日間に受付が始まったもの、毎週のまとめ |
+| 受付中の一覧 `/list/` | 飲食・食品の事業者が使える受付中の補助金・公募すべて（締切が近い順） |
+| 業態別 `/gyotai/…` | 飲食店／食品製造・加工／食品卸・小売（その業態向け＋業種を問わないもの） |
+| 都道府県別 `/chiiki/…` | その都道府県が対象のものが3件以上ある所だけ作る（＋全国対象のもの）。一覧 `/chiiki/` |
+| 号 `/issues/日付.html` | 毎週月曜のメールと同じ内容 |
+
+- 情報源に3日続けて載っていない補助金は、受付を終えた可能性があるので一覧から外します。
+- 業種が絞られていて、食に関わる業種（製造業・卸売業、小売業・宿泊業、飲食サービス業・農業、林業・漁業）を含まないものは載せません（`config/rules.yaml` の `food_related_industries`）。
+- 閲覧数：Cloudflare Web Analytics（サイト hojokin.machihen.com）。検索：Google Search Console（ドメイン machihen.com、アカウント ma20da1@gmail.com）。
+
 ## 毎週の流れ
 
 1. **集める（毎日6:17）**：`config/sources.yaml` の情報源だけを1日1回見に行く
@@ -40,7 +56,8 @@ PR TIMES等（有償目的の利用を禁止）。使う場合は各機関の許
 | 5 | Brevo：電話番号の確認（最初の配信の前に必要） | 松尾さん |
 | 6 | GitHub：アカウント MachihenMatsuo に公開リポジトリ `market-signal` を作り、Claudeと連携。公開ページ https://machihenmatsuo.github.io/market-signal/ を公開 | 済（2026年10月20日） |
 | 7 | Brevo：APIキー（権限：Email campaigns＝All、Contacts＝Read、期限2027年10月20日）を発行し、GitHubの Secrets に `EMAIL_API_KEY` として登録。接続を確認 | 済（2026年10月20日） |
-| 7-2 | 閲覧数の集計：Cloudflare Web Analytics（サイト machihenmatsuo.github.io）。検索：Google Search Console（アカウント ma20da1@gmail.com、URLプレフィックス）で所有確認し、sitemap.xml を送信 | 済（2026年10月22日） |
+| 7-2 | 閲覧数の集計：Cloudflare Web Analytics。検索：Google Search Console（ドメイン machihen.com をDNSで確認）に sitemap.xml を送信 | 済（2026年10月22日） |
+| 7-3 | 公開アドレスを https://hojokin.machihen.com/ に変更（CloudflareのCNAME、GitHub Pagesの独自ドメイン、HTTPSを必須に） | 済（2026年10月22日） |
 | 8 | （任意）AI：Anthropic の Console でAPIキーを発行し、月の上限額を設定 → Secrets に `ANTHROPIC_API_KEY` | 松尾さん |
 
 - `EMAIL_API_KEY` が未登録の間は、公開ページだけ更新し、メールは送らずにGitHubで知らせます。
