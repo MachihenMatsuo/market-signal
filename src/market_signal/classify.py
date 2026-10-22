@@ -52,6 +52,11 @@ def classify(item: Item, rules: dict[str, Any], now: datetime, src: dict[str, An
 
     # 載せるかどうか
     excluded = _hit(item.title, rules.get("exclude_keywords"))
+    # 業種が絞られている補助金で、食に関わる業種（製造業・卸売業、小売業・飲食サービス業など）が
+    # 1つも入っていないもの（例：建設業だけ、運輸業だけ）は、飲食・食品の事業者は使えないので載せない
+    food_industries = rules.get("food_related_industries") or []
+    if industries and n_industries < ALL_INDUSTRIES_MIN and food_industries and not _hit(industries, food_industries):
+        excluded = True
     if item.kind == KIND_RECALL:
         relevant = not excluded
     elif item.kind == KIND_SUBSIDY:

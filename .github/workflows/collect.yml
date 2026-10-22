@@ -8,6 +8,8 @@ on:
 permissions:
   contents: write
   issues: write
+  pages: write
+  id-token: write
 
 concurrency:
   group: market-signal
@@ -16,7 +18,9 @@ concurrency:
 jobs:
   collect:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 20
+    environment:
+      name: github-pages
     env:
       PYTHONPATH: src
     steps:
@@ -28,13 +32,20 @@ jobs:
       - run: pip install -r requirements.txt
       - name: 情報源から集める
         run: python -m market_signal collect
+      - name: トップ・受付中の一覧・業態別・都道府県別のページを作り直す
+        run: python -m market_signal pages
       - name: 記録を保存
         run: |
           git config user.name "market-signal-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data
+          git add data site
           git diff --cached --quiet || git commit -m "収集 $(TZ=Asia/Tokyo date +%F)"
           git push
+      - name: 公開ページを更新
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+      - uses: actions/deploy-pages@v4
       - name: 失敗したら知らせる
         if: failure()
         env:

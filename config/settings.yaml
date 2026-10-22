@@ -14,10 +14,10 @@ operator:
   contact_email: info@machihen.com   # Cloudflareの転送で松尾さんのGmailに届く
 
 site:
-  # GitHub Pagesの公開URL（GitHubのアカウント MachihenMatsuo のリポジトリ market-signal）
-  url: https://machihenmatsuo.github.io/market-signal/
+  # 公開ページのURL（GitHub Pages。まちへんのアドレス。旧：https://machihenmatsuo.github.io/market-signal/ からは自動で転送）
+  url: https://hojokin.machihen.com/
   # 閲覧数の集計（Cloudflare Web Analytics。Cookieを使わず、個人を特定しない）の識別番号
-  analytics_token: bec1564041984c8db4fdfd6d9d64862b
+  analytics_token: 4225cc12bc164292914513f1bdb67ed9   # サイト hojokin.machihen.com（旧 machihenmatsuo.github.io は bec15640…）
   # Google Search Console の所有確認（アカウント ma20da1@gmail.com で登録）
   google_site_verification: r2XQHP96IVSNI_zqGF_sH6FEOvGm1bYHPLBke9xaqtY
 

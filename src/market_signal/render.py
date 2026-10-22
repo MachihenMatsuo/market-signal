@@ -13,6 +13,17 @@ from .models import KIND_GOV, KIND_RECALL, KIND_SUBSIDY, Item
 
 WEEKDAYS = "月火水木金土日"
 
+# 業態別のページ：（振り分けの名前, ファイル名, 題名に使う呼び方, 説明）
+TYPE_PAGES = [
+    ("飲食店", "inshokuten", "飲食店", "レストラン・カフェ・居酒屋・テイクアウト・キッチンカーなど"),
+    ("食品製造", "shokuhin-seizo", "食品製造・加工の事業者", "食品工場・加工場・酒蔵・ワイナリー・6次産業化など"),
+    ("食品卸・小売", "shokuhin-oroshi-kouri", "食品卸・小売の事業者", "食品卸・スーパー・青果／鮮魚／精肉店・酒販店など"),
+]
+
+
+def type_pages() -> list[dict[str, str]]:
+    return [{"name": n, "slug": s, "label": l, "desc": d} for n, s, l, d in TYPE_PAGES]
+
 
 def fmt_date(dt: datetime | None, with_time: bool = False) -> str:
     if not dt:
@@ -95,6 +106,8 @@ def issue_context(items: list[Item], cfg: Config, now: datetime, edition: str,
         # 回収・注意喚起の情報源（許可が必要）が無い間は、その欄を出さない
         "show_recall": any(s.get("kind") == KIND_RECALL and s.get("enabled", True) for s in cfg.sources),
         "uses_jgrants": any(s.get("type") == "jgrants" and s.get("enabled", True) for s in cfg.sources),
+        "type_pages": type_pages(),
+        "root": "../",  # 号のページは issues/ の下にある
     }
 
 
@@ -113,32 +126,38 @@ def render_email(ctx: dict[str, Any]) -> tuple[str, str, str]:
 
 
 def write_site(ctx: dict[str, Any], archive: list[dict[str, Any]], out: Path = SITE_DIR) -> Path:
-    env = _env()
+    """週ごとの号のページを書く。トップ・一覧・業態別などは pages.build が毎日作り直す。"""
     (out / "issues").mkdir(parents=True, exist_ok=True)
     page = out / "issues" / f"{ctx['issue_slug']}.html"
     page.write_text(render_issue_page(ctx), encoding="utf-8")
-    (out / "index.html").write_text(
-        env.get_template("index.html").render(**ctx, archive=archive), encoding="utf-8"
-    )
-    (out / "privacy.html").write_text(env.get_template("privacy.html").render(**ctx), encoding="utf-8")
     (out / ".nojekyll").write_text("", encoding="utf-8")
-    write_sitemap(out, str((ctx.get("cfg") or {}).get("site", {}).get("url") or ""))
     return page
 
 
-def write_sitemap(out: Path, base_url: str) -> Path | None:
-    """検索エンジンに渡すページの一覧（sitemap.xml）。公開URLが未記入なら作らない。"""
+def write_sitemap(out: Path, base_url: str, today: str | None = None) -> Path | None:
+    """検索エンジンに渡すページの一覧（sitemap.xml）。公開URLが未記入なら作らない。
+    毎日作り直すページ（トップ・一覧・業態別・都道府県別）は、更新日を today にする。"""
     if not base_url.startswith("http"):
         return None
     base = base_url.rstrip("/") + "/"
-    urls = [(base, None), (base + "privacy.html", None)]
-    for p in sorted((out / "issues").glob("*.html"), reverse=True):
+    daily = [(base, today)]
+    if (out / "list" / "index.html").exists():
+        daily.append((base + "list/", today))
+    for p in sorted((out / "gyotai").glob("*.html")) if (out / "gyotai").exists() else []:
+        daily.append((base + "gyotai/" + p.name, today))
+    if (out / "chiiki" / "index.html").exists():
+        daily.append((base + "chiiki/", today))
+    for p in sorted((out / "chiiki").glob("*.html")) if (out / "chiiki").exists() else []:
+        if p.name != "index.html":
+            daily.append((base + "chiiki/" + p.name, today))
+    urls = daily + [(base + "privacy.html", None)]
+    for p in sorted((out / "issues").glob("*.html"), reverse=True) if (out / "issues").exists() else []:
         urls.append((base + "issues/" + p.name, p.stem if len(p.stem) == 10 else None))
-    newest = next((d for _, d in urls if d), None)
+    newest = next((d for _, d in urls[len(daily):] if d), None)
     lines = ['<?xml version="1.0" encoding="UTF-8"?>',
              '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
     for loc, day in urls:
-        day = day or (newest if loc == base else None)  # トップは最新号の日付で更新
+        day = day or (newest if loc == base else None)  # today が無いとき、トップは最新号の日付
         lines.append(f"  <url><loc>{loc}</loc>" + (f"<lastmod>{day}</lastmod>" if day else "") + "</url>")
     lines.append("</urlset>")
     path = out / "sitemap.xml"

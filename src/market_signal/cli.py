@@ -3,6 +3,7 @@
   python -m market_signal collect      毎日：情報源から集めて保存
   python -m market_signal weekly       毎週：集める→選ぶ→照合→AIの見立て→ページとメールを作る→配信
   python -m market_signal weekly --dry-run   配信だけしない（作ったメールは out/ に保存）
+  python -m market_signal pages        毎日：トップ・受付中の一覧・業態別・都道府県別のページを作り直す
   python -m market_signal audit        月1回：点検用に3件を選ぶ
 """
 from __future__ import annotations
@@ -14,7 +15,7 @@ import random
 import sys
 from datetime import timedelta
 
-from . import ai, anomaly, render, send, store
+from . import ai, anomaly, pages, render, send, store
 from .classify import classify_all
 from .collect import collect_all
 from .config import OUT_DIR, Config, now_jst
@@ -39,16 +40,33 @@ def cmd_collect(cfg: Config) -> dict:
     return {"added": added, "failing": failing}
 
 
-def cmd_weekly(cfg: Config, dry_run: bool, skip_collect: bool, check_url=url_ok) -> int:
-    now = now_jst()
-    if not skip_collect:
-        cmd_collect(cfg)
+def _reclassified_items(cfg: Config, now) -> dict:
+    """判定基準が変わっても反映されるよう、毎回振り分け直す（AIの見立ては残す）。"""
     items = store.load_items()
-    # 判定基準が変わっても反映されるよう、毎回振り分け直す（AIの見立ては残す）
     for it in items.values():
         keep_note, keep_used = it.ai_note, it.ai_used
         classify_all([it], cfg.rules, now, cfg.sources)
         it.ai_note, it.ai_used = keep_note, keep_used
+    return items
+
+
+def _archive() -> list[dict]:
+    return [{"slug": i["slug"], "label": i["label"], "total": i["total"]} for i in reversed(store.load_issues())]
+
+
+def cmd_pages(cfg: Config) -> dict:
+    """毎日：検索から来る人のためのページ（トップ・一覧・業態別・都道府県別）を作り直す。"""
+    now = now_jst()
+    made = pages.build(_reclassified_items(cfg, now), cfg, now, _archive())
+    print(json.dumps({"ページ": made}, ensure_ascii=False))
+    return made
+
+
+def cmd_weekly(cfg: Config, dry_run: bool, skip_collect: bool, check_url=url_ok) -> int:
+    now = now_jst()
+    if not skip_collect:
+        cmd_collect(cfg)
+    items = _reclassified_items(cfg, now)
 
     issues = store.load_issues()
     published_before = {i for iss in issues for i in iss.get("ids", [])}
@@ -91,8 +109,7 @@ def cmd_weekly(cfg: Config, dry_run: bool, skip_collect: bool, check_url=url_ok)
         return 2
 
     # 照合と異常の確認を通ったときだけ、公開ページを更新する
-    archive = [{"slug": i["slug"], "label": i["label"], "total": i["total"]} for i in reversed(issues)]
-    page = render.write_site(ctx, archive)
+    page = render.write_site(ctx, [])
 
     if dry_run:
         result = send.check_connection(cfg)  # 試し実行では送らず、配信サービスにつながるかだけ確かめる
@@ -115,6 +132,7 @@ def cmd_weekly(cfg: Config, dry_run: bool, skip_collect: bool, check_url=url_ok)
                        "ids": [it.id for it in chosen], "sent": True,
                        "created": now.isoformat(timespec="seconds")})
         store.save_issues(issues)
+    pages.build(items, cfg, now, _archive())  # トップ（号の一覧を含む）・一覧・業態別・都道府県別も作り直す
     print(json.dumps({"件名": subject, "掲載": len(chosen), "照合で除外": stats, "AI": ai_stats,
                       "ページ": str(page), "配信": result, "試し実行": dry_run}, ensure_ascii=False, indent=1))
     return 0
@@ -147,6 +165,7 @@ def main(argv: list[str] | None = None) -> int:
     w = sub.add_parser("weekly")
     w.add_argument("--dry-run", action="store_true")
     w.add_argument("--skip-collect", action="store_true")
+    sub.add_parser("pages")
     sub.add_parser("audit")
     a = p.parse_args(argv)
     cfg = Config.load()
@@ -155,6 +174,9 @@ def main(argv: list[str] | None = None) -> int:
         return 0
     if a.cmd == "weekly":
         return cmd_weekly(cfg, a.dry_run, a.skip_collect)
+    if a.cmd == "pages":
+        cmd_pages(cfg)
+        return 0
     if a.cmd == "audit":
         return cmd_audit(cfg)
     return 1

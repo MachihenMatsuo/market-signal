@@ -6,7 +6,7 @@ from datetime import datetime, timedelta
 import pytest
 
 from market_signal import ai, anomaly
-from market_signal.classify import classify
+from market_signal.classify import classify, classify_all
 from market_signal.config import JST, Config
 from market_signal.models import KIND_GOV, KIND_RECALL, KIND_SUBSIDY, Item
 from market_signal.verify import select_for_issue
@@ -160,3 +160,63 @@ def test_sitemap_lists_pages(tmp_path):
     assert "<loc>https://example.github.io/market-signal/</loc><lastmod>2026-10-26</lastmod>" in s
     assert "issues/2026-10-20.html</loc><lastmod>2026-10-20</lastmod>" in s
     assert write_sitemap(tmp_path, "【要記入】") is None
+
+
+# --- 検索から来る人のためのページ（毎日作り直す） ---
+def _sub(id_, title, deadline, regions, types, last_seen=None, published=None):
+    it = Item(source_id="jgrants", publisher="jGrants（デジタル庁）", kind=KIND_SUBSIDY, title=title,
+              url=f"https://www.jgrants-portal.go.jp/subsidy/{id_}", published=published, deadline=deadline)
+    it.regions, it.business_types, it.relevant = regions, types, True
+    if last_seen:
+        it.checks["last_seen"] = last_seen
+    return it
+
+
+def test_open_subsidies_excludes_closed_and_stale():
+    from market_signal import pages
+    now = datetime(2026, 10, 22, 7, 0, tzinfo=JST)
+    a = _sub("a", "受付中", "2026-11-01T17:00:00+09:00", ["全国"], ["共通"], last_seen="2026-10-22T06:20:00+09:00")
+    b = _sub("b", "締切済み", "2026-10-20T17:00:00+09:00", ["全国"], ["共通"])
+    c = _sub("c", "情報源から消えた", "2026-11-05T17:00:00+09:00", ["全国"], ["共通"], last_seen="2026-10-15T06:20:00+09:00")
+    assert [i.title for i in pages.open_subsidies([a, b, c], now)] == ["受付中"]
+
+
+def test_local_and_wide_regions():
+    from market_signal import pages
+    tokyo = _sub("t", "東京だけ", "2026-11-01T17:00:00+09:00", ["東京都"], ["共通"])
+    many = _sub("m", "多くの県", "2026-11-01T17:00:00+09:00", list(pages.PREF_SLUG)[:12], ["共通"])
+    zen = _sub("z", "全国", "2026-11-01T17:00:00+09:00", ["全国"], ["共通"])
+    assert pages.local_items([tokyo, many, zen], "東京都") == [tokyo]
+    assert pages.wide_items([tokyo, many, zen]) == [many, zen]
+
+
+def test_build_writes_pages_and_drops_thin_prefecture_pages(tmp_path):
+    from market_signal import pages
+    cfg = Config.load()
+    now = datetime(2026, 10, 22, 7, 0, tzinfo=JST)
+    items = {f"t{n}": _sub(f"t{n}", f"東京の補助金{n}", "2026-11-01T17:00:00+09:00", ["東京都"], ["飲食店"]) for n in range(3)}
+    items["o"] = _sub("o", "大阪の補助金", "2026-11-01T17:00:00+09:00", ["大阪府"], ["共通"])
+    (tmp_path / "chiiki").mkdir()
+    (tmp_path / "chiiki" / "osaka.html").write_text("old", encoding="utf-8")  # 基準を下回った古いページ
+    made = pages.build({k: v for k, v in items.items()}, cfg, now, [], out=tmp_path)
+    assert made["chiiki"] == 1 and (tmp_path / "chiiki" / "tokyo.html").exists()
+    assert not (tmp_path / "chiiki" / "osaka.html").exists()
+    for p in ("index.html", "list/index.html", "gyotai/inshokuten.html", "chiiki/index.html", "privacy.html"):
+        assert (tmp_path / p).exists(), p
+    html = (tmp_path / "gyotai" / "inshokuten.html").read_text(encoding="utf-8")
+    assert "飲食店が使える補助金・公募の一覧（受付中・2026年10月更新）" in html and "東京の補助金0" in html
+    sm = (tmp_path / "sitemap.xml").read_text(encoding="utf-8")
+    assert "chiiki/tokyo.html</loc><lastmod>2026-10-22</lastmod>" in sm and "osaka" not in sm
+
+
+def test_industry_limited_to_other_trades_is_excluded():
+    cfg = Config.load()
+    now = datetime(2026, 10, 22, 7, 0, tzinfo=JST)
+    bus = Item(source_id="jgrants", publisher="jGrants（デジタル庁）", kind=KIND_SUBSIDY,
+               title="バス事業者人材開発支援奨励金", url="https://example.jp/bus", deadline="2026-11-30T17:00:00+09:00")
+    bus.industries_raw, bus.body_text = "運輸業、郵便業", "中小企業の人材育成"
+    food = Item(source_id="jgrants", publisher="jGrants（デジタル庁）", kind=KIND_SUBSIDY,
+                title="食のまち推進補助金", url="https://example.jp/food", deadline="2026-11-30T17:00:00+09:00")
+    food.industries_raw, food.body_text = "製造業 / 卸売業、小売業 / 宿泊業、飲食サービス業", "中小企業"
+    classify_all([bus, food], cfg.rules, now, cfg.sources)
+    assert not bus.relevant and food.relevant

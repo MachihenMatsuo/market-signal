@@ -52,8 +52,11 @@ def merge_items(existing: dict[str, Item], new: Iterable[Item]) -> tuple[dict[st
     added = 0
     stamp = now_jst().isoformat(timespec="seconds")
     for it in new:
+        # 情報源に最後に載っていた日時（受付中の一覧で、もう載っていない＝受付を終えたものを外すため）
+        it.checks["last_seen"] = stamp
         if it.id in existing:
             old = existing[it.id]
+            old.checks["last_seen"] = stamp
             old.title = it.title
             old.deadline = it.deadline
             old.regions = it.regions or old.regions

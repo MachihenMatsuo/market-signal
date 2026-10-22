@@ -1,0 +1,9 @@
+{# 探す入口（トップ・一覧・業態別・都道府県別・号のページで共通） #}
+<nav class="find" aria-label="補助金・公募を探す">
+  <p class="find-h">補助金・公募を探す</p>
+  <ul>
+    <li><a href="{{ root }}list/">受付中の一覧（すべて）</a></li>
+    {% for t in type_pages %}<li><a href="{{ root }}gyotai/{{ t.slug }}.html">{{ t.label }}</a></li>{% endfor %}
+    <li><a href="{{ root }}chiiki/">都道府県から探す</a></li>
+  </ul>
+</nav>
