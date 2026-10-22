@@ -40,6 +40,7 @@ PR TIMES等（有償目的の利用を禁止）。使う場合は各機関の許
 | 5 | Brevo：電話番号の確認（最初の配信の前に必要） | 松尾さん |
 | 6 | GitHub：アカウント MachihenMatsuo に公開リポジトリ `market-signal` を作り、Claudeと連携。公開ページ https://machihenmatsuo.github.io/market-signal/ を公開 | 済（2026年10月20日） |
 | 7 | Brevo：APIキー（権限：Email campaigns＝All、Contacts＝Read、期限2027年10月20日）を発行し、GitHubの Secrets に `EMAIL_API_KEY` として登録。接続を確認 | 済（2026年10月20日） |
+| 7-2 | 閲覧数の集計：Cloudflare Web Analytics（サイト machihenmatsuo.github.io）。検索：Google Search Console（アカウント ma20da1@gmail.com、URLプレフィックス）で所有確認し、sitemap.xml を送信 | 済（2026年10月22日） |
 | 8 | （任意）AI：Anthropic の Console でAPIキーを発行し、月の上限額を設定 → Secrets に `ANTHROPIC_API_KEY` | 松尾さん |
 
 - `EMAIL_API_KEY` が未登録の間は、公開ページだけ更新し、メールは送らずにGitHubで知らせます。
