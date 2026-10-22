@@ -7,8 +7,11 @@
    "共通"
   ],
   "checks": {
+   "last_seen": "2026-10-22T15:26:12+09:00",
    "search_keywords": [
     "中小企業",
+    "加工",
+    "地域資源",
     "賃上げ"
    ]
   },
@@ -37,6 +40,7 @@
   ],
   "checks": {
    "deadline_soon": true,
+   "last_seen": "2026-10-22T15:26:12+09:00",
    "new_this_week": false,
    "search_keywords": [
     "中小企業",
@@ -65,7 +69,9 @@
   "ai_used": false,
   "body_text": "",
   "business_types": [],
-  "checks": {},
+  "checks": {
+   "last_seen": "2026-10-22T15:26:12+09:00"
+  },
   "deadline": null,
   "first_seen": "2026-10-20T16:45:38+09:00",
   "id": "0136042ab52a23d4",
@@ -88,6 +94,7 @@
   "body_text": "",
   "business_types": [],
   "checks": {
+   "last_seen": "2026-10-22T15:26:12+09:00",
    "search_keywords": [
     "設備"
    ]
@@ -113,7 +120,9 @@
   "ai_used": false,
   "body_text": "",
   "business_types": [],
-  "checks": {},
+  "checks": {
+   "last_seen": "2026-10-22T15:26:12+09:00"
+  },
   "deadline": null,
   "first_seen": "2026-10-20T16:45:38+09:00",
   "id": "020132d2ccfe9fb5",
@@ -139,6 +148,7 @@
   ],
   "checks": {
    "deadline_soon": false,
+   "last_seen": "2026-10-22T15:26:12+09:00",
    "new_this_week": true,
    "search_keywords": [
     "中小企業"
@@ -161,12 +171,96 @@
   "title": "女性活躍情報公開促進奨励金 奨励金請求",
   "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDeSwMAL"
  },
+ "06ae9fa8a3fece77": {
+  "ai_note": null,
+  "ai_used": false,
+  "body_text": "",
+  "business_types": [],
+  "checks": {
+   "last_seen": "2026-10-22T15:26:12+09:00",
+   "search_keywords": [
+    "人材"
+   ]
+  },
+  "deadline": "2027-03-31T23:59:00+09:00",
+  "first_seen": "2026-10-22T15:26:12+09:00",
+  "id": "06ae9fa8a3fece77",
+  "importance": "中",
+  "industries_raw": null,
+  "kind": "補助金・公募",
+  "published": "2026-10-19T09:00:00+09:00",
+  "publisher": "jGrants（デジタル庁）",
+  "regions": [
+   "東京都"
+  ],
+  "relevant": false,
+  "source_id": "jgrants",
+  "title": "令和８年度 地域医療勤務環境改善体制整備特別事業",
+  "url": "https://www.jgrants-portal.go.jp/subsidy/a0WfQ000003qEuoUAE"
+ },
+ "087760f20fc64784": {
+  "ai_note": null,
+  "ai_used": false,
+  "body_text": "",
+  "business_types": [],
+  "checks": {
+   "last_seen": "2026-10-22T15:26:12+09:00",
+   "search_keywords": [
+    "卸売",
+    "小売",
+    "衛生"
+   ]
+  },
+  "deadline": "2026-11-30T23:59:00+09:00",
+  "first_seen": "2026-10-22T15:26:12+09:00",
+  "id": "087760f20fc64784",
+  "importance": "中",
+  "industries_raw": null,
+  "kind": "補助金・公募",
+  "published": "2026-08-01T10:00:00+09:00",
+  "publisher": "jGrants（デジタル庁）",
+  "regions": [
+   "全国"
+  ],
+  "relevant": false,
+  "source_id": "jgrants",
+  "title": "令和8年度SDS電子化補助金",
+  "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDderMAD"
+ },
+ "08efc062ec4a97a9": {
+  "ai_note": null,
+  "ai_used": false,
+  "body_text": "",
+  "business_types": [],
+  "checks": {
+   "last_seen": "2026-10-22T15:26:12+09:00",
+   "search_keywords": [
+    "人材"
+   ]
+  },
+  "deadline": "2027-03-31T23:59:00+09:00",
+  "first_seen": "2026-10-22T15:26:12+09:00",
+  "id": "08efc062ec4a97a9",
+  "importance": "中",
+  "industries_raw": null,
+  "kind": "補助金・公募",
+  "published": "2026-10-22T09:00:00+09:00",
+  "publisher": "jGrants（デジタル庁）",
+  "regions": [
+   "東京都"
+  ],
+  "relevant": false,
+  "source_id": "jgrants",
+  "title": "令和８年度 地域医療勤務環境改善体制整備事業",
+  "url": "https://www.jgrants-portal.go.jp/subsidy/a0WfQ000003poQrUAI"
+ },
  "0976af24f85e35fb": {
   "ai_note": null,
   "ai_used": false,
   "body_text": "海外への事業展開を計画している道内中小企業者等が、特許・実用新案・意匠・商標（抜け駆け対策商標を含む）を海外へ出願する際に要する費用の一部を助成する制度です。 補助対象経費の1/2以内 販路拡大・海外展開をしたい ■目的・概要 道内の中小企業者等が、既に国内に出願している産業財産権（特許出願、実用新案登録出願、意匠登録出願、商標登録出願）を基に行う外国出願に要する経費の一部を補助します。 ■応募資格 対象者、対象となる出願、補助対象経費等は別添の募集要項をご参照ください。 ■補助率・補助限度額 補助率：補助対象経費の1/2以内 補助限度額： 補助金の上限額は、１企業及び１出願ごとにそれぞれ次に掲げる金額となります。 ①１企業に対する１事業年度内の補助限度額 ３００万円 ②１出願に対する１事業年度内の補助限度額 （ア）特許出願 １５０万円 （イ）実用新案登録出願、意匠登録出願又は商標登録出願（抜け駆け対策商標登録出願は除く） ６０万円 （ウ）抜け駆け対策商標 ３０万円 ※共同出願の場合には、持分割合と負担割合のうち低い方の割合に応じた補助となります。 ■対象経費 外国特許庁への出願料、現地代理人費用、国内代理人費用、翻訳費用 等 ■備考 募集期間： ２０２６ 年９月２９日（火）～２０２６年１０月３０日（金）【１７時必着】 ・事業計画の内容が募集要件に当てはまっているか分からない場合や、補助対象経費をどのように計上したらよいか分からない場合などは、申請前に事務局へご確認ください。 ・ご提出いただいた申請書類の内容について、事務局から詳細確認の連絡をする場合があります。 ・申請内容を審査の上、採否を決定します。 ・必要な申請書類は、当センターが定める募集期間内に必ず到着するように提出してください。（期間内に到着しない場合は、受付できません。） ・採択された場合、事業者名、申請者所",
   "business_types": [],
   "checks": {
+   "last_seen": "2026-10-22T15:26:12+09:00",
    "search_keywords": [
     "中小企業"
    ]
@@ -187,6 +281,33 @@
   "title": "2026年度「海外出願支援事業」（3次募集）",
   "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYh2MAH"
  },
+ "09a6f074bf31061b": {
+  "ai_note": null,
+  "ai_used": false,
+  "body_text": "",
+  "business_types": [],
+  "checks": {
+   "last_seen": "2026-10-22T15:26:12+09:00",
+   "search_keywords": [
+    "人材"
+   ]
+  },
+  "deadline": "2026-12-31T23:59:00+09:00",
+  "first_seen": "2026-10-22T15:26:12+09:00",
+  "id": "09a6f074bf31061b",
+  "importance": "中",
+  "industries_raw": null,
+  "kind": "補助金・公募",
+  "published": "2026-10-14T12:00:00+09:00",
+  "publisher": "jGrants（デジタル庁）",
+  "regions": [
+   "東京都"
+  ],
+  "relevant": false,
+  "source_id": "jgrants",
+  "title": "令和８年度 東京都入退院時連携支援事業補助金",
+  "url": "https://www.jgrants-portal.go.jp/subsidy/a0WfQ000003ePpBUAU"
+ },
  "0c94e9f6ba9ff2d6": {
   "ai_note": null,
   "ai_used": false,
@@ -196,9 +317,12 @@
   ],
   "checks": {
    "deadline_soon": false,
+   "last_seen": "2026-10-22T15:26:12+09:00",
    "new_this_week": true,
    "search_keywords": [
+    "デジタル",
     "中小企業",
+    "小売",
     "観光",
     "賃上げ",
     "飲食"
@@ -226,7 +350,9 @@
   "ai_used": false,
   "body_text": "",
   "business_types": [],
-  "checks": {},
+  "checks": {
+   "last_seen": "2026-10-22T15:26:12+09:00"
+  },
   "deadline": null,
   "first_seen": "2026-10-20T16:45:38+09:00",
   "id": "0cc22d0487c7dca9",
@@ -252,14 +378,20 @@
   ],
   "checks": {
    "deadline_soon": true,
+   "last_seen": "2026-10-22T15:26:12+09:00",
    "new_this_week": true,
    "search_keywords": [
+    "インバウンド",
     "中小企業",
     "事業承継",
+    "卸売",
+    "地域資源",
+    "小売",
     "小規模事業者",
     "省力化",
     "観光",
-    "賃上げ"
+    "賃上げ",
+    "雇用"
    ],
    "url_status": 200
   },
@@ -285,6 +417,7 @@
   "body_text": "",
   "business_types": [],
   "checks": {
+   "last_seen": "2026-10-22T15:26:12+09:00",
    "search_keywords": [
     "設備"
    ]
@@ -312,7 +445,9 @@
   "business_types": [
    "共通"
   ],
-  "checks": {},
+  "checks": {
+   "last_seen": "2026-10-22T15:26:12+09:00"
+  },
   "deadline": null,
   "first_seen": "2026-10-20T16:45:38+09:00",
   "id": "0d9a0f0cc5d9db7f",
@@ -334,7 +469,9 @@
   "ai_used": false,
   "body_text": "",
   "business_types": [],
-  "checks": {},
+  "checks": {
+   "last_seen": "2026-10-22T15:26:12+09:00"
+  },
   "deadline": null,
   "first_seen": "2026-10-20T16:45:38+09:00",
   "id": "0eaf728cfc516d87",
@@ -351,6 +488,33 @@
   "title": "令和8年度（第27回）「民間部門農林水産研究開発功績者表彰」受賞者の決定及び表彰式開催のお知らせ",
   "url": "https://www.affrc.maff.go.jp/docs/press/261020.html"
  },
+ "0eb5ff52468db531": {
+  "ai_note": null,
+  "ai_used": false,
+  "body_text": "",
+  "business_types": [],
+  "checks": {
+   "last_seen": "2026-10-22T15:26:12+09:00",
+   "search_keywords": [
+    "輸出"
+   ]
+  },
+  "deadline": "2027-02-28T23:59:00+09:00",
+  "first_seen": "2026-10-22T15:26:12+09:00",
+  "id": "0eb5ff52468db531",
+  "importance": "中",
+  "industries_raw": null,
+  "kind": "補助金・公募",
+  "published": "2026-07-29T09:00:00+09:00",
+  "publisher": "jGrants（デジタル庁）",
+  "regions": [
+   "愛媛県"
+  ],
+  "relevant": false,
+  "source_id": "jgrants",
+  "title": "松山港利用促進インセンティブ補助金（荷主向け）",
+  "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDdm6MAD"
+ },
  "0ed76cfac3b365f6": {
   "ai_note": null,
   "ai_used": false,
@@ -359,8 +523,11 @@
    "共通"
   ],
   "checks": {
+   "last_seen": "2026-10-22T15:26:12+09:00",
    "search_keywords": [
-    "中小企業"
+    "中小企業",
+    "人材",
+    "雇用"
    ]
   },
   "deadline": "2027-02-28T23:59:00+09:00",
@@ -384,7 +551,9 @@
   "ai_used": false,
   "body_text": "",
   "business_types": [],
-  "checks": {},
+  "checks": {
+   "last_seen": "2026-10-22T15:26:12+09:00"
+  },
   "deadline": null,
   "first_seen": "2026-10-20T16:45:38+09:00",
   "id": "0f4496ab72500602",
@@ -407,8 +576,10 @@
   "body_text": "自社に最適な「テレワークルール（我が社のベストバランス）」等の構築を支援します！ 新たな事業を行いたい ■事業概要 テレワークの定着を図るため、テレワークを進める上での課題とその解決策について検討し、自社に最適な「テレワークルール（我が社のベストバランス）」等を定めた都内中堅・中小企業等に奨励金を支給します。 ■支給対象者事業者の主な要件 ・常時雇用する労働者の数が999人以下の企業であること。 ・都内に勤務する労働者を２人以上雇用していること。 ・都内に勤務する常時雇用する労働者のうち１人は、申請日時点で、申請事業者で６ヶ月以上継続して雇用していること。 ・テレワーク規定を作成していること（常時雇用する労働者が10人未満の企業等も、労働基準監督署に届出を行っていること。）。 ・支給申請時までに東京都が実施する 「テレワーク東京ルール」実践企業宣言（外部サイト） に登録し、「テレワーク推進リーダー設置」表示のある宣言書がウェブサイトで発行されていること。 ※その他にも要件があります。詳細は 募集要項（外部サイト） のページをご確認ください。 ﻿ ■Ｊグランツの操作（申請フォームの下書き・差戻し）に関しての注意事項 申請書類の不備により差戻しとなった申請を編集する場合は、 必ずマイページより 以下の手順で操作を行ってください。 ①マイページの「 申請履歴 」にある 『 （タイトルなし） 』 ※1をクリックし、「 事業の詳細 」ページに移動。 ②「 事業詳細 」ページの「 作成済みの申請 」にある 『 支給申請 』 ※2をクリックし、申請フォームのページに移動。 ③申請フォームのページで、電子ファイルの差替の編集を再開し、改めて提出（「 申請する 」ボタンを押下）してください。 ※1【 （タイトルなし） 】 となっていますが、Ｊグランツの設定により表示されているもので、申請自体",
   "business_types": [],
   "checks": {
+   "last_seen": "2026-10-22T15:26:12+09:00",
    "search_keywords": [
-    "中小企業"
+    "中小企業",
+    "雇用"
    ]
   },
   "deadline": "2027-02-26T23:59:00+09:00",
@@ -433,8 +604,10 @@
   "body_text": "",
   "business_types": [],
   "checks": {
+   "last_seen": "2026-10-22T15:26:12+09:00",
    "search_keywords": [
-    "中小企業"
+    "中小企業",
+    "人材"
    ]
   },
   "deadline": "2026-10-30T23:59:00+09:00",
@@ -461,6 +634,7 @@
    "共通"
   ],
   "checks": {
+   "last_seen": "2026-10-22T15:26:12+09:00",
    "search_keywords": [
     "中小企業"
    ]
@@ -489,6 +663,7 @@
    "共通"
   ],
   "checks": {
+   "last_seen": "2026-10-22T15:26:12+09:00",
    "url_status": 200
   },
   "deadline": null,
@@ -513,7 +688,9 @@
   "body_text": "",
   "business_types": [],
   "checks": {
+   "last_seen": "2026-10-22T15:26:12+09:00",
    "search_keywords": [
+    "人材",
     "設備"
    ]
   },
@@ -542,6 +719,7 @@
   ],
   "checks": {
    "deadline_soon": false,
+   "last_seen": "2026-10-22T15:26:12+09:00",
    "new_this_week": true,
    "search_keywords": [
     "中小企業"
@@ -573,11 +751,13 @@
   ],
   "checks": {
    "deadline_soon": false,
+   "last_seen": "2026-10-22T15:26:12+09:00",
    "new_this_week": true,
    "search_keywords": [
     "中小企業",
     "小規模事業者",
-    "設備"
+    "設備",
+    "雇用"
    ],
    "url_status": 200
   },
@@ -602,7 +782,9 @@
   "ai_used": false,
   "body_text": "",
   "business_types": [],
-  "checks": {},
+  "checks": {
+   "last_seen": "2026-10-22T15:26:12+09:00"
+  },
   "deadline": null,
   "first_seen": "2026-10-20T16:45:38+09:00",
   "id": "1a5ab01667497640",
@@ -628,11 +810,13 @@
   ],
   "checks": {
    "deadline_soon": true,
+   "last_seen": "2026-10-22T15:26:12+09:00",
    "new_this_week": true,
    "search_keywords": [
     "中小企業",
     "小規模事業者",
-    "設備"
+    "設備",
+    "雇用"
    ],
    "url_status": 200
   },
@@ -661,14 +845,20 @@
   ],
   "checks": {
    "deadline_soon": true,
+   "last_seen": "2026-10-22T15:26:12+09:00",
    "new_this_week": true,
    "search_keywords": [
+    "インバウンド",
     "中小企業",
     "事業承継",
+    "卸売",
+    "地域資源",
+    "小売",
     "小規模事業者",
     "省力化",
     "観光",
-    "賃上げ"
+    "賃上げ",
+    "雇用"
    ],
    "url_status": 200
   },
@@ -695,7 +885,9 @@
   "business_types": [
    "共通"
   ],
-  "checks": {},
+  "checks": {
+   "last_seen": "2026-10-22T15:26:12+09:00"
+  },
   "deadline": null,
   "first_seen": "2026-10-20T16:45:38+09:00",
   "id": "1cb2b5ee006c0a46",
@@ -720,7 +912,9 @@
    "共通"
   ],
   "checks": {
+   "last_seen": "2026-10-22T15:26:12+09:00",
    "search_keywords": [
+    "水産",
     "農林水産",
     "食品"
    ]
@@ -749,8 +943,10 @@
    "共通"
   ],
   "checks": {
+   "last_seen": "2026-10-22T15:26:12+09:00",
    "search_keywords": [
-    "中小企業"
+    "中小企業",
+    "人材"
    ]
   },
   "deadline": "2026-11-30T17:00:00+09:00",
@@ -776,7 +972,9 @@
   "business_types": [
    "共通"
   ],
-  "checks": {},
+  "checks": {
+   "last_seen": "2026-10-22T15:26:12+09:00"
+  },
   "deadline": null,
   "first_seen": "2026-10-20T16:45:38+09:00",
   "id": "1f180273a9acae43",
@@ -801,6 +999,7 @@
    "共通"
   ],
   "checks": {
+   "last_seen": "2026-10-22T15:26:12+09:00",
    "url_status": 200
   },
   "deadline": null,
@@ -826,7 +1025,9 @@
   "business_types": [
    "共通"
   ],
-  "checks": {},
+  "checks": {
+   "last_seen": "2026-10-22T15:26:12+09:00"
+  },
   "deadline": null,
   "first_seen": "2026-10-20T16:45:38+09:00",
   "id": "21898c580299c349",
@@ -843,6 +1044,33 @@
   "title": "【補助金採択結果】事業承継・M＆A補助金(十五次公募)の補助事業者を採択",
   "url": "https://mirasapo-plus.go.jp/infomation/33776/"
  },
+ "24c118276fe775c1": {
+  "ai_note": null,
+  "ai_used": false,
+  "body_text": "",
+  "business_types": [],
+  "checks": {
+   "last_seen": "2026-10-22T15:26:12+09:00",
+   "search_keywords": [
+    "設備"
+   ]
+  },
+  "deadline": "2026-11-13T13:00:00+09:00",
+  "first_seen": "2026-10-22T15:26:12+09:00",
+  "id": "24c118276fe775c1",
+  "importance": "中",
+  "industries_raw": null,
+  "kind": "補助金・公募",
+  "published": "2026-10-22T11:00:00+09:00",
+  "publisher": "jGrants（デジタル庁）",
+  "regions": [
+   "全国"
+  ],
+  "relevant": false,
+  "source_id": "jgrants",
+  "title": "【令和８年度】二酸化炭素排出抑制対策事業費等補助金 （地域共生型廃棄物発電等導入促進事業 （うち地域の廃棄物を活用した地域エネルギー創出事業））（３次公募）",
+  "url": "https://www.jgrants-portal.go.jp/subsidy/a0WfQ000003qYNFUA2"
+ },
  "2882f669dcb690d0": {
   "ai_note": null,
   "ai_used": false,
@@ -852,9 +1080,12 @@
   ],
   "checks": {
    "deadline_soon": true,
+   "last_seen": "2026-10-22T15:26:12+09:00",
    "new_this_week": true,
    "search_keywords": [
-    "中小企業"
+    "中小企業",
+    "加工",
+    "地域資源"
    ],
    "url_status": 200
   },
@@ -879,7 +1110,9 @@
   "ai_used": false,
   "body_text": "",
   "business_types": [],
-  "checks": {},
+  "checks": {
+   "last_seen": "2026-10-22T15:26:12+09:00"
+  },
   "deadline": null,
   "first_seen": "2026-10-20T16:45:38+09:00",
   "id": "2ad133134808e346",
@@ -903,7 +1136,9 @@
   "business_types": [
    "共通"
   ],
-  "checks": {},
+  "checks": {
+   "last_seen": "2026-10-22T15:26:12+09:00"
+  },
   "deadline": null,
   "first_seen": "2026-10-20T16:45:38+09:00",
   "id": "2c0b3ea7dcc0c803",
@@ -929,14 +1164,20 @@
   ],
   "checks": {
    "deadline_soon": true,
+   "last_seen": "2026-10-22T15:26:12+09:00",
    "new_this_week": true,
    "search_keywords": [
+    "インバウンド",
     "中小企業",
     "事業承継",
+    "卸売",
+    "地域資源",
+    "小売",
     "小規模事業者",
     "省力化",
     "観光",
-    "賃上げ"
+    "賃上げ",
+    "雇用"
    ],
    "url_status": 200
   },
@@ -963,7 +1204,9 @@
   "business_types": [
    "共通"
   ],
-  "checks": {},
+  "checks": {
+   "last_seen": "2026-10-22T15:26:12+09:00"
+  },
   "deadline": null,
   "first_seen": "2026-10-20T16:45:38+09:00",
   "id": "2cace7f4d7b863b3",
@@ -986,8 +1229,10 @@
   "body_text": "",
   "business_types": [],
   "checks": {
+   "last_seen": "2026-10-22T15:26:12+09:00",
    "search_keywords": [
-    "設備"
+    "設備",
+    "雇用"
    ]
   },
   "deadline": "2027-03-31T17:00:00+09:00",
@@ -1015,14 +1260,20 @@
   ],
   "checks": {
    "deadline_soon": true,
+   "last_seen": "2026-10-22T15:26:12+09:00",
    "new_this_week": true,
    "search_keywords": [
+    "インバウンド",
     "中小企業",
     "事業承継",
+    "卸売",
+    "地域資源",
+    "小売",
     "小規模事業者",
     "省力化",
     "観光",
-    "賃上げ"
+    "賃上げ",
+    "雇用"
    ],
    "url_status": 200
   },
@@ -1047,7 +1298,9 @@
   "ai_used": false,
   "body_text": "",
   "business_types": [],
-  "checks": {},
+  "checks": {
+   "last_seen": "2026-10-22T15:26:12+09:00"
+  },
   "deadline": null,
   "first_seen": "2026-10-20T16:45:38+09:00",
   "id": "322719d9cdc40c23",
@@ -1095,7 +1348,9 @@
   "business_types": [
    "共通"
   ],
-  "checks": {},
+  "checks": {
+   "last_seen": "2026-10-22T15:26:12+09:00"
+  },
   "deadline": null,
   "first_seen": "2026-10-20T16:45:38+09:00",
   "id": "3339f1836667489d",
@@ -1119,7 +1374,9 @@
   "business_types": [
    "共通"
   ],
-  "checks": {},
+  "checks": {
+   "last_seen": "2026-10-22T15:26:12+09:00"
+  },
   "deadline": null,
   "first_seen": "2026-10-20T16:45:38+09:00",
   "id": "33b5f88eb083c68c",
@@ -1168,6 +1425,7 @@
    "共通"
   ],
   "checks": {
+   "last_seen": "2026-10-22T15:26:12+09:00",
    "search_keywords": [
     "中小企業"
    ]
@@ -1195,7 +1453,9 @@
   "business_types": [
    "共通"
   ],
-  "checks": {},
+  "checks": {
+   "last_seen": "2026-10-22T15:26:12+09:00"
+  },
   "deadline": null,
   "first_seen": "2026-10-20T16:45:38+09:00",
   "id": "35e55981441b8a20",
@@ -1221,11 +1481,13 @@
   ],
   "checks": {
    "deadline_soon": true,
+   "last_seen": "2026-10-22T15:26:12+09:00",
    "new_this_week": true,
    "search_keywords": [
     "中小企業",
     "小規模事業者",
-    "設備"
+    "設備",
+    "雇用"
    ],
    "url_status": 200
   },
@@ -1254,6 +1516,7 @@
   ],
   "checks": {
    "deadline_soon": true,
+   "last_seen": "2026-10-22T15:26:12+09:00",
    "new_this_week": true,
    "search_keywords": [
     "中小企業",
@@ -1284,7 +1547,9 @@
   "business_types": [
    "共通"
   ],
-  "checks": {},
+  "checks": {
+   "last_seen": "2026-10-22T15:26:12+09:00"
+  },
   "deadline": null,
   "first_seen": "2026-10-20T16:45:38+09:00",
   "id": "3cb37c03f10f0acc",
@@ -1306,7 +1571,9 @@
   "ai_used": false,
   "body_text": "",
   "business_types": [],
-  "checks": {},
+  "checks": {
+   "last_seen": "2026-10-22T15:26:12+09:00"
+  },
   "deadline": null,
   "first_seen": "2026-10-20T16:45:38+09:00",
   "id": "3d033305b2a9ae3d",
@@ -1332,6 +1599,7 @@
   ],
   "checks": {
    "deadline_soon": false,
+   "last_seen": "2026-10-22T15:26:12+09:00",
    "new_this_week": true,
    "search_keywords": [
     "中小企業",
@@ -1368,7 +1636,9 @@
   "business_types": [
    "共通"
   ],
-  "checks": {},
+  "checks": {
+   "last_seen": "2026-10-22T15:26:12+09:00"
+  },
   "deadline": null,
   "first_seen": "2026-10-20T16:45:38+09:00",
   "id": "4668b84095e4f64e",
@@ -1391,6 +1661,7 @@
   "body_text": "",
   "business_types": [],
   "checks": {
+   "last_seen": "2026-10-22T15:26:12+09:00",
    "search_keywords": [
     "観光"
    ]
@@ -1419,8 +1690,11 @@
    "共通"
   ],
   "checks": {
+   "last_seen": "2026-10-22T15:26:12+09:00",
    "search_keywords": [
+    "デジタル",
     "中小企業",
+    "人材",
     "小規模事業者",
     "観光"
    ]
@@ -1447,6 +1721,7 @@
   "body_text": "",
   "business_types": [],
   "checks": {
+   "last_seen": "2026-10-22T15:26:12+09:00",
    "search_keywords": [
     "設備"
    ]
@@ -1476,11 +1751,13 @@
   ],
   "checks": {
    "deadline_soon": true,
+   "last_seen": "2026-10-22T15:26:12+09:00",
    "new_this_week": true,
    "search_keywords": [
     "中小企業",
     "小規模事業者",
-    "設備"
+    "設備",
+    "雇用"
    ],
    "url_status": 200
   },
@@ -1508,11 +1785,13 @@
    "共通"
   ],
   "checks": {
+   "last_seen": "2026-10-22T15:26:12+09:00",
    "search_keywords": [
     "中小企業",
     "観光",
     "設備",
-    "賃上げ"
+    "賃上げ",
+    "雇用"
    ]
   },
   "deadline": "2026-12-28T17:00:00+09:00",
@@ -1539,6 +1818,7 @@
    "共通"
   ],
   "checks": {
+   "last_seen": "2026-10-22T15:26:12+09:00",
    "search_keywords": [
     "中小企業",
     "小規模事業者",
@@ -1562,12 +1842,41 @@
   "title": "【経済産業省】ものづくり・商業・サービス生産性向上促進補助金（22次締切）",
   "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYimMAH"
  },
+ "4ae12563da45444f": {
+  "ai_note": null,
+  "ai_used": false,
+  "body_text": "",
+  "business_types": [],
+  "checks": {
+   "last_seen": "2026-10-22T15:26:12+09:00",
+   "search_keywords": [
+    "雇用"
+   ]
+  },
+  "deadline": "2027-02-19T17:00:00+09:00",
+  "first_seen": "2026-10-22T15:26:12+09:00",
+  "id": "4ae12563da45444f",
+  "importance": "中",
+  "industries_raw": null,
+  "kind": "補助金・公募",
+  "published": "2026-07-30T12:00:00+09:00",
+  "publisher": "jGrants（デジタル庁）",
+  "regions": [
+   "福島県"
+  ],
+  "relevant": false,
+  "source_id": "jgrants",
+  "title": "自立・帰還支援雇用創出企業立地補助金（商業施設等復興整備補助事業）（十一次公募）",
+  "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDdMCMA1"
+ },
  "4d3896ae5798d87d": {
   "ai_note": null,
   "ai_used": false,
   "body_text": "",
   "business_types": [],
-  "checks": {},
+  "checks": {
+   "last_seen": "2026-10-22T15:26:12+09:00"
+  },
   "deadline": null,
   "first_seen": "2026-10-20T16:45:38+09:00",
   "id": "4d3896ae5798d87d",
@@ -1593,9 +1902,11 @@
   ],
   "checks": {
    "deadline_soon": true,
+   "last_seen": "2026-10-22T15:26:12+09:00",
    "new_this_week": true,
    "search_keywords": [
-    "中小企業"
+    "中小企業",
+    "雇用"
    ],
    "url_status": 200
   },
@@ -1615,6 +1926,33 @@
   "title": "東京都就職氷河期世代等安定就業サポート助成金（令和８年度第６回申請受付）",
   "url": "https://www.jgrants-portal.go.jp/subsidy/a0WfQ000003aN9KUAU"
  },
+ "4f866b2adc291a7a": {
+  "ai_note": null,
+  "ai_used": false,
+  "body_text": "",
+  "business_types": [],
+  "checks": {
+   "last_seen": "2026-10-22T15:26:12+09:00",
+   "search_keywords": [
+    "デジタル"
+   ]
+  },
+  "deadline": "2027-03-31T23:59:00+09:00",
+  "first_seen": "2026-10-22T15:26:12+09:00",
+  "id": "4f866b2adc291a7a",
+  "importance": "中",
+  "industries_raw": null,
+  "kind": "補助金・公募",
+  "published": "2026-07-15T09:00:00+09:00",
+  "publisher": "jGrants（デジタル庁）",
+  "regions": [
+   "東京都"
+  ],
+  "relevant": false,
+  "source_id": "jgrants",
+  "title": "【令和８年度】医療機関等におけるマイナンバーカード利活用推進事業補助金",
+  "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDbHxMAL"
+ },
  "5733583af58eceb8": {
   "ai_note": null,
   "ai_used": false,
@@ -1623,9 +1961,11 @@
    "共通"
   ],
   "checks": {
+   "last_seen": "2026-10-22T15:26:12+09:00",
    "search_keywords": [
     "創業",
-    "観光"
+    "観光",
+    "雇用"
    ]
   },
   "deadline": "2026-12-25T11:00:00+09:00",
@@ -1653,14 +1993,20 @@
   ],
   "checks": {
    "deadline_soon": true,
+   "last_seen": "2026-10-22T15:26:12+09:00",
    "new_this_week": true,
    "search_keywords": [
+    "インバウンド",
     "中小企業",
     "事業承継",
+    "卸売",
+    "地域資源",
+    "小売",
     "小規模事業者",
     "省力化",
     "観光",
-    "賃上げ"
+    "賃上げ",
+    "雇用"
    ],
    "url_status": 200
   },
@@ -1689,9 +2035,12 @@
   ],
   "checks": {
    "deadline_soon": true,
+   "last_seen": "2026-10-22T15:26:12+09:00",
    "new_this_week": true,
    "search_keywords": [
-    "中小企業"
+    "中小企業",
+    "加工",
+    "地域資源"
    ],
    "url_status": 200
   },
@@ -1719,6 +2068,7 @@
    "共通"
   ],
   "checks": {
+   "last_seen": "2026-10-22T15:26:12+09:00",
    "search_keywords": [
     "中小企業"
    ]
@@ -1748,9 +2098,11 @@
   ],
   "checks": {
    "deadline_soon": true,
+   "last_seen": "2026-10-22T15:26:12+09:00",
    "new_this_week": true,
    "search_keywords": [
-    "中小企業"
+    "中小企業",
+    "地域資源"
    ],
    "url_status": 200
   },
@@ -1777,7 +2129,9 @@
   "business_types": [
    "共通"
   ],
-  "checks": {},
+  "checks": {
+   "last_seen": "2026-10-22T15:26:12+09:00"
+  },
   "deadline": null,
   "first_seen": "2026-10-20T16:45:38+09:00",
   "id": "5b4a87818e80f493",
@@ -1803,11 +2157,13 @@
   ],
   "checks": {
    "deadline_soon": true,
+   "last_seen": "2026-10-22T15:26:12+09:00",
    "new_this_week": true,
    "search_keywords": [
     "中小企業",
     "小規模事業者",
-    "設備"
+    "設備",
+    "雇用"
    ],
    "url_status": 200
   },
@@ -1836,6 +2192,7 @@
   ],
   "checks": {
    "deadline_soon": true,
+   "last_seen": "2026-10-22T15:26:12+09:00",
    "new_this_week": true,
    "search_keywords": [
     "中小企業",
@@ -1866,7 +2223,9 @@
   "business_types": [
    "共通"
   ],
-  "checks": {},
+  "checks": {
+   "last_seen": "2026-10-22T15:26:12+09:00"
+  },
   "deadline": null,
   "first_seen": "2026-10-20T16:45:38+09:00",
   "id": "5d72766051cf1b73",
@@ -1913,7 +2272,9 @@
   "body_text": "",
   "business_types": [],
   "checks": {
+   "last_seen": "2026-10-22T15:26:12+09:00",
    "search_keywords": [
+    "人材",
     "設備"
    ]
   },
@@ -1942,10 +2303,12 @@
   ],
   "checks": {
    "deadline_soon": true,
+   "last_seen": "2026-10-22T15:26:12+09:00",
    "new_this_week": true,
    "search_keywords": [
     "中小企業",
-    "賃上げ"
+    "賃上げ",
+    "雇用"
    ],
    "url_status": 200
   },
@@ -1973,6 +2336,7 @@
    "共通"
   ],
   "checks": {
+   "last_seen": "2026-10-22T15:26:12+09:00",
    "url_status": 200
   },
   "deadline": null,
@@ -1996,7 +2360,9 @@
   "ai_used": false,
   "body_text": "",
   "business_types": [],
-  "checks": {},
+  "checks": {
+   "last_seen": "2026-10-22T15:26:12+09:00"
+  },
   "deadline": null,
   "first_seen": "2026-10-20T16:45:38+09:00",
   "id": "689a2078c8e48d6c",
@@ -2020,7 +2386,9 @@
   "business_types": [
    "共通"
   ],
-  "checks": {},
+  "checks": {
+   "last_seen": "2026-10-22T15:26:12+09:00"
+  },
   "deadline": null,
   "first_seen": "2026-10-20T16:45:38+09:00",
   "id": "696a1f329014f7ef",
@@ -2042,7 +2410,9 @@
   "ai_used": false,
   "body_text": "",
   "business_types": [],
-  "checks": {},
+  "checks": {
+   "last_seen": "2026-10-22T15:26:12+09:00"
+  },
   "deadline": null,
   "first_seen": "2026-10-20T16:45:38+09:00",
   "id": "69c3a8f1b8cfe6d0",
@@ -2059,6 +2429,30 @@
   "title": "令和7年度農薬の使用に伴う事故及び被害の発生状況について",
   "url": "https://www.maff.go.jp/j/press/syouan/nouyaku/261006.html"
  },
+ "6b1dbe5f26c959b6": {
+  "ai_note": null,
+  "ai_used": false,
+  "body_text": "",
+  "business_types": [],
+  "checks": {
+   "last_seen": "2026-10-22T15:26:12+09:00"
+  },
+  "deadline": null,
+  "first_seen": "2026-10-22T15:26:12+09:00",
+  "id": "6b1dbe5f26c959b6",
+  "importance": "中",
+  "industries_raw": null,
+  "kind": "行政の発表",
+  "published": "2026-10-22T14:00:00+09:00",
+  "publisher": "農林水産省",
+  "regions": [
+   "全国"
+  ],
+  "relevant": false,
+  "source_id": "maff_press",
+  "title": "「雇用就農資金」令和8年度第3回目の募集を実施します",
+  "url": "https://www.maff.go.jp/j/press/keiei/zinzai/261022.html"
+ },
  "6fe0f60add1ffd98": {
   "ai_note": null,
   "ai_used": false,
@@ -2068,10 +2462,12 @@
   ],
   "checks": {
    "deadline_soon": true,
+   "last_seen": "2026-10-22T15:26:12+09:00",
    "new_this_week": true,
    "search_keywords": [
     "中小企業",
-    "賃上げ"
+    "賃上げ",
+    "輸出"
    ],
    "url_status": 200
   },
@@ -2100,14 +2496,20 @@
   ],
   "checks": {
    "deadline_soon": true,
+   "last_seen": "2026-10-22T15:26:12+09:00",
    "new_this_week": true,
    "search_keywords": [
+    "インバウンド",
     "中小企業",
     "事業承継",
+    "卸売",
+    "地域資源",
+    "小売",
     "小規模事業者",
     "省力化",
     "観光",
-    "賃上げ"
+    "賃上げ",
+    "雇用"
    ],
    "url_status": 200
   },
@@ -2136,6 +2538,7 @@
   ],
   "checks": {
    "deadline_soon": true,
+   "last_seen": "2026-10-22T15:26:12+09:00",
    "new_this_week": true,
    "search_keywords": [
     "中小企業"
@@ -2163,7 +2566,9 @@
   "ai_used": false,
   "body_text": "",
   "business_types": [],
-  "checks": {},
+  "checks": {
+   "last_seen": "2026-10-22T15:26:12+09:00"
+  },
   "deadline": null,
   "first_seen": "2026-10-20T16:45:38+09:00",
   "id": "724ec26de085063c",
@@ -2188,6 +2593,7 @@
    "食品卸・小売"
   ],
   "checks": {
+   "last_seen": "2026-10-22T15:26:12+09:00",
    "search_keywords": [
     "中小企業",
     "設備"
@@ -2216,7 +2622,9 @@
   "business_types": [
    "共通"
   ],
-  "checks": {},
+  "checks": {
+   "last_seen": "2026-10-22T15:26:12+09:00"
+  },
   "deadline": null,
   "first_seen": "2026-10-20T16:45:38+09:00",
   "id": "76612f1ace0eded8",
@@ -2242,11 +2650,13 @@
   ],
   "checks": {
    "deadline_soon": true,
+   "last_seen": "2026-10-22T15:26:12+09:00",
    "new_this_week": true,
    "search_keywords": [
     "中小企業",
     "小規模事業者",
-    "設備"
+    "設備",
+    "雇用"
    ],
    "url_status": 200
   },
@@ -2271,7 +2681,9 @@
   "ai_used": false,
   "body_text": "",
   "business_types": [],
-  "checks": {},
+  "checks": {
+   "last_seen": "2026-10-22T15:26:12+09:00"
+  },
   "deadline": null,
   "first_seen": "2026-10-20T16:45:38+09:00",
   "id": "7917635bbcef8efa",
@@ -2294,6 +2706,7 @@
   "body_text": "",
   "business_types": [],
   "checks": {
+   "last_seen": "2026-10-22T15:26:12+09:00",
    "search_keywords": [
     "設備"
    ]
@@ -2323,11 +2736,13 @@
   ],
   "checks": {
    "deadline_soon": false,
+   "last_seen": "2026-10-22T15:26:12+09:00",
    "new_this_week": true,
    "search_keywords": [
     "中小企業",
     "小規模事業者",
-    "設備"
+    "設備",
+    "雇用"
    ],
    "url_status": 200
   },
@@ -2354,7 +2769,9 @@
   "business_types": [
    "共通"
   ],
-  "checks": {},
+  "checks": {
+   "last_seen": "2026-10-22T15:26:12+09:00"
+  },
   "deadline": null,
   "first_seen": "2026-10-22T09:04:11+09:00",
   "id": "7b2c05cd872fa42a",
@@ -2380,11 +2797,13 @@
   ],
   "checks": {
    "deadline_soon": true,
+   "last_seen": "2026-10-22T15:26:12+09:00",
    "new_this_week": true,
    "search_keywords": [
     "中小企業",
     "小規模事業者",
-    "設備"
+    "設備",
+    "雇用"
    ],
    "url_status": 200
   },
@@ -2404,6 +2823,34 @@
   "title": "【大分】令和８年度中小企業最低賃金引上げ支援対策費補助金（業務改善助成金）",
   "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDe6ZMAT"
  },
+ "7e0da00b3e414f85": {
+  "ai_note": null,
+  "ai_used": false,
+  "body_text": "",
+  "business_types": [],
+  "checks": {
+   "last_seen": "2026-10-22T15:26:12+09:00",
+   "search_keywords": [
+    "衛生",
+    "雇用"
+   ]
+  },
+  "deadline": "2027-02-15T23:59:00+09:00",
+  "first_seen": "2026-10-22T15:26:12+09:00",
+  "id": "7e0da00b3e414f85",
+  "importance": "中",
+  "industries_raw": null,
+  "kind": "補助金・公募",
+  "published": "2026-10-16T14:00:00+09:00",
+  "publisher": "jGrants（デジタル庁）",
+  "regions": [
+   "東京都"
+  ],
+  "relevant": false,
+  "source_id": "jgrants",
+  "title": "令和８年度介護・障害福祉サービス等事業所における育業・介護休業等両立支援事業費補助金",
+  "url": "https://www.jgrants-portal.go.jp/subsidy/a0WfQ000003Bf7lUAC"
+ },
  "7e1fb87bdb548f65": {
   "ai_note": null,
   "ai_used": false,
@@ -2412,6 +2859,7 @@
    "共通"
   ],
   "checks": {
+   "last_seen": "2026-10-22T15:26:12+09:00",
    "url_status": 200
   },
   "deadline": null,
@@ -2438,8 +2886,11 @@
    "共通"
   ],
   "checks": {
+   "last_seen": "2026-10-22T15:26:12+09:00",
    "search_keywords": [
-    "中小企業"
+    "中小企業",
+    "卸売",
+    "小売"
    ]
   },
   "deadline": "2027-01-28T17:00:00+09:00",
@@ -2465,7 +2916,9 @@
   "business_types": [
    "共通"
   ],
-  "checks": {},
+  "checks": {
+   "last_seen": "2026-10-22T15:26:12+09:00"
+  },
   "deadline": null,
   "first_seen": "2026-10-20T16:45:38+09:00",
   "id": "8020c7fbce1f4027",
@@ -2488,7 +2941,9 @@
   "body_text": "",
   "business_types": [],
   "checks": {
+   "last_seen": "2026-10-22T15:26:12+09:00",
    "search_keywords": [
+    "省エネ",
     "設備"
    ]
   },
@@ -2516,6 +2971,7 @@
    "共通"
   ],
   "checks": {
+   "last_seen": "2026-10-22T15:26:12+09:00",
    "search_keywords": [
     "中小企業"
    ]
@@ -2544,8 +3000,10 @@
    "共通"
   ],
   "checks": {
+   "last_seen": "2026-10-22T15:26:12+09:00",
    "search_keywords": [
-    "中小企業"
+    "中小企業",
+    "雇用"
    ]
   },
   "deadline": "2027-02-26T23:59:00+09:00",
@@ -2570,6 +3028,7 @@
   "body_text": "",
   "business_types": [],
   "checks": {
+   "last_seen": "2026-10-22T15:26:12+09:00",
    "search_keywords": [
     "中小企業",
     "設備"
@@ -2597,12 +3056,14 @@
   "body_text": "高年齢労働者の労働災害防止のため、中小企業事業者を対象に設備の改善や補助機器等の導入、専門家による指導を受けるための経費等の一部を補助します。 専門家総合対策コース第１段階は4/5、専門家総合対策コース第２段階と熱中症対策コースは1/2、コラボヘルスコースは3/4 ※コラボヘルスコースは上限額30万円。 雇用・職場環境を改善したい 注意！ Ｊグランツの仕様上、申請の際に添付いただく資料等のファイルの容量は、１ファイル３０ＭＢまでとなっています。 ■目的・概要 エイジフレンドリー補助金は、労働者が安全で安心して働くことのできる職場環境の整備を促進するため、「中小企業事業者」の以下の取組に要する経費の一部を補助します。 60歳以上の高年齢労働者が安全に働くことができる環境の整備のため、労働安全衛生に係る専門家による高年齢労働者の特性を考慮したリスクアセスメントの実施の取組（☆専門家総合対策コース第１段階） １の専門家または自社で実施したリスクアセスメントの結果をふまえ、60歳以上の高年齢労働者が安全に働くことができる環境の整備のため、高年齢労働者の身体機能の低下を補う設備・装置の導入その他労働災害防止対策の取組（機器等の導入や工事の施工等）や高年齢労働者を含む全ての労働者の転倒防止・腰痛予防のための運動指導等の取組（☆○専門家総合対策コース第２段階） 暑熱な環境による熱中症予防対策として身体機能の低下を補う装置・装備の導入(▢熱中症対策コース) 高年齢労働者を含む全ての労働者の健康保持増進のための取組（◇コラボヘルスコース） 申請にあたっては、厚生労働省HP等もご確認ください。（中小企業の範囲等を示しています） エイジフレンドリー補助金について ・エイジフレンドリー補助金Q＆A ・リーフレット「エイジフレンドリー補助金」のご案内 ■交付申請受付期間 令和８年（2026年）５月2",
   "business_types": [],
   "checks": {
+   "last_seen": "2026-10-22T15:26:12+09:00",
    "search_keywords": [
     "中小企業",
+    "衛生",
     "設備"
    ]
   },
-  "deadline": "2026-10-31T23:59:00+09:00",
+  "deadline": "2026-11-21T00:00:00+09:00",
   "first_seen": "2026-10-20T16:45:38+09:00",
   "id": "870c6084a89bd498",
   "importance": "高",
@@ -2624,8 +3085,11 @@
   "body_text": "1/2以内、1/3以内、2/3以内 新たな事業を行いたい ■目的 ２０５０年のカーボンニュートラル、２０４０年のエネルギーミックス実現に向けては、再生可能エネルギー（以下、「再エネ」という。）の最大限の導入・活用による非化石化の推進が必要不可欠である。再エネの導入が全国に比して先行している北海道や九州といった地域では、太陽光や風力等変動再エネのシェアが全需要の７割以上となる断面も出てきており、限られた火力電源を調整力として活用して需給調整を行っている。今後、再エネの更なる活用や導入拡大に向けては、余剰となる再エネの有効活用や再エネの変動を調整する脱炭素化された調整力の確保が喫緊の課題となる。 そこで、令和７年度補正「再生可能エネルギー導入拡大・系統用蓄電池等電力貯蔵システム導入支援事業費補助金」系統用蓄電システム等導入支援事業（以下、「本事業」という。）では、各種電力市場での取引等を通じて余剰再エネの吸収や調整力の供出が可能な系統用蓄電池等（電力系統に直接接続する大規模蓄電池。一般送配電事業者の変電所や、発電事業者等の発電所への併設を除く。）の導入を支援することで、電力のフレキシビリティを確保し、エネルギー危機に強い経済構造への転換を図ることを目的とする。 ■応募資格 以下１）～ ２2）の要件を全て満たす者を補助対象事業者（以下、「補助事業者」という。）とする。 １）日本国内において事業活動を営んでいる法人であること。 ※ 「１－１．事業の目的」 に基づき、一般送配電事業者は対象外とする。 ※ ただし、一般﻿送配電事業者と発電事業者の両方の立場を有する事業者が発電事業者として、調整力公募を通じた調整力の提供等を目的に本事業へ申請を行う場合は、対象とする。 ２）補助事業により導入する補助対象設備の所有者（※2）及び使用者（※3）であること。 なお、リース等により補助対象設備の",
   "business_types": [],
   "checks": {
+   "last_seen": "2026-10-22T15:26:12+09:00",
    "search_keywords": [
     "中小企業",
+    "地域資源",
+    "省エネ",
     "設備"
    ]
   },
@@ -2651,7 +3115,9 @@
   "body_text": "",
   "business_types": [],
   "checks": {
+   "last_seen": "2026-10-22T15:26:12+09:00",
    "search_keywords": [
+    "インバウンド",
     "観光"
    ]
   },
@@ -2676,7 +3142,9 @@
   "ai_used": false,
   "body_text": "",
   "business_types": [],
-  "checks": {},
+  "checks": {
+   "last_seen": "2026-10-22T15:26:12+09:00"
+  },
   "deadline": null,
   "first_seen": "2026-10-20T16:45:38+09:00",
   "id": "89a58ff3a40059d8",
@@ -2702,6 +3170,7 @@
   ],
   "checks": {
    "deadline_soon": true,
+   "last_seen": "2026-10-22T15:26:12+09:00",
    "new_this_week": false,
    "search_keywords": [
     "中小企業"
@@ -2724,6 +3193,33 @@
   "title": "【鹿児島県】令和8年度_中小企業等海外展開支援事業費補助金（海外出願支援事業）",
   "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDZXbMAP"
  },
+ "8daad1fea5d4d441": {
+  "ai_note": null,
+  "ai_used": false,
+  "body_text": "",
+  "business_types": [],
+  "checks": {
+   "last_seen": "2026-10-22T15:26:12+09:00",
+   "search_keywords": [
+    "雇用"
+   ]
+  },
+  "deadline": "2027-03-31T23:59:00+09:00",
+  "first_seen": "2026-10-22T15:26:12+09:00",
+  "id": "8daad1fea5d4d441",
+  "importance": "中",
+  "industries_raw": null,
+  "kind": "補助金・公募",
+  "published": "2026-06-10T08:30:00+09:00",
+  "publisher": "jGrants（デジタル庁）",
+  "regions": [
+   "青森県"
+  ],
+  "relevant": false,
+  "source_id": "jgrants",
+  "title": "令和８年度原子力発電施設等の周辺地域における大規模開発地区への企業立地促進事業費補助金",
+  "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDacWMAT"
+ },
  "8eccc81b7a5865ee": {
   "ai_note": null,
   "ai_used": false,
@@ -2732,8 +3228,10 @@
    "共通"
   ],
   "checks": {
+   "last_seen": "2026-10-22T15:26:12+09:00",
    "search_keywords": [
-    "中小企業"
+    "中小企業",
+    "雇用"
    ]
   },
   "deadline": "2027-02-05T23:59:00+09:00",
@@ -2760,6 +3258,7 @@
    "共通"
   ],
   "checks": {
+   "last_seen": "2026-10-22T15:26:12+09:00",
    "search_keywords": [
     "中小企業"
    ]
@@ -2789,11 +3288,13 @@
   ],
   "checks": {
    "deadline_soon": true,
+   "last_seen": "2026-10-22T15:26:12+09:00",
    "new_this_week": true,
    "search_keywords": [
     "中小企業",
     "小規模事業者",
-    "設備"
+    "設備",
+    "雇用"
    ],
    "url_status": 200
   },
@@ -2820,7 +3321,9 @@
   "business_types": [
    "共通"
   ],
-  "checks": {},
+  "checks": {
+   "last_seen": "2026-10-22T15:26:12+09:00"
+  },
   "deadline": null,
   "first_seen": "2026-10-20T16:45:38+09:00",
   "id": "93ac71fe20742a1a",
@@ -2844,7 +3347,9 @@
   "business_types": [
    "共通"
   ],
-  "checks": {},
+  "checks": {
+   "last_seen": "2026-10-22T15:26:12+09:00"
+  },
   "deadline": null,
   "first_seen": "2026-10-20T16:45:38+09:00",
   "id": "9411f83b2bb55325",
@@ -2868,7 +3373,9 @@
   "business_types": [
    "共通"
   ],
-  "checks": {},
+  "checks": {
+   "last_seen": "2026-10-22T15:26:12+09:00"
+  },
   "deadline": null,
   "first_seen": "2026-10-20T16:45:38+09:00",
   "id": "949845e5b1549106",
@@ -2890,7 +3397,9 @@
   "ai_used": false,
   "body_text": "",
   "business_types": [],
-  "checks": {},
+  "checks": {
+   "last_seen": "2026-10-22T15:26:12+09:00"
+  },
   "deadline": null,
   "first_seen": "2026-10-20T16:45:38+09:00",
   "id": "94cc924f35275c7a",
@@ -2915,7 +3424,9 @@
    "共通"
   ],
   "checks": {
+   "last_seen": "2026-10-22T15:26:12+09:00",
    "search_keywords": [
+    "省エネ",
     "設備"
    ]
   },
@@ -2941,7 +3452,9 @@
   "body_text": "",
   "business_types": [],
   "checks": {
+   "last_seen": "2026-10-22T15:26:12+09:00",
    "search_keywords": [
+    "省エネ",
     "設備"
    ]
   },
@@ -2970,8 +3483,10 @@
   ],
   "checks": {
    "deadline_soon": false,
+   "last_seen": "2026-10-22T15:26:12+09:00",
    "new_this_week": true,
    "search_keywords": [
+    "デジタル",
     "中小企業",
     "小規模事業者"
    ],
@@ -3002,11 +3517,13 @@
   ],
   "checks": {
    "deadline_soon": true,
+   "last_seen": "2026-10-22T15:26:12+09:00",
    "new_this_week": true,
    "search_keywords": [
     "中小企業",
     "小規模事業者",
-    "設備"
+    "設備",
+    "雇用"
    ],
    "url_status": 200
   },
@@ -3033,7 +3550,9 @@
   "business_types": [
    "共通"
   ],
-  "checks": {},
+  "checks": {
+   "last_seen": "2026-10-22T15:26:12+09:00"
+  },
   "deadline": null,
   "first_seen": "2026-10-20T16:45:38+09:00",
   "id": "9a98b2de6587f59a",
@@ -3058,6 +3577,7 @@
    "共通"
   ],
   "checks": {
+   "last_seen": "2026-10-22T15:26:12+09:00",
    "url_status": 200
   },
   "deadline": null,
@@ -3085,9 +3605,11 @@
   ],
   "checks": {
    "deadline_soon": true,
+   "last_seen": "2026-10-22T15:26:12+09:00",
    "new_this_week": true,
    "search_keywords": [
     "中小企業",
+    "地域資源",
     "設備"
    ],
    "url_status": 200
@@ -3164,15 +3686,21 @@
   ],
   "checks": {
    "deadline_soon": true,
+   "last_seen": "2026-10-22T15:26:12+09:00",
    "new_this_week": true,
    "search_keywords": [
+    "インバウンド",
     "中小企業",
     "事業承継",
+    "卸売",
+    "地域資源",
+    "小売",
     "小規模事業者",
     "省力化",
     "観光",
     "設備",
-    "賃上げ"
+    "賃上げ",
+    "雇用"
    ],
    "url_status": 200
   },
@@ -3202,10 +3730,14 @@
   ],
   "checks": {
    "deadline_soon": true,
+   "last_seen": "2026-10-22T15:26:12+09:00",
    "new_this_week": true,
    "search_keywords": [
     "中小企業",
-    "事業承継"
+    "事業承継",
+    "人材",
+    "商店街",
+    "店舗"
    ],
    "url_status": 200
   },
@@ -3231,6 +3763,7 @@
   "body_text": "",
   "business_types": [],
   "checks": {
+   "last_seen": "2026-10-22T15:26:12+09:00",
    "search_keywords": [
     "設備"
    ]
@@ -3257,8 +3790,11 @@
   "body_text": "福利厚生の充実で、若手人材の確保と定着を！ 1/2 雇用・職場環境を改善したい 【重要】こちらは、本助成金で１年目の支給決定を受けている助成事業者が、 ２年目の支給申請をする場合 に使用する補助金申請画面です。 ■目的・概要 住宅・食事・健康に関する福利厚生の充実による従業員のES（Employee Satisfaction 社員満足度）の向上を通じて、若手人材の採用・定着を図る中小企業の取組をサポートする事業 ■支援内容 ◎ 専門家の派遣 ：福利厚生の充実による若手人材確保・定着を目指す中小企業に、社員満足度向上等に関する知見を有する専門家を最大３回派遣し、企業の取組計画の作成を支援します。 ◎ ESを高める取組への費用助成 ：取組計画を作成し、ES（社員満足度）向上の取組（住宅の借上げ・食事等の提供・健康増進サービスの提供）を行った企業に、経費を助成します。 ◆助成対象期間：最大3年間 ◆助成率：2分の1（下記①~③の分類ごとに千円未満切捨て） ■助成対象事業／助成対象経費／助成限度額 ①住宅の借上げ：35歳未満の若手従業員を対象とした住宅の借上げに係る経費／200万円 ②食事等の提供：都内事業所内で継続的かつ定期的に従業員に提供する食事等のサービスに係る経費／50万円 ③健康増進サービスの提供：従業員の健康増進を目的としたサービスの提供に係る経費／50万円 ※助成金の支給には、①～③のうち2つ以上の事業を各取組期間中に実施する必要があります。 ■対象事業者 以下の要件を満たす都内中小企業等 ●全従業員に占める若手従業員の割合が 30％以下 であること ●入社３年以内の若手従業員数が全従業員数の 10％以下 のあること ●直近1年間に若手人材を含む求人活動を行っていること ※上記要件における「若手」とは、 35歳未満 の者をいいます。 ※上記要件における「従業員」とは、",
   "business_types": [],
   "checks": {
+   "last_seen": "2026-10-22T15:26:12+09:00",
    "search_keywords": [
-    "中小企業"
+    "中小企業",
+    "人材",
+    "雇用"
    ]
   },
   "deadline": "2029-03-31T23:59:00+09:00",
@@ -3283,8 +3819,10 @@
   "body_text": "ワーケーション勤務を促進し、テレワークの定着を支援します！ 新たな事業を行いたい ■ 事業概要 テレワークの促進を図るため、都内中堅・中小企業等がワーケーション勤務を可能とする規定を新たに整備し、従業員がワーケーション勤務を実施した場合に、奨励金を支給します。 ■支給対象事業者の主な要件 ・ 常時雇用する労働者の数が999人以下の企業であること。 ・ 都内に勤務する常時雇用する労働者を２人以上雇用していること。 ・都内に勤務する常時雇用する労働者のうち１人は、申請日時点で、申請事業者で６ヶ月以上継続して雇用していること。 ・就業規則を作成して労働基準監督署に届出を行っていること （ 常時雇用する労働者が10人未満の企業等を除く ）。 ・支給申請日時点で「ワーケーション勤務を可能とする規定」が整備されていないこと。 ・「ワーケーション勤務を可能とする規定」を新たに整備すること。 ※実績報告書の提出までに、労働基準監督署に「ワーケーション勤務を可能とする規定」を届け出る必要があります。（常時雇用する労働者が10人﻿未満の事業所も含む。） ・ 実績報告提出時までに東京都が実施する 「テレワーク東京ルール」実践企業宣言（外部サイト） 制度に登録し、「テレワーク推進リーダー」設置表示のある宣言書がウェブサイトで発行されていること。 ※その他にも要件があります。詳細は 募集要項（外部サイト） のページをご確認ください。 ■Ｊグランツの操作（申請フォームの下書き・差戻し）に関しての注意事項 申請書類の不備により差戻しとなった申請を編集する場合は、 必ずマイページより 以下の手順で操作を行ってください。 ①マイページの「 申請履歴 」にある『 （タイトルなし） 』※1をクリックし、「 事業の詳細 」ページに移動。 ②「 事業詳細 」ページの「 作成済みの申請 」にある『 支給申請 』※2を",
   "business_types": [],
   "checks": {
+   "last_seen": "2026-10-22T15:26:12+09:00",
    "search_keywords": [
-    "中小企業"
+    "中小企業",
+    "雇用"
    ]
   },
   "deadline": "2027-02-26T23:59:00+09:00",
@@ -3312,9 +3850,11 @@
   ],
   "checks": {
    "deadline_soon": true,
+   "last_seen": "2026-10-22T15:26:12+09:00",
    "new_this_week": true,
    "search_keywords": [
     "中小企業",
+    "加工",
     "設備"
    ],
    "url_status": 200
@@ -3341,8 +3881,11 @@
   "body_text": "福利厚生の充実で、若手人材の確保と定着を！ 1/2 雇用・職場環境を改善したい ■目的・概要 住宅・食事・健康に関する福利厚生の充実による従業員のES（Employee Satisfaction 社員満足度）の向上を通じて、若手人材の採用・定着を図る中小企業の取組をサポートする事業 ■支援内容 ◎ 専門家の派遣 ：福利厚生の充実による若手人材確保・定着を目指す中小企業に、社員満足度向上等に関する知見を有する専門家を最大３回派遣し、企業の取組計画の作成を支援します。 ◎ ESを高める取組への費用助成 ：取組計画を作成し、ES（社員満足度）向上の取組（住宅の借上げ・食事等の提供・健康増進サービスの提供）を行った企業に、経費を助成します。 ◆助成対象期間：最大3年間 ◆助成率：2分の1（下記①~③の分類ごとに千円未満切捨て） ■助成対象事業／助成対象経費／助成限度額 ①住宅の借上げ：35歳未満の若手従業員を対象とした住宅の借上げに係る経費／200万円 ②食事等の提供：都内事業所内で継続的かつ定期的に従業員に提供する食事等のサービスに係る経費／50万円 ③健康増進サービスの提供：従業員の健康増進を目的としたサービスの提供に係る経費／50万円 ※助成金の支給には、①～③のうち2つ以上の事業を各取組期間中に実施する必要があります。 ■対象事業者 以下の要件を満たす都内中小企業等 ●全従業員に占める若手従業員の割合が 30％以下 であること ●入社３年以内の若手従業員数が全従業員数の 10％以下 のあること ●直近1年間に若手人材を含む求人活動を行っていること ※上記要件における「若手」とは、 35歳未満 の者をいいます。 ※上記要件における「従業員」とは、常時使用する従業員をいいます。 常時使用する従業員の要件（募集要項「助成対象事業者の要件（表２）を参照」）を満たす者であれば、 パー",
   "business_types": [],
   "checks": {
+   "last_seen": "2026-10-22T15:26:12+09:00",
    "search_keywords": [
-    "中小企業"
+    "中小企業",
+    "人材",
+    "雇用"
    ]
   },
   "deadline": "2030-11-15T00:00:00+09:00",
@@ -3366,7 +3909,9 @@
   "ai_used": false,
   "body_text": "",
   "business_types": [],
-  "checks": {},
+  "checks": {
+   "last_seen": "2026-10-22T15:26:12+09:00"
+  },
   "deadline": null,
   "first_seen": "2026-10-22T09:04:11+09:00",
   "id": "aaa92ed9bb1aa76f",
@@ -3388,7 +3933,9 @@
   "ai_used": false,
   "body_text": "",
   "business_types": [],
-  "checks": {},
+  "checks": {
+   "last_seen": "2026-10-22T15:26:12+09:00"
+  },
   "deadline": null,
   "first_seen": "2026-10-20T16:45:38+09:00",
   "id": "ab5ef85b79c38c8f",
@@ -3412,7 +3959,9 @@
   "business_types": [
    "共通"
   ],
-  "checks": {},
+  "checks": {
+   "last_seen": "2026-10-22T15:26:12+09:00"
+  },
   "deadline": null,
   "first_seen": "2026-10-20T16:45:38+09:00",
   "id": "abee9c2524d18691",
@@ -3438,6 +3987,7 @@
   ],
   "checks": {
    "deadline_soon": true,
+   "last_seen": "2026-10-22T15:26:12+09:00",
    "new_this_week": true,
    "search_keywords": [
     "中小企業",
@@ -3467,7 +4017,9 @@
   "ai_used": false,
   "body_text": "",
   "business_types": [],
-  "checks": {},
+  "checks": {
+   "last_seen": "2026-10-22T15:26:12+09:00"
+  },
   "deadline": null,
   "first_seen": "2026-10-20T16:45:38+09:00",
   "id": "ae4ddd7a062d2a17",
@@ -3484,6 +4036,33 @@
   "title": "国連食糧農業機関（FAO）が選ぶ「FAO農業・食料システムと農村振興における100人の女性ヒーロー」に群馬県の清水由紀江氏が選出",
   "url": "https://www.maff.go.jp/j/press/y_kokusai/kikou/261016.html"
  },
+ "b1898623f471c7c4": {
+  "ai_note": null,
+  "ai_used": false,
+  "body_text": "",
+  "business_types": [],
+  "checks": {
+   "last_seen": "2026-10-22T15:26:12+09:00",
+   "search_keywords": [
+    "雇用"
+   ]
+  },
+  "deadline": "2026-11-30T23:59:00+09:00",
+  "first_seen": "2026-10-22T15:26:12+09:00",
+  "id": "b1898623f471c7c4",
+  "importance": "中",
+  "industries_raw": null,
+  "kind": "補助金・公募",
+  "published": "2026-10-01T00:00:00+09:00",
+  "publisher": "jGrants（デジタル庁）",
+  "regions": [
+   "全国"
+  ],
+  "relevant": false,
+  "source_id": "jgrants",
+  "title": "成田空港の次代を担う若者の奨学金返還支援事業補助金",
+  "url": "https://www.jgrants-portal.go.jp/subsidy/a0WfQ000003aZqLUAU"
+ },
  "b309d05a500ad4aa": {
   "ai_note": null,
   "ai_used": false,
@@ -3493,6 +4072,7 @@
   ],
   "checks": {
    "deadline_soon": false,
+   "last_seen": "2026-10-22T15:26:12+09:00",
    "new_this_week": true,
    "search_keywords": [
     "中小企業"
@@ -3545,8 +4125,10 @@
   "body_text": "サテライトオフィス勤務を促進し、テレワークの定着を支援します！ 新たな事業を行いたい ■ 事業概要 テレワークの促進を図るため、都内中堅・中小企業等がサテライトオフィス勤務を可能とする規定を新たに整備し、従業員がサテライトオフィス勤務を実施した場合に、奨励金を支給します。 ■支給対象事業者の主な要件 ・ 常時雇用する労働者の数が999人以下の企業であること。 ・ 都内に勤務する常時雇用する労働者を２人以上雇用していること。 ・都内に勤務する常時雇用する労働者のうち１人は、申請日時点で、申請事業者で６ヶ月以上継続して雇用していること。 ・就業規則を作成して労働基準監督署に届出を行っていること （ 常時雇用する労働者が10人未満の企業等を除く ）。 ・支給申請日時点で、「サテライトオフィス勤務を可能とする規定」が整備されていないこと。 ・「サテライトオフィス勤務を可能とする規定」を新たに整備すること。 ※実績報告書の提出までに、労働基準監督署に「サテライトオフィス勤務を可能とする規定」を届け出る必要があります。（常時雇用する労働者が10人﻿未満の事業所も含む。） ・ 実績報告提出時までに東京都が実施する 「テレワーク東京ルール」実践企業宣言（外部サイト） 制度に登録し、「テレワーク推進リーダー」設置表示のある宣言書がウェブサイトで発行されていること。 ﻿ ※その他にも要件があります。詳細は 募集要項（外部サイト） のページをご確認ください。 ﻿ ■Ｊグランツの操作（申請フォームの下書き・差戻し）に関しての注意事項 申請書類の不備により差戻しとなった申請を編集する場合は、 必ずマイページより 以下の手順で操作を行ってください。 ①マイページの「 申請履歴 」にある『 （タイトルなし） 』※1をクリックし、「 事業の詳細 」ページに移動。 ②「 事業詳細 」ページの「 作成済みの申",
   "business_types": [],
   "checks": {
+   "last_seen": "2026-10-22T15:26:12+09:00",
    "search_keywords": [
-    "中小企業"
+    "中小企業",
+    "雇用"
    ]
   },
   "deadline": "2027-02-26T23:59:00+09:00",
@@ -3572,7 +4154,9 @@
   "business_types": [
    "共通"
   ],
-  "checks": {},
+  "checks": {
+   "last_seen": "2026-10-22T15:26:12+09:00"
+  },
   "deadline": null,
   "first_seen": "2026-10-20T16:45:38+09:00",
   "id": "bad213bf27b6d6d5",
@@ -3589,6 +4173,30 @@
   "title": "【補助金採択結果】デジタル化・AI導入補助金2026の補助事業者を採択",
   "url": "https://mirasapo-plus.go.jp/infomation/33237/"
  },
+ "be3ea581a457e7b2": {
+  "ai_note": null,
+  "ai_used": false,
+  "body_text": "",
+  "business_types": [],
+  "checks": {
+   "last_seen": "2026-10-22T15:26:12+09:00"
+  },
+  "deadline": null,
+  "first_seen": "2026-10-22T15:26:12+09:00",
+  "id": "be3ea581a457e7b2",
+  "importance": "低",
+  "industries_raw": null,
+  "kind": "行政の発表",
+  "published": "2026-10-22T14:00:00+09:00",
+  "publisher": "農林水産省",
+  "regions": [
+   "全国"
+  ],
+  "relevant": false,
+  "source_id": "maff_press",
+  "title": "農作業安全に関する啓発活動を表彰する「農作業安全表彰」を実施します",
+  "url": "https://www.maff.go.jp/j/press/nousan/sizai/261022.html"
+ },
  "be7406574702a8fa": {
   "ai_note": null,
   "ai_used": false,
@@ -3598,10 +4206,13 @@
    "食品卸・小売"
   ],
   "checks": {
+   "last_seen": "2026-10-22T15:26:12+09:00",
    "search_keywords": [
     "中小企業",
     "創業",
     "小規模事業者",
+    "店舗",
+    "省エネ",
     "観光",
     "設備"
    ]
@@ -3622,6 +4233,33 @@
   "title": "がんばろう赤磐中小企業省エネ設備更新支援補助金",
   "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDdtHMAT"
  },
+ "be879c6a915e217d": {
+  "ai_note": null,
+  "ai_used": false,
+  "body_text": "",
+  "business_types": [],
+  "checks": {
+   "last_seen": "2026-10-22T15:26:12+09:00",
+   "search_keywords": [
+    "設備"
+   ]
+  },
+  "deadline": "2026-11-27T12:00:00+09:00",
+  "first_seen": "2026-10-22T15:26:12+09:00",
+  "id": "be879c6a915e217d",
+  "importance": "中",
+  "industries_raw": null,
+  "kind": "補助金・公募",
+  "published": "2026-10-22T12:00:00+09:00",
+  "publisher": "jGrants（デジタル庁）",
+  "regions": [
+   "全国"
+  ],
+  "relevant": false,
+  "source_id": "jgrants",
+  "title": "令和8年度排出削減が困難な産業におけるエネルギー・製造プロセス転換支援事業（二次公募）",
+  "url": "https://www.jgrants-portal.go.jp/subsidy/a0WfQ000003mzyjUAA"
+ },
  "bf0d3fa4663d8c71": {
   "ai_note": null,
   "ai_used": false,
@@ -3629,7 +4267,9 @@
   "business_types": [
    "共通"
   ],
-  "checks": {},
+  "checks": {
+   "last_seen": "2026-10-22T15:26:12+09:00"
+  },
   "deadline": null,
   "first_seen": "2026-10-20T16:45:38+09:00",
   "id": "bf0d3fa4663d8c71",
@@ -3655,6 +4295,7 @@
   ],
   "checks": {
    "deadline_soon": true,
+   "last_seen": "2026-10-22T15:26:12+09:00",
    "new_this_week": false,
    "search_keywords": [
     "中小企業",
@@ -3683,7 +4324,9 @@
   "ai_used": false,
   "body_text": "",
   "business_types": [],
-  "checks": {},
+  "checks": {
+   "last_seen": "2026-10-22T15:26:12+09:00"
+  },
   "deadline": null,
   "first_seen": "2026-10-20T16:45:38+09:00",
   "id": "c689774cf1467200",
@@ -3709,11 +4352,13 @@
   ],
   "checks": {
    "deadline_soon": true,
+   "last_seen": "2026-10-22T15:26:12+09:00",
    "new_this_week": true,
    "search_keywords": [
     "中小企業",
     "小規模事業者",
-    "設備"
+    "設備",
+    "雇用"
    ],
    "url_status": 200
   },
@@ -3742,8 +4387,13 @@
    "飲食店"
   ],
   "checks": {
+   "last_seen": "2026-10-22T15:26:12+09:00",
    "search_keywords": [
+    "インバウンド",
+    "デジタル",
     "中小企業",
+    "人材",
+    "店舗",
     "省力化",
     "観光",
     "設備",
@@ -3772,8 +4422,10 @@
   "body_text": "",
   "business_types": [],
   "checks": {
+   "last_seen": "2026-10-22T15:26:12+09:00",
    "search_keywords": [
-    "中小企業"
+    "中小企業",
+    "人材"
    ]
   },
   "deadline": "2027-03-01T00:00:00+09:00",
@@ -3801,11 +4453,13 @@
   ],
   "checks": {
    "deadline_soon": false,
+   "last_seen": "2026-10-22T15:26:12+09:00",
    "new_this_week": true,
    "search_keywords": [
     "中小企業",
     "小規模事業者",
-    "設備"
+    "設備",
+    "雇用"
    ],
    "url_status": 200
   },
@@ -3832,7 +4486,9 @@
   "business_types": [
    "共通"
   ],
-  "checks": {},
+  "checks": {
+   "last_seen": "2026-10-22T15:26:12+09:00"
+  },
   "deadline": null,
   "first_seen": "2026-10-20T16:45:38+09:00",
   "id": "cfbec9938e11fffe",
@@ -3854,7 +4510,9 @@
   "ai_used": false,
   "body_text": "",
   "business_types": [],
-  "checks": {},
+  "checks": {
+   "last_seen": "2026-10-22T15:26:12+09:00"
+  },
   "deadline": null,
   "first_seen": "2026-10-20T16:45:38+09:00",
   "id": "d52691573940eb1f",
@@ -3878,7 +4536,9 @@
   "business_types": [
    "共通"
   ],
-  "checks": {},
+  "checks": {
+   "last_seen": "2026-10-22T15:26:12+09:00"
+  },
   "deadline": null,
   "first_seen": "2026-10-20T16:45:38+09:00",
   "id": "d52f89c4c8fb597a",
@@ -3904,6 +4564,7 @@
   ],
   "checks": {
    "deadline_soon": true,
+   "last_seen": "2026-10-22T15:26:12+09:00",
    "new_this_week": true,
    "search_keywords": [
     "中小企業"
@@ -3932,8 +4593,11 @@
   "body_text": "福利厚生の充実で、若手人材の確保と定着を！ 1/2 雇用・職場環境を改善したい 【重要】こちらは、本助成金で２年目の支給決定を受けている助成事業者が、 ３年目の支給申請をする場合 に使用する補助金申請画面です。 ■目的・概要 住宅・食事・健康に関する福利厚生の充実による従業員のES（Employee Satisfaction 社員満足度）の向上を通じて、若手人材の採用・定着を図る中小企業の取組をサポートする事業 ■支援内容 ◎ 専門家の派遣 ：福利厚生の充実による若手人材確保・定着を目指す中小企業に、社員満足度向上等に関する知見を有する専門家を最大３回派遣し、企業の取組計画の作成を支援します。 ◎ ESを高める取組への費用助成 ：取組計画を作成し、ES（社員満足度）向上の取組（住宅の借上げ・食事等の提供・健康増進サービスの提供）を行った企業に、経費を助成します。 ◆助成対象期間：最大3年間 ◆助成率：2分の1（下記①~③の分類ごとに千円未満切捨て） ■助成対象事業／助成対象経費／助成限度額 ①住宅の借上げ：35歳未満の若手従業員を対象とした住宅の借上げに係る経費／200万円 ②食事等の提供：都内事業所内で継続的かつ定期的に従業員に提供する食事等のサービスに係る経費／50万円 ③健康増進サービスの提供：従業員の健康増進を目的としたサービスの提供に係る経費／50万円 ※助成金の支給には、①～③のうち2つ以上の事業を各取組期間中に実施する必要があります。 ■対象事業者 以下の要件を満たす都内中小企業等 ●全従業員に占める若手従業員の割合が 30％以下 であること ●入社３年以内の若手従業員数が全従業員数の 10％以下 のあること ●直近1年間に若手人材を含む求人活動を行っていること ※上記要件における「若手」とは、 35歳未満 の者をいいます。 ※上記要件における「従業員」とは、",
   "business_types": [],
   "checks": {
+   "last_seen": "2026-10-22T15:26:12+09:00",
    "search_keywords": [
-    "中小企業"
+    "中小企業",
+    "人材",
+    "雇用"
    ]
   },
   "deadline": "2029-03-31T23:59:00+09:00",
@@ -3959,7 +4623,9 @@
   "business_types": [
    "共通"
   ],
-  "checks": {},
+  "checks": {
+   "last_seen": "2026-10-22T15:26:12+09:00"
+  },
   "deadline": null,
   "first_seen": "2026-10-20T16:45:38+09:00",
   "id": "df81b652e949aa18",
@@ -3985,10 +4651,12 @@
   ],
   "checks": {
    "deadline_soon": true,
+   "last_seen": "2026-10-22T15:26:12+09:00",
    "new_this_week": true,
    "search_keywords": [
     "中小企業",
-    "小規模事業者"
+    "小規模事業者",
+    "雇用"
    ],
    "url_status": 200
   },
@@ -4013,7 +4681,9 @@
   "ai_used": false,
   "body_text": "",
   "business_types": [],
-  "checks": {},
+  "checks": {
+   "last_seen": "2026-10-22T15:26:12+09:00"
+  },
   "deadline": null,
   "first_seen": "2026-10-20T16:45:38+09:00",
   "id": "e1182eed5a14dacb",
@@ -4030,6 +4700,33 @@
   "title": "令和8年度農林水産統計業務協力者等に対する農林水産大臣感謝状の授与について",
   "url": "https://www.maff.go.jp/j/press/tokei/kikaku/261016.html"
  },
+ "e1a55a0226015d77": {
+  "ai_note": null,
+  "ai_used": false,
+  "body_text": "",
+  "business_types": [],
+  "checks": {
+   "last_seen": "2026-10-22T15:26:12+09:00",
+   "search_keywords": [
+    "設備"
+   ]
+  },
+  "deadline": "2026-11-13T13:00:00+09:00",
+  "first_seen": "2026-10-22T15:26:12+09:00",
+  "id": "e1a55a0226015d77",
+  "importance": "中",
+  "industries_raw": null,
+  "kind": "補助金・公募",
+  "published": "2026-10-22T11:00:00+09:00",
+  "publisher": "jGrants（デジタル庁）",
+  "regions": [
+   "全国"
+  ],
+  "relevant": false,
+  "source_id": "jgrants",
+  "title": "【令和８年度】二酸化炭素排出抑制対策事業費等補助金 （地域共生型廃棄物発電等導入促進事業 （うち地域の廃棄物を活用した地域エネルギー創出事業））（第２次公募）",
+  "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDbPBMA1"
+ },
  "e29b581a7a547958": {
   "ai_note": null,
   "ai_used": false,
@@ -4039,6 +4736,7 @@
   ],
   "checks": {
    "deadline_soon": false,
+   "last_seen": "2026-10-22T15:26:12+09:00",
    "new_this_week": true,
    "search_keywords": [
     "中小企業",
@@ -4071,8 +4769,10 @@
    "共通"
   ],
   "checks": {
+   "last_seen": "2026-10-22T15:26:12+09:00",
    "search_keywords": [
-    "中小企業"
+    "中小企業",
+    "雇用"
    ]
   },
   "deadline": "2027-04-30T12:00:00+09:00",
@@ -4097,6 +4797,7 @@
   "body_text": "",
   "business_types": [],
   "checks": {
+   "last_seen": "2026-10-22T15:26:12+09:00",
    "search_keywords": [
     "設備"
    ]
@@ -4117,6 +4818,33 @@
   "title": "令和７年度（補正予算）地域脱炭素実現に向けた具体的施策実装支援事業（四次公募）",
   "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDd3OMAT"
  },
+ "e411eb1bf48665bc": {
+  "ai_note": null,
+  "ai_used": false,
+  "body_text": "",
+  "business_types": [],
+  "checks": {
+   "last_seen": "2026-10-22T15:26:12+09:00",
+   "search_keywords": [
+    "人材"
+   ]
+  },
+  "deadline": "2027-05-31T19:00:00+09:00",
+  "first_seen": "2026-10-22T15:26:12+09:00",
+  "id": "e411eb1bf48665bc",
+  "importance": "中",
+  "industries_raw": null,
+  "kind": "補助金・公募",
+  "published": "2026-07-10T12:00:00+09:00",
+  "publisher": "jGrants（デジタル庁）",
+  "regions": [
+   "東京都"
+  ],
+  "relevant": false,
+  "source_id": "jgrants",
+  "title": "令和８年度 医学技術振興事業",
+  "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDdL9MAL"
+ },
  "e6765bf57f33d230": {
   "ai_note": null,
   "ai_used": false,
@@ -4126,11 +4854,13 @@
   ],
   "checks": {
    "deadline_soon": true,
+   "last_seen": "2026-10-22T15:26:12+09:00",
    "new_this_week": true,
    "search_keywords": [
     "中小企業",
     "小規模事業者",
-    "設備"
+    "設備",
+    "雇用"
    ],
    "url_status": 200
   },
@@ -4158,6 +4888,7 @@
    "共通"
   ],
   "checks": {
+   "last_seen": "2026-10-22T15:26:12+09:00",
    "search_keywords": [
     "中小企業",
     "設備",
@@ -4187,7 +4918,9 @@
   "business_types": [
    "共通"
   ],
-  "checks": {},
+  "checks": {
+   "last_seen": "2026-10-22T15:26:12+09:00"
+  },
   "deadline": null,
   "first_seen": "2026-10-20T16:45:38+09:00",
   "id": "ea023c0d36eb3625",
@@ -4209,7 +4942,9 @@
   "ai_used": false,
   "body_text": "",
   "business_types": [],
-  "checks": {},
+  "checks": {
+   "last_seen": "2026-10-22T15:26:12+09:00"
+  },
   "deadline": null,
   "first_seen": "2026-10-20T16:45:38+09:00",
   "id": "eb5d6d8ef2fc964a",
@@ -4233,7 +4968,9 @@
   "business_types": [
    "共通"
   ],
-  "checks": {},
+  "checks": {
+   "last_seen": "2026-10-22T15:26:12+09:00"
+  },
   "deadline": null,
   "first_seen": "2026-10-20T16:45:38+09:00",
   "id": "ebd72f59231aa69b",
@@ -4259,11 +4996,13 @@
   ],
   "checks": {
    "deadline_soon": true,
+   "last_seen": "2026-10-22T15:26:12+09:00",
    "new_this_week": true,
    "search_keywords": [
     "中小企業",
     "小規模事業者",
-    "設備"
+    "設備",
+    "雇用"
    ],
    "url_status": 200
   },
@@ -4292,11 +5031,13 @@
   ],
   "checks": {
    "deadline_soon": true,
+   "last_seen": "2026-10-22T15:26:12+09:00",
    "new_this_week": true,
    "search_keywords": [
     "中小企業",
     "小規模事業者",
-    "設備"
+    "設備",
+    "雇用"
    ],
    "url_status": 200
   },
@@ -4324,8 +5065,10 @@
    "共通"
   ],
   "checks": {
+   "last_seen": "2026-10-22T15:26:12+09:00",
    "search_keywords": [
-    "中小企業"
+    "中小企業",
+    "雇用"
    ]
   },
   "deadline": "2027-03-31T23:59:00+09:00",
@@ -4351,7 +5094,9 @@
   "business_types": [
    "共通"
   ],
-  "checks": {},
+  "checks": {
+   "last_seen": "2026-10-22T15:26:12+09:00"
+  },
   "deadline": null,
   "first_seen": "2026-10-20T16:45:38+09:00",
   "id": "f128d88baee9bc90",
@@ -4374,7 +5119,9 @@
   "body_text": "",
   "business_types": [],
   "checks": {
+   "last_seen": "2026-10-22T15:26:12+09:00",
    "search_keywords": [
+    "省エネ",
     "設備"
    ]
   },
@@ -4401,7 +5148,9 @@
   "business_types": [
    "共通"
   ],
-  "checks": {},
+  "checks": {
+   "last_seen": "2026-10-22T15:26:12+09:00"
+  },
   "deadline": null,
   "first_seen": "2026-10-20T16:45:38+09:00",
   "id": "f16662fcefaca169",
@@ -4423,7 +5172,9 @@
   "ai_used": false,
   "body_text": "",
   "business_types": [],
-  "checks": {},
+  "checks": {
+   "last_seen": "2026-10-22T15:26:12+09:00"
+  },
   "deadline": null,
   "first_seen": "2026-10-20T16:45:38+09:00",
   "id": "f1aa0704f26c2fdf",
@@ -4446,6 +5197,7 @@
   "body_text": "",
   "business_types": [],
   "checks": {
+   "last_seen": "2026-10-22T15:26:12+09:00",
    "search_keywords": [
     "設備"
    ]
@@ -4475,9 +5227,11 @@
   ],
   "checks": {
    "deadline_soon": true,
+   "last_seen": "2026-10-22T15:26:12+09:00",
    "new_this_week": true,
    "search_keywords": [
-    "中小企業"
+    "中小企業",
+    "地域資源"
    ],
    "url_status": 200
   },
@@ -4506,10 +5260,12 @@
   ],
   "checks": {
    "deadline_soon": true,
+   "last_seen": "2026-10-22T15:26:12+09:00",
    "new_this_week": true,
    "search_keywords": [
     "中小企業",
-    "賃上げ"
+    "賃上げ",
+    "雇用"
    ],
    "url_status": 200
   },
@@ -4535,6 +5291,7 @@
   "body_text": "公募要領を参照 エコ・SDGs活動支援がほしい 一般財団法人環境優良車普及機構（以下「機構」という。）では、環境省から 令和8年度二酸化炭素排出抑制対策事業費等補助金（環境配慮型先進トラック・バス導入加速事業（低炭素型ディーゼルトラック普及加速化事業）） の交付決定を受け、機構が管理・運用する補助金を活用して、トラック輸送における二酸化炭素の排出削減を図り、もって地球環境保全に資することを目的として、低炭素型ディーゼルトラックを導入する事業者に対して補助金を交付する事業を実施することとしています。 本補助金の概要、対象事業、応募方法及びその他の留意事項は、 公募要領に記載するとおりですので、応募される方は、公募要領を熟読のうえ、交付規程（令和8年5月12日環補デ第8-006号）に従って手続きを行っていただくようお願いいたします。 ■目的と性格 ・この補助金は、中小トラック事業者が低炭素型ディーゼルトラックを導入する事業を支援することにより、トラック輸送においてエコドライブを含む燃費改善のための取組を継続的に実施・改善する体制を構築することで二酸化炭素排出削減を図り、もって地球環境保全に資することを目的としています。 ・事業の実施によるエネルギー起源二酸化炭素の排出量が確実に削減されることが重要です。このため、事業完了後は事業報告書（燃費改善効果及び二酸化炭素削減効果の実績把握）の提出をしていただくことになります。また適正な財産管理、補助事業である旨の表示(車両へのステッカーの貼付)などが必要です。 ・これらの義務が十分果たされないときは、機構より改善のための指導を行うとともに、事態の重大なものについては交付決定を解除することもあります。また、新たな申請を受理しない場合もあります。 ■応募資格 低炭素型ディーゼルトラックの補助金を受けることができるのは、以下①又は②のいずれか",
   "business_types": [],
   "checks": {
+   "last_seen": "2026-10-22T15:26:12+09:00",
    "search_keywords": [
     "中小企業"
    ]
@@ -4564,7 +5321,11 @@
    "食品卸・小売"
   ],
   "checks": {
+   "last_seen": "2026-10-22T15:26:12+09:00",
    "search_keywords": [
+    "加工",
+    "地域資源",
+    "店舗",
     "観光",
     "販路",
     "飲食"
@@ -4592,8 +5353,10 @@
   "body_text": "空調設備やボイラー等の高効率化、太陽光発電の導入など、中小企業等のCO₂排出削減の取組を支援します。 1/2 設備整備・IT導入をしたい / エコ・SDGs活動支援がほしい ■参照ホームページ ※Jグランツで本補助金の申請受付を行っておりません。申請手続き等の詳細については、以下HPをご確認ください。 https://www.pref.saitama.lg.jp/a0502/hojokin/r7co2hojo-kinkyutaisaku.html ■目的・概要 本事業は、国の「物価高騰対応重点支援地方創生臨時交付金」を活用した事業です。 中小企業等におけるエネルギー使用量及びCO₂排出量の削減による体質改善を更に促すため、空調設備・ボイラー等の高効率タイプへの更新や蓄電池と組み合わせた太陽光発電設備などの導入に要する経費の一部を補助します。 ■対象事業者 民間事業者（埼玉県内で1年以上事業活動を営んでいる法人及び個人事業主） ただし、会社にあっては、中小企業者（中小企業基本法（昭和38年法律第154号）第2条第1項の各号のいずれかに該当するもの）に限る。 ※令和8年度予算によるスマートCO2排出削減設備導入補助金を受給した者又は受給予定者は対象外です。 ※本ページに「従業員数の上限」が「300名以下」という記載がありますが、法人の種類によって従業員数の上限等は異なります。 詳細はホームページをご確認ください。 ■対象事業所 ・申請時点で稼働期間が1年以上（再生可能エネルギー利用設備を設置する場合は1か月以上）の県内に所在する事業所 ・自ら所有又は賃貸借している事業所 ※住居兼事業所の場合、住居部分は対象外 （例：再生可能エネルギーの利用設備を設置する場合で、エネルギー使用量のメーター等が1つのみで事業所用と居住用とで分かれていない場合） （例：事業所部分と居住部分が混在して",
   "business_types": [],
   "checks": {
+   "last_seen": "2026-10-22T15:26:12+09:00",
    "search_keywords": [
     "中小企業",
+    "省エネ",
     "設備"
    ]
   },
@@ -4613,6 +5376,33 @@
   "title": "【埼玉県】埼玉県民間事業者CO₂排出削減設備導入補助金（緊急対策枠）",
   "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYUXMA5"
  },
+ "f63fba1e61fb0fa5": {
+  "ai_note": null,
+  "ai_used": false,
+  "body_text": "",
+  "business_types": [],
+  "checks": {
+   "last_seen": "2026-10-22T15:26:12+09:00",
+   "search_keywords": [
+    "商店街"
+   ]
+  },
+  "deadline": "2026-11-30T23:59:00+09:00",
+  "first_seen": "2026-10-22T15:26:12+09:00",
+  "id": "f63fba1e61fb0fa5",
+  "importance": "中",
+  "industries_raw": null,
+  "kind": "補助金・公募",
+  "published": "2026-06-15T00:00:00+09:00",
+  "publisher": "jGrants（デジタル庁）",
+  "regions": [
+   "東京都"
+  ],
+  "relevant": false,
+  "source_id": "jgrants",
+  "title": "東京都商店街防災力向上緊急支援事業",
+  "url": "https://www.jgrants-portal.go.jp/subsidy/a0WfQ000003ot1BUAQ"
+ },
  "f719282ab1ec799c": {
   "ai_note": null,
   "ai_used": false,
@@ -4622,6 +5412,7 @@
   ],
   "checks": {
    "deadline_soon": false,
+   "last_seen": "2026-10-22T15:26:12+09:00",
    "new_this_week": true,
    "search_keywords": [
     "中小企業"
@@ -4644,6 +5435,33 @@
   "title": "女性活躍情報公開促進奨励金 実績報告",
   "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDeSvMAL"
  },
+ "f73e9ec7f08388eb": {
+  "ai_note": null,
+  "ai_used": false,
+  "body_text": "",
+  "business_types": [],
+  "checks": {
+   "last_seen": "2026-10-22T15:26:12+09:00",
+   "search_keywords": [
+    "衛生"
+   ]
+  },
+  "deadline": "2027-01-29T16:30:00+09:00",
+  "first_seen": "2026-10-22T15:26:12+09:00",
+  "id": "f73e9ec7f08388eb",
+  "importance": "中",
+  "industries_raw": null,
+  "kind": "補助金・公募",
+  "published": "2026-10-16T09:00:00+09:00",
+  "publisher": "jGrants（デジタル庁）",
+  "regions": [
+   "宮崎県"
+  ],
+  "relevant": false,
+  "source_id": "jgrants",
+  "title": "【農産園芸課向け】都城市農業資材等価格高騰緊急支援事業費補助金（令和８年度）",
+  "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDVn9MAH"
+ },
  "f7be9357986beb83": {
   "ai_note": null,
   "ai_used": false,
@@ -4654,11 +5472,16 @@
   ],
   "checks": {
    "deadline_soon": true,
+   "last_seen": "2026-10-22T15:26:12+09:00",
    "new_this_week": true,
    "search_keywords": [
+    "インバウンド",
+    "卸売",
+    "小売",
     "小規模事業者",
     "観光",
-    "販路"
+    "販路",
+    "輸出"
    ],
    "url_status": 200
   },
@@ -4732,6 +5555,7 @@
    "共通"
   ],
   "checks": {
+   "last_seen": "2026-10-22T15:26:12+09:00",
    "search_keywords": [
     "中小企業"
    ]
@@ -4760,6 +5584,7 @@
    "共通"
   ],
   "checks": {
+   "last_seen": "2026-10-22T15:26:12+09:00",
    "search_keywords": [
     "小規模事業者"
    ]
@@ -4787,7 +5612,9 @@
   "business_types": [
    "共通"
   ],
-  "checks": {},
+  "checks": {
+   "last_seen": "2026-10-22T15:26:12+09:00"
+  },
   "deadline": null,
   "first_seen": "2026-10-20T16:45:38+09:00",
   "id": "f8811393b957c0e2",
@@ -4811,7 +5638,9 @@
   "business_types": [
    "共通"
   ],
-  "checks": {},
+  "checks": {
+   "last_seen": "2026-10-22T15:26:12+09:00"
+  },
   "deadline": null,
   "first_seen": "2026-10-20T16:45:38+09:00",
   "id": "f8d685845c842fa5",
@@ -4828,6 +5657,33 @@
   "title": "【補助金】新事業進出・ものづくり商業サービス補助金の第１回公募要領を公開【申請受付期間9/30～10/30】",
   "url": "https://mirasapo-plus.go.jp/infomation/33311/"
  },
+ "f96565b4046088c1": {
+  "ai_note": null,
+  "ai_used": false,
+  "body_text": "",
+  "business_types": [],
+  "checks": {
+   "last_seen": "2026-10-22T15:26:12+09:00",
+   "search_keywords": [
+    "衛生"
+   ]
+  },
+  "deadline": "2027-01-29T16:30:00+09:00",
+  "first_seen": "2026-10-22T15:26:12+09:00",
+  "id": "f96565b4046088c1",
+  "importance": "中",
+  "industries_raw": null,
+  "kind": "補助金・公募",
+  "published": "2026-10-16T09:00:00+09:00",
+  "publisher": "jGrants（デジタル庁）",
+  "regions": [
+   "宮崎県"
+  ],
+  "relevant": false,
+  "source_id": "jgrants",
+  "title": "【畜産事業者向け】都城市農業資材等価格高騰緊急支援事業費補助金（令和８年度）",
+  "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDVn4MAH"
+ },
  "fb07995c79a18de1": {
   "ai_note": null,
   "ai_used": false,
@@ -4838,9 +5694,12 @@
   ],
   "checks": {
    "deadline_soon": true,
+   "last_seen": "2026-10-22T15:26:12+09:00",
    "new_this_week": true,
    "search_keywords": [
     "中小企業",
+    "地域資源",
+    "店舗",
     "販路"
    ],
    "url_status": 200
@@ -4869,6 +5728,7 @@
    "共通"
   ],
   "checks": {
+   "last_seen": "2026-10-22T15:26:12+09:00",
    "search_keywords": [
     "中小企業"
    ]
@@ -4896,7 +5756,9 @@
   "business_types": [
    "共通"
   ],
-  "checks": {},
+  "checks": {
+   "last_seen": "2026-10-22T15:26:12+09:00"
+  },
   "deadline": null,
   "first_seen": "2026-10-20T16:45:38+09:00",
   "id": "fdf18dccff55a2fc",
@@ -4922,11 +5784,16 @@
   ],
   "checks": {
    "deadline_soon": false,
+   "last_seen": "2026-10-22T15:26:12+09:00",
    "new_this_week": true,
    "search_keywords": [
     "中小企業",
+    "卸売",
+    "小売",
     "設備",
-    "飲食"
+    "雇用",
+    "飲食",
+    "飲食店"
    ],
    "url_status": 200
   },
@@ -4952,6 +5819,7 @@
   "body_text": "",
   "business_types": [],
   "checks": {
+   "last_seen": "2026-10-22T15:26:12+09:00",
    "search_keywords": [
     "設備"
    ]
