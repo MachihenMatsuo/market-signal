@@ -6,6 +6,7 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>個人情報の取り扱い｜{{ cfg.service.name }}</title>
 {% include "_style.html" %}
+{% include "_head_extra.html" %}
 </head>
 <body>
 <header class="site"><div class="wrap">
@@ -14,13 +15,15 @@
 </div></header>
 <main class="wrap">
   <h2>預かる情報</h2>
-  <p>配信の登録でいただくメールアドレスと、登録時に選んでいただく業態・都道府県です。</p>
+  <p>配信の登録でいただくメールアドレスです。</p>
   <h2>使う目的</h2>
   <p>{{ cfg.service.name }}の配信と、配信内容の改善（開封やクリックの集計）にだけ使います。それ以外の目的には使いません。</p>
+  {% if cfg.site.analytics_token %}<h2>このページの閲覧の集計</h2>
+  <p>ページの改善のため、Cloudflare Web Analytics で閲覧数を集計しています。Cookieは使わず、閲覧した方個人を特定する情報は集めません。</p>{% endif %}
   <h2>第三者への提供</h2>
   <p>法令に基づく場合を除き、本人の同意なく第三者に提供しません。配信には、メール配信サービス（{{ cfg.email.provider_label }}）を使っています。</p>
   <h2>配信の停止・情報の削除</h2>
-  <p>毎回のメールの末尾にある「配信停止」から、いつでも止められます。登録情報の削除は、下記の問い合わせ先までご連絡ください。</p>
+  <p>毎回のメールの末尾にある「配信を停止する」から、いつでも止められます。登録情報の削除は、下記の問い合わせ先までご連絡ください。</p>
   <h2>事業者</h2>
   <p>{{ cfg.operator.name }}<br>{{ cfg.operator.address }}<br>お問い合わせ：{{ cfg.operator.contact_email }}</p>
 </main>

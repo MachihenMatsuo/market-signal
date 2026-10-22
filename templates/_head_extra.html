@@ -1,0 +1,4 @@
+{% if cfg.site.google_site_verification %}<meta name="google-site-verification" content="{{ cfg.site.google_site_verification }}">
+{% endif %}{% if cfg.site.analytics_token %}<!-- 閲覧数の集計（Cloudflare Web Analytics：Cookieを使わず、個人を特定しない） -->
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "{{ cfg.site.analytics_token }}"}'></script>
+{% endif %}

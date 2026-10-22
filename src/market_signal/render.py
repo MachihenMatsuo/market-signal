@@ -122,4 +122,25 @@ def write_site(ctx: dict[str, Any], archive: list[dict[str, Any]], out: Path = S
     )
     (out / "privacy.html").write_text(env.get_template("privacy.html").render(**ctx), encoding="utf-8")
     (out / ".nojekyll").write_text("", encoding="utf-8")
+    write_sitemap(out, str((ctx.get("cfg") or {}).get("site", {}).get("url") or ""))
     return page
+
+
+def write_sitemap(out: Path, base_url: str) -> Path | None:
+    """検索エンジンに渡すページの一覧（sitemap.xml）。公開URLが未記入なら作らない。"""
+    if not base_url.startswith("http"):
+        return None
+    base = base_url.rstrip("/") + "/"
+    urls = [(base, None), (base + "privacy.html", None)]
+    for p in sorted((out / "issues").glob("*.html"), reverse=True):
+        urls.append((base + "issues/" + p.name, p.stem if len(p.stem) == 10 else None))
+    newest = next((d for _, d in urls if d), None)
+    lines = ['<?xml version="1.0" encoding="UTF-8"?>',
+             '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
+    for loc, day in urls:
+        day = day or (newest if loc == base else None)  # トップは最新号の日付で更新
+        lines.append(f"  <url><loc>{loc}</loc>" + (f"<lastmod>{day}</lastmod>" if day else "") + "</url>")
+    lines.append("</urlset>")
+    path = out / "sitemap.xml"
+    path.write_text("\n".join(lines) + "\n", encoding="utf-8")
+    return path

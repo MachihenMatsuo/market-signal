@@ -148,3 +148,15 @@ def test_food_search_hit_makes_relevant(cfg):
 def test_award_excluded(cfg):
     it = classify(mk(KIND_GOV, "食料システムの女性ヒーローに選出"), cfg.rules, NOW)
     assert not it.relevant
+
+
+def test_sitemap_lists_pages(tmp_path):
+    from market_signal.render import write_sitemap
+    (tmp_path / "issues").mkdir()
+    for d in ("2026-10-20", "2026-10-26"):
+        (tmp_path / "issues" / f"{d}.html").write_text("x", encoding="utf-8")
+    p = write_sitemap(tmp_path, "https://example.github.io/market-signal")
+    s = p.read_text(encoding="utf-8")
+    assert "<loc>https://example.github.io/market-signal/</loc><lastmod>2026-10-26</lastmod>" in s
+    assert "issues/2026-10-20.html</loc><lastmod>2026-10-20</lastmod>" in s
+    assert write_sitemap(tmp_path, "【要記入】") is None

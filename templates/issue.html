@@ -8,6 +8,7 @@
 <meta name="description" content="{{ issue_date }}号。締切が近い補助金・公募{{ counts.soon }}件、新しい補助金・公募{{ counts.new }}件、回収・注意喚起{{ counts.recall }}件、行政の発表{{ counts.gov }}件。発表元の原文へのリンク付き。">
 {% if cfg.site.url %}<link rel="canonical" href="{{ cfg.site.url.rstrip('/') }}/issues/{{ issue_slug }}.html">{% endif %}
 {% include "_style.html" %}
+{% include "_head_extra.html" %}
 </head>
 <body>
 <header class="site"><div class="wrap">
