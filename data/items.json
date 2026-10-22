@@ -2180,32 +2180,6 @@
   "title": "【日本人初】渡邉紹裕京都大学名誉教授が国際かんがい排水委員会（ICID）の会長に就任",
   "url": "https://www.maff.go.jp/j/press/nousin/sekkei/261019.html"
  },
- "745094a7bb2a5c3a": {
-  "ai_note": null,
-  "ai_used": false,
-  "body_text": "",
-  "business_types": [],
-  "checks": {
-   "search_keywords": [
-    "設備"
-   ]
-  },
-  "deadline": "2027-01-15T23:59:00+09:00",
-  "first_seen": "2026-10-20T16:45:38+09:00",
-  "id": "745094a7bb2a5c3a",
-  "importance": "中",
-  "industries_raw": null,
-  "kind": "補助金・公募",
-  "published": "2026-04-24T14:00:00+09:00",
-  "publisher": "jGrants（デジタル庁）",
-  "regions": [
-   "全国"
-  ],
-  "relevant": false,
-  "source_id": "jgrants",
-  "title": "令和７年度補正予算 商用車等の電動化促進事業",
-  "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDWZ9MAP"
- },
  "7578bad4257ce084": {
   "ai_note": null,
   "ai_used": false,
@@ -2372,6 +2346,30 @@
   "source_id": "jgrants",
   "title": "【岩手】令和８年度中小企業最低賃金引上げ支援対策費補助金（業務改善助成金）",
   "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDdueMAD"
+ },
+ "7b2c05cd872fa42a": {
+  "ai_note": null,
+  "ai_used": false,
+  "body_text": "",
+  "business_types": [
+   "共通"
+  ],
+  "checks": {},
+  "deadline": null,
+  "first_seen": "2026-10-22T09:04:11+09:00",
+  "id": "7b2c05cd872fa42a",
+  "importance": "低",
+  "industries_raw": null,
+  "kind": "行政の発表",
+  "published": "2026-10-21T10:30:00+09:00",
+  "publisher": "農林水産省",
+  "regions": [
+   "全国"
+  ],
+  "relevant": true,
+  "source_id": "maff_press",
+  "title": "「令和8年度オーガニックビレッジ全国集会」の開催について",
+  "url": "https://www.maff.go.jp/j/press/nousan/kankyo/261021.html"
  },
  "7c23b2ff0a585ac6": {
   "ai_note": null,
@@ -3362,6 +3360,28 @@
   "source_id": "jgrants",
   "title": "令和8年度【1年目申請用】ES（社員満足度）向上による若手人材確保・定着事業助成金",
   "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYkAMAX"
+ },
+ "aaa92ed9bb1aa76f": {
+  "ai_note": null,
+  "ai_used": false,
+  "body_text": "",
+  "business_types": [],
+  "checks": {},
+  "deadline": null,
+  "first_seen": "2026-10-22T09:04:11+09:00",
+  "id": "aaa92ed9bb1aa76f",
+  "importance": "低",
+  "industries_raw": null,
+  "kind": "行政の発表",
+  "published": "2026-10-21T14:00:00+09:00",
+  "publisher": "農林水産省",
+  "regions": [
+   "全国"
+  ],
+  "relevant": false,
+  "source_id": "maff_press",
+  "title": "NIPPON FOOD SHIFT FES.TOKYO 2026開催",
+  "url": "https://www.maff.go.jp/j/press/kanbo/anpo/261021.html"
  },
  "ab5ef85b79c38c8f": {
   "ai_note": null,
