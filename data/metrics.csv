@@ -10,3 +10,5 @@ date,event,collected_new,issue_items,excluded_broken_link,excluded_out_of_period
 2026-10-24T08:56:21+09:00,collect,135,,,,,,,,,,,
 2026-10-25T08:19:00+09:00,collect,130,,,,,,,,,,,
 2026-10-26T08:21:09+09:00,collect,132,,,,,,,,,,,
+2026-10-26T08:26:45+09:00,collect,134,,,,,,,,,,,
+2026-10-26T08:27:10+09:00,weekly,,52,0,42,6,0,0,0,0,1,1,APIキーなし
