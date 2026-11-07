@@ -7,7 +7,7 @@
    "共通"
   ],
   "checks": {
-   "last_seen": "2026-11-06T10:37:35+09:00",
+   "last_seen": "2026-11-07T10:00:48+09:00",
    "search_keywords": [
     "中小企業",
     "加工",
@@ -40,7 +40,7 @@
   ],
   "checks": {
    "deadline_soon": true,
-   "last_seen": "2026-11-06T10:37:35+09:00",
+   "last_seen": "2026-11-07T10:00:48+09:00",
    "new_this_week": false,
    "search_keywords": [
     "中小企業",
@@ -94,7 +94,7 @@
   "body_text": "",
   "business_types": [],
   "checks": {
-   "last_seen": "2026-11-06T10:37:35+09:00",
+   "last_seen": "2026-11-07T10:00:48+09:00",
    "search_keywords": [
     "設備"
    ]
@@ -148,7 +148,7 @@
   ],
   "checks": {
    "deadline_soon": false,
-   "last_seen": "2026-11-06T10:37:35+09:00",
+   "last_seen": "2026-11-07T10:00:48+09:00",
    "new_this_week": true,
    "search_keywords": [
     "中小企業"
@@ -171,13 +171,39 @@
   "title": "女性活躍情報公開促進奨励金 奨励金請求",
   "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDeSwMAL"
  },
+ "06455a2387984381": {
+  "ai_note": null,
+  "ai_used": false,
+  "body_text": "",
+  "business_types": [
+   "共通"
+  ],
+  "checks": {
+   "last_seen": "2026-11-07T10:00:48+09:00"
+  },
+  "deadline": null,
+  "first_seen": "2026-11-07T10:00:48+09:00",
+  "id": "06455a2387984381",
+  "importance": "低",
+  "industries_raw": null,
+  "kind": "行政の発表",
+  "published": "2026-11-06T15:01:00+09:00",
+  "publisher": "農林水産省",
+  "regions": [
+   "秋田県"
+  ],
+  "relevant": true,
+  "source_id": "maff_press",
+  "title": "秋田県における野鳥の高病原性鳥インフルエンザウイルスの検出事例について",
+  "url": "https://www.maff.go.jp/j/press/syouan/douei/261106.html"
+ },
  "06ae9fa8a3fece77": {
   "ai_note": null,
   "ai_used": false,
   "body_text": "",
   "business_types": [],
   "checks": {
-   "last_seen": "2026-11-06T10:37:35+09:00",
+   "last_seen": "2026-11-07T10:00:48+09:00",
    "search_keywords": [
     "人材"
    ]
@@ -204,7 +230,7 @@
   "body_text": "",
   "business_types": [],
   "checks": {
-   "last_seen": "2026-11-06T10:37:35+09:00",
+   "last_seen": "2026-11-07T10:00:48+09:00",
    "search_keywords": [
     "卸売",
     "小売",
@@ -233,7 +259,7 @@
   "body_text": "",
   "business_types": [],
   "checks": {
-   "last_seen": "2026-11-06T10:37:35+09:00",
+   "last_seen": "2026-11-07T10:00:48+09:00",
    "search_keywords": [
     "人材"
    ]
@@ -263,7 +289,7 @@
   ],
   "checks": {
    "deadline_soon": true,
-   "last_seen": "2026-11-06T10:37:35+09:00",
+   "last_seen": "2026-11-07T10:00:48+09:00",
    "new_this_week": false,
    "search_keywords": [
     "中小企業"
@@ -292,7 +318,7 @@
   "body_text": "",
   "business_types": [],
   "checks": {
-   "last_seen": "2026-11-06T10:37:35+09:00",
+   "last_seen": "2026-11-07T10:00:48+09:00",
    "search_keywords": [
     "人材"
    ]
@@ -322,7 +348,7 @@
   ],
   "checks": {
    "deadline_soon": true,
-   "last_seen": "2026-11-06T10:37:35+09:00",
+   "last_seen": "2026-11-07T10:00:48+09:00",
    "new_this_week": false,
    "search_keywords": [
     "デジタル",
@@ -422,7 +448,7 @@
   "body_text": "",
   "business_types": [],
   "checks": {
-   "last_seen": "2026-11-06T10:37:35+09:00",
+   "last_seen": "2026-11-07T10:00:48+09:00",
    "search_keywords": [
     "設備"
    ]
@@ -499,7 +525,7 @@
   "body_text": "",
   "business_types": [],
   "checks": {
-   "last_seen": "2026-11-06T10:37:35+09:00",
+   "last_seen": "2026-11-07T10:00:48+09:00",
    "search_keywords": [
     "輸出"
    ]
@@ -528,7 +554,7 @@
    "共通"
   ],
   "checks": {
-   "last_seen": "2026-11-06T10:37:35+09:00",
+   "last_seen": "2026-11-07T10:00:48+09:00",
    "search_keywords": [
     "中小企業",
     "人材",
@@ -583,7 +609,7 @@
    "共通"
   ],
   "checks": {
-   "last_seen": "2026-11-06T10:37:35+09:00",
+   "last_seen": "2026-11-07T10:00:48+09:00",
    "search_keywords": [
     "中小企業",
     "雇用"
@@ -641,7 +667,7 @@
    "共通"
   ],
   "checks": {
-   "last_seen": "2026-11-06T10:37:35+09:00",
+   "last_seen": "2026-11-07T10:00:48+09:00",
    "search_keywords": [
     "中小企業"
    ]
@@ -695,7 +721,7 @@
   "body_text": "",
   "business_types": [],
   "checks": {
-   "last_seen": "2026-11-06T10:37:35+09:00",
+   "last_seen": "2026-11-07T10:00:48+09:00",
    "search_keywords": [
     "人材",
     "設備"
@@ -726,7 +752,7 @@
   ],
   "checks": {
    "deadline_soon": false,
-   "last_seen": "2026-11-06T10:37:35+09:00",
+   "last_seen": "2026-11-07T10:00:48+09:00",
    "new_this_week": true,
    "search_keywords": [
     "中小企業"
@@ -758,7 +784,7 @@
   ],
   "checks": {
    "deadline_soon": true,
-   "last_seen": "2026-11-06T10:37:35+09:00",
+   "last_seen": "2026-11-07T10:00:48+09:00",
    "new_this_week": false,
    "search_keywords": [
     "中小企業",
@@ -790,7 +816,7 @@
   "body_text": "",
   "business_types": [],
   "checks": {
-   "last_seen": "2026-11-06T10:37:35+09:00"
+   "last_seen": "2026-11-07T10:00:48+09:00"
   },
   "deadline": null,
   "first_seen": "2026-10-30T10:04:06+09:00",
@@ -917,7 +943,7 @@
    "共通"
   ],
   "checks": {
-   "last_seen": "2026-11-06T10:37:35+09:00"
+   "last_seen": "2026-11-07T10:00:48+09:00"
   },
   "deadline": null,
   "first_seen": "2026-10-20T16:45:38+09:00",
@@ -941,7 +967,7 @@
   "body_text": "",
   "business_types": [],
   "checks": {
-   "last_seen": "2026-11-06T10:37:35+09:00"
+   "last_seen": "2026-11-07T10:00:48+09:00"
   },
   "deadline": null,
   "first_seen": "2026-11-03T11:59:55+09:00",
@@ -968,7 +994,7 @@
   ],
   "checks": {
    "deadline_soon": true,
-   "last_seen": "2026-11-06T10:37:35+09:00",
+   "last_seen": "2026-11-07T10:00:48+09:00",
    "new_this_week": false,
    "search_keywords": [
     "水産",
@@ -1034,7 +1060,7 @@
    "共通"
   ],
   "checks": {
-   "last_seen": "2026-11-06T10:37:35+09:00"
+   "last_seen": "2026-11-07T10:00:48+09:00"
   },
   "deadline": null,
   "first_seen": "2026-10-20T16:45:38+09:00",
@@ -1060,7 +1086,7 @@
    "共通"
   ],
   "checks": {
-   "last_seen": "2026-11-06T10:37:35+09:00",
+   "last_seen": "2026-11-07T10:00:48+09:00",
    "search_keywords": [
     "中小企業",
     "人材",
@@ -1118,7 +1144,7 @@
    "共通"
   ],
   "checks": {
-   "last_seen": "2026-11-06T10:37:35+09:00"
+   "last_seen": "2026-11-07T10:00:48+09:00"
   },
   "deadline": null,
   "first_seen": "2026-10-20T16:45:38+09:00",
@@ -1142,7 +1168,7 @@
   "body_text": "",
   "business_types": [],
   "checks": {
-   "last_seen": "2026-11-06T10:37:35+09:00",
+   "last_seen": "2026-11-07T10:00:48+09:00",
    "search_keywords": [
     "設備"
    ]
@@ -1203,7 +1229,7 @@
   "body_text": "",
   "business_types": [],
   "checks": {
-   "last_seen": "2026-11-06T10:37:35+09:00"
+   "last_seen": "2026-11-07T10:00:48+09:00"
   },
   "deadline": null,
   "first_seen": "2026-10-30T10:04:06+09:00",
@@ -1321,7 +1347,7 @@
    "共通"
   ],
   "checks": {
-   "last_seen": "2026-11-06T10:37:35+09:00"
+   "last_seen": "2026-11-07T10:00:48+09:00"
   },
   "deadline": null,
   "first_seen": "2026-10-20T16:45:38+09:00",
@@ -1347,7 +1373,7 @@
    "共通"
   ],
   "checks": {
-   "last_seen": "2026-11-06T10:37:35+09:00"
+   "last_seen": "2026-11-07T10:00:48+09:00"
   },
   "deadline": null,
   "first_seen": "2026-11-06T10:37:35+09:00",
@@ -1371,7 +1397,7 @@
   "body_text": "",
   "business_types": [],
   "checks": {
-   "last_seen": "2026-11-06T10:37:35+09:00"
+   "last_seen": "2026-11-07T10:00:48+09:00"
   },
   "deadline": null,
   "first_seen": "2026-10-30T10:04:06+09:00",
@@ -1395,7 +1421,7 @@
   "body_text": "",
   "business_types": [],
   "checks": {
-   "last_seen": "2026-11-06T10:37:35+09:00"
+   "last_seen": "2026-11-07T10:00:48+09:00"
   },
   "deadline": null,
   "first_seen": "2026-10-27T09:30:19+09:00",
@@ -1419,7 +1445,7 @@
   "body_text": "",
   "business_types": [],
   "checks": {
-   "last_seen": "2026-11-06T10:37:35+09:00",
+   "last_seen": "2026-11-07T10:00:48+09:00",
    "search_keywords": [
     "設備",
     "雇用"
@@ -1449,7 +1475,7 @@
    "共通"
   ],
   "checks": {
-   "last_seen": "2026-11-06T10:37:35+09:00"
+   "last_seen": "2026-11-07T10:00:48+09:00"
   },
   "deadline": null,
   "first_seen": "2026-11-06T10:37:35+09:00",
@@ -1518,7 +1544,7 @@
   ],
   "checks": {
    "deadline_soon": true,
-   "last_seen": "2026-11-06T10:37:35+09:00",
+   "last_seen": "2026-11-07T10:00:48+09:00",
    "new_this_week": false,
    "search_keywords": [
     "中小企業",
@@ -1682,7 +1708,7 @@
   ],
   "checks": {
    "deadline_soon": true,
-   "last_seen": "2026-11-06T10:37:35+09:00",
+   "last_seen": "2026-11-07T10:00:48+09:00",
    "new_this_week": false,
    "search_keywords": [
     "中小企業"
@@ -1713,7 +1739,7 @@
    "共通"
   ],
   "checks": {
-   "last_seen": "2026-11-06T10:37:35+09:00",
+   "last_seen": "2026-11-07T10:00:48+09:00",
    "search_keywords": [
     "小規模事業者",
     "設備",
@@ -1771,7 +1797,7 @@
   ],
   "checks": {
    "deadline_soon": true,
-   "last_seen": "2026-11-06T10:37:35+09:00",
+   "last_seen": "2026-11-07T10:00:48+09:00",
    "new_this_week": true,
    "search_keywords": [
     "中小企業"
@@ -1837,7 +1863,7 @@
    "共通"
   ],
   "checks": {
-   "last_seen": "2026-11-06T10:37:35+09:00",
+   "last_seen": "2026-11-07T10:00:48+09:00",
    "search_keywords": [
     "小規模事業者",
     "設備",
@@ -1866,7 +1892,7 @@
   "body_text": "",
   "business_types": [],
   "checks": {
-   "last_seen": "2026-11-06T10:37:35+09:00"
+   "last_seen": "2026-11-07T10:00:48+09:00"
   },
   "deadline": null,
   "first_seen": "2026-11-06T10:37:35+09:00",
@@ -1925,7 +1951,7 @@
    "共通"
   ],
   "checks": {
-   "last_seen": "2026-11-06T10:37:35+09:00"
+   "last_seen": "2026-11-07T10:00:48+09:00"
   },
   "deadline": null,
   "first_seen": "2026-10-20T16:45:38+09:00",
@@ -1975,7 +2001,7 @@
    "共通"
   ],
   "checks": {
-   "last_seen": "2026-11-06T10:37:35+09:00",
+   "last_seen": "2026-11-07T10:00:48+09:00",
    "url_status": 200
   },
   "deadline": null,
@@ -2000,7 +2026,7 @@
   "body_text": "",
   "business_types": [],
   "checks": {
-   "last_seen": "2026-11-06T10:37:35+09:00"
+   "last_seen": "2026-11-07T10:00:48+09:00"
   },
   "deadline": null,
   "first_seen": "2026-10-27T09:30:19+09:00",
@@ -2027,7 +2053,7 @@
   ],
   "checks": {
    "deadline_soon": false,
-   "last_seen": "2026-11-06T10:37:35+09:00",
+   "last_seen": "2026-11-07T10:00:48+09:00",
    "new_this_week": true,
    "search_keywords": [
     "中小企業",
@@ -2063,7 +2089,7 @@
   "body_text": "",
   "business_types": [],
   "checks": {
-   "last_seen": "2026-11-06T10:37:35+09:00"
+   "last_seen": "2026-11-07T10:00:48+09:00"
   },
   "deadline": null,
   "first_seen": "2026-10-24T08:56:20+09:00",
@@ -2089,7 +2115,7 @@
    "共通"
   ],
   "checks": {
-   "last_seen": "2026-11-06T10:37:35+09:00"
+   "last_seen": "2026-11-07T10:00:48+09:00"
   },
   "deadline": null,
   "first_seen": "2026-10-20T16:45:38+09:00",
@@ -2142,7 +2168,7 @@
    "共通"
   ],
   "checks": {
-   "last_seen": "2026-11-06T10:37:35+09:00",
+   "last_seen": "2026-11-07T10:00:48+09:00",
    "search_keywords": [
     "デジタル",
     "中小企業",
@@ -2173,7 +2199,7 @@
   "body_text": "",
   "business_types": [],
   "checks": {
-   "last_seen": "2026-11-06T10:37:35+09:00",
+   "last_seen": "2026-11-07T10:00:48+09:00",
    "search_keywords": [
     "設備"
    ]
@@ -2202,7 +2228,7 @@
    "共通"
   ],
   "checks": {
-   "last_seen": "2026-11-06T10:37:35+09:00"
+   "last_seen": "2026-11-07T10:00:48+09:00"
   },
   "deadline": null,
   "first_seen": "2026-11-03T11:59:55+09:00",
@@ -2264,7 +2290,7 @@
   ],
   "checks": {
    "deadline_soon": true,
-   "last_seen": "2026-11-06T10:37:35+09:00",
+   "last_seen": "2026-11-07T10:00:48+09:00",
    "new_this_week": true,
    "search_keywords": [
     "中小企業",
@@ -2296,7 +2322,7 @@
    "共通"
   ],
   "checks": {
-   "last_seen": "2026-11-06T10:37:35+09:00",
+   "last_seen": "2026-11-07T10:00:48+09:00",
    "search_keywords": [
     "中小企業",
     "観光",
@@ -2327,7 +2353,7 @@
   "body_text": "",
   "business_types": [],
   "checks": {
-   "last_seen": "2026-11-06T10:37:35+09:00",
+   "last_seen": "2026-11-07T10:00:48+09:00",
    "search_keywords": [
     "雇用"
    ]
@@ -2378,7 +2404,7 @@
   "body_text": "",
   "business_types": [],
   "checks": {
-   "last_seen": "2026-11-06T10:37:35+09:00"
+   "last_seen": "2026-11-07T10:00:48+09:00"
   },
   "deadline": null,
   "first_seen": "2026-10-30T10:04:06+09:00",
@@ -2435,7 +2461,7 @@
   "body_text": "",
   "business_types": [],
   "checks": {
-   "last_seen": "2026-11-06T10:37:35+09:00",
+   "last_seen": "2026-11-07T10:00:48+09:00",
    "search_keywords": [
     "デジタル"
    ]
@@ -2456,13 +2482,37 @@
   "title": "【令和８年度】医療機関等におけるマイナンバーカード利活用推進事業補助金",
   "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDbHxMAL"
  },
+ "51e5c84a57c76122": {
+  "ai_note": null,
+  "ai_used": false,
+  "body_text": "",
+  "business_types": [],
+  "checks": {
+   "last_seen": "2026-11-07T10:00:48+09:00"
+  },
+  "deadline": null,
+  "first_seen": "2026-11-07T10:00:48+09:00",
+  "id": "51e5c84a57c76122",
+  "importance": "低",
+  "industries_raw": null,
+  "kind": "行政の発表",
+  "published": "2026-11-06T11:00:00+09:00",
+  "publisher": "農林水産省",
+  "regions": [
+   "全国"
+  ],
+  "relevant": false,
+  "source_id": "maff_press",
+  "title": "令和8年度（第65回）農林水産祭「実りのフェスティバル」の開催について",
+  "url": "https://www.maff.go.jp/j/press/kanbo/bunsyo/261106.html"
+ },
  "535b0c9dfdafef50": {
   "ai_note": null,
   "ai_used": false,
   "body_text": "",
   "business_types": [],
   "checks": {
-   "last_seen": "2026-11-06T10:37:35+09:00"
+   "last_seen": "2026-11-07T10:00:48+09:00"
   },
   "deadline": null,
   "first_seen": "2026-11-05T10:32:12+09:00",
@@ -2488,7 +2538,7 @@
    "共通"
   ],
   "checks": {
-   "last_seen": "2026-11-06T10:37:35+09:00",
+   "last_seen": "2026-11-07T10:00:48+09:00",
    "search_keywords": [
     "創業",
     "観光",
@@ -2595,7 +2645,7 @@
    "共通"
   ],
   "checks": {
-   "last_seen": "2026-11-06T10:37:35+09:00",
+   "last_seen": "2026-11-07T10:00:48+09:00",
    "search_keywords": [
     "中小企業"
    ]
@@ -2625,7 +2675,7 @@
   ],
   "checks": {
    "deadline_soon": true,
-   "last_seen": "2026-11-06T10:37:35+09:00",
+   "last_seen": "2026-11-07T10:00:48+09:00",
    "new_this_week": false,
    "search_keywords": [
     "中小企業",
@@ -2657,7 +2707,7 @@
    "共通"
   ],
   "checks": {
-   "last_seen": "2026-11-06T10:37:35+09:00"
+   "last_seen": "2026-11-07T10:00:48+09:00"
   },
   "deadline": null,
   "first_seen": "2026-10-20T16:45:38+09:00",
@@ -2684,7 +2734,7 @@
   ],
   "checks": {
    "deadline_soon": true,
-   "last_seen": "2026-11-06T10:37:35+09:00",
+   "last_seen": "2026-11-07T10:00:48+09:00",
    "new_this_week": false,
    "search_keywords": [
     "中小企業",
@@ -2719,7 +2769,7 @@
   ],
   "checks": {
    "deadline_soon": true,
-   "last_seen": "2026-11-06T10:37:35+09:00",
+   "last_seen": "2026-11-07T10:00:48+09:00",
    "new_this_week": true,
    "search_keywords": [
     "中小企業",
@@ -2751,7 +2801,7 @@
    "共通"
   ],
   "checks": {
-   "last_seen": "2026-11-06T10:37:35+09:00"
+   "last_seen": "2026-11-07T10:00:48+09:00"
   },
   "deadline": null,
   "first_seen": "2026-10-20T16:45:38+09:00",
@@ -2799,7 +2849,7 @@
   "body_text": "",
   "business_types": [],
   "checks": {
-   "last_seen": "2026-11-06T10:37:35+09:00",
+   "last_seen": "2026-11-07T10:00:48+09:00",
    "search_keywords": [
     "人材",
     "設備"
@@ -2829,7 +2879,7 @@
    "食品卸・小売"
   ],
   "checks": {
-   "last_seen": "2026-11-06T10:37:35+09:00"
+   "last_seen": "2026-11-07T10:00:48+09:00"
   },
   "deadline": null,
   "first_seen": "2026-11-05T10:32:12+09:00",
@@ -2887,7 +2937,7 @@
   "body_text": "",
   "business_types": [],
   "checks": {
-   "last_seen": "2026-11-06T10:37:35+09:00"
+   "last_seen": "2026-11-07T10:00:48+09:00"
   },
   "deadline": null,
   "first_seen": "2026-11-05T10:32:12+09:00",
@@ -2938,7 +2988,7 @@
   "body_text": "",
   "business_types": [],
   "checks": {
-   "last_seen": "2026-11-06T10:37:35+09:00"
+   "last_seen": "2026-11-07T10:00:48+09:00"
   },
   "deadline": null,
   "first_seen": "2026-10-31T09:52:31+09:00",
@@ -2962,7 +3012,7 @@
   "body_text": "",
   "business_types": [],
   "checks": {
-   "last_seen": "2026-11-06T10:37:35+09:00"
+   "last_seen": "2026-11-07T10:00:48+09:00"
   },
   "deadline": null,
   "first_seen": "2026-10-31T09:52:31+09:00",
@@ -3012,7 +3062,7 @@
    "共通"
   ],
   "checks": {
-   "last_seen": "2026-11-06T10:37:35+09:00"
+   "last_seen": "2026-11-07T10:00:48+09:00"
   },
   "deadline": null,
   "first_seen": "2026-10-20T16:45:38+09:00",
@@ -3062,7 +3112,7 @@
    "食品製造"
   ],
   "checks": {
-   "last_seen": "2026-11-06T10:37:35+09:00",
+   "last_seen": "2026-11-07T10:00:48+09:00",
    "url_status": 200
   },
   "deadline": null,
@@ -3087,7 +3137,7 @@
   "body_text": "",
   "business_types": [],
   "checks": {
-   "last_seen": "2026-11-06T10:37:35+09:00"
+   "last_seen": "2026-11-07T10:00:48+09:00"
   },
   "deadline": null,
   "first_seen": "2026-10-22T15:26:12+09:00",
@@ -3114,7 +3164,7 @@
   ],
   "checks": {
    "deadline_soon": true,
-   "last_seen": "2026-11-06T10:37:35+09:00",
+   "last_seen": "2026-11-07T10:00:48+09:00",
    "new_this_week": false,
    "search_keywords": [
     "中小企業",
@@ -3246,7 +3296,7 @@
   ],
   "checks": {
    "deadline_soon": true,
-   "last_seen": "2026-11-06T10:37:35+09:00",
+   "last_seen": "2026-11-07T10:00:48+09:00",
    "new_this_week": false,
    "search_keywords": [
     "中小企業",
@@ -3278,7 +3328,7 @@
    "共通"
   ],
   "checks": {
-   "last_seen": "2026-11-06T10:37:35+09:00"
+   "last_seen": "2026-11-07T10:00:48+09:00"
   },
   "deadline": null,
   "first_seen": "2026-10-20T16:45:38+09:00",
@@ -3302,7 +3352,7 @@
   "body_text": "",
   "business_types": [],
   "checks": {
-   "last_seen": "2026-11-06T10:37:35+09:00"
+   "last_seen": "2026-11-07T10:00:48+09:00"
   },
   "deadline": null,
   "first_seen": "2026-10-28T09:35:55+09:00",
@@ -3385,7 +3435,7 @@
   "body_text": "",
   "business_types": [],
   "checks": {
-   "last_seen": "2026-11-06T10:37:35+09:00",
+   "last_seen": "2026-11-07T10:00:48+09:00",
    "search_keywords": [
     "設備"
    ]
@@ -3415,7 +3465,7 @@
   ],
   "checks": {
    "deadline_soon": true,
-   "last_seen": "2026-11-06T10:37:35+09:00",
+   "last_seen": "2026-11-07T10:00:48+09:00",
    "new_this_week": false,
    "search_keywords": [
     "中小企業",
@@ -3449,7 +3499,7 @@
    "共通"
   ],
   "checks": {
-   "last_seen": "2026-11-06T10:37:35+09:00",
+   "last_seen": "2026-11-07T10:00:48+09:00",
    "url_status": 200
   },
   "deadline": null,
@@ -3509,7 +3559,7 @@
   "body_text": "",
   "business_types": [],
   "checks": {
-   "last_seen": "2026-11-06T10:37:35+09:00",
+   "last_seen": "2026-11-07T10:00:48+09:00",
    "search_keywords": [
     "衛生",
     "雇用"
@@ -3566,7 +3616,7 @@
    "共通"
   ],
   "checks": {
-   "last_seen": "2026-11-06T10:37:35+09:00",
+   "last_seen": "2026-11-07T10:00:48+09:00",
    "search_keywords": [
     "中小企業",
     "卸売",
@@ -3597,7 +3647,7 @@
    "共通"
   ],
   "checks": {
-   "last_seen": "2026-11-06T10:37:35+09:00"
+   "last_seen": "2026-11-07T10:00:48+09:00"
   },
   "deadline": null,
   "first_seen": "2026-10-20T16:45:38+09:00",
@@ -3621,7 +3671,7 @@
   "body_text": "",
   "business_types": [],
   "checks": {
-   "last_seen": "2026-11-06T10:37:35+09:00",
+   "last_seen": "2026-11-07T10:00:48+09:00",
    "search_keywords": [
     "省エネ",
     "設備"
@@ -3652,7 +3702,7 @@
   ],
   "checks": {
    "deadline_soon": true,
-   "last_seen": "2026-11-06T10:37:35+09:00",
+   "last_seen": "2026-11-07T10:00:48+09:00",
    "new_this_week": false,
    "search_keywords": [
     "中小企業"
@@ -3683,7 +3733,7 @@
    "共通"
   ],
   "checks": {
-   "last_seen": "2026-11-06T10:37:35+09:00",
+   "last_seen": "2026-11-07T10:00:48+09:00",
    "search_keywords": [
     "中小企業",
     "雇用"
@@ -3711,7 +3761,7 @@
   "body_text": "",
   "business_types": [],
   "checks": {
-   "last_seen": "2026-11-06T10:37:35+09:00",
+   "last_seen": "2026-11-07T10:00:48+09:00",
    "search_keywords": [
     "中小企業",
     "設備"
@@ -3742,7 +3792,7 @@
   ],
   "checks": {
    "deadline_soon": true,
-   "last_seen": "2026-11-06T10:37:35+09:00",
+   "last_seen": "2026-11-07T10:00:48+09:00",
    "new_this_week": false,
    "search_keywords": [
     "中小企業",
@@ -3858,7 +3908,7 @@
   ],
   "checks": {
    "deadline_soon": true,
-   "last_seen": "2026-11-06T10:37:35+09:00",
+   "last_seen": "2026-11-07T10:00:48+09:00",
    "new_this_week": false,
    "search_keywords": [
     "中小企業"
@@ -3887,7 +3937,7 @@
   "body_text": "",
   "business_types": [],
   "checks": {
-   "last_seen": "2026-11-06T10:37:35+09:00"
+   "last_seen": "2026-11-07T10:00:48+09:00"
   },
   "deadline": null,
   "first_seen": "2026-10-24T08:56:20+09:00",
@@ -3911,7 +3961,7 @@
   "body_text": "",
   "business_types": [],
   "checks": {
-   "last_seen": "2026-11-06T10:37:35+09:00"
+   "last_seen": "2026-11-07T10:00:48+09:00"
   },
   "deadline": null,
   "first_seen": "2026-10-31T09:52:31+09:00",
@@ -3935,7 +3985,7 @@
   "body_text": "",
   "business_types": [],
   "checks": {
-   "last_seen": "2026-11-06T10:37:35+09:00",
+   "last_seen": "2026-11-07T10:00:48+09:00",
    "search_keywords": [
     "雇用"
    ]
@@ -3964,7 +4014,7 @@
    "共通"
   ],
   "checks": {
-   "last_seen": "2026-11-06T10:37:35+09:00",
+   "last_seen": "2026-11-07T10:00:48+09:00",
    "search_keywords": [
     "中小企業",
     "雇用"
@@ -3994,7 +4044,7 @@
    "共通"
   ],
   "checks": {
-   "last_seen": "2026-11-06T10:37:35+09:00",
+   "last_seen": "2026-11-07T10:00:48+09:00",
    "search_keywords": [
     "中小企業"
    ]
@@ -4024,7 +4074,7 @@
   ],
   "checks": {
    "deadline_soon": false,
-   "last_seen": "2026-11-06T10:37:35+09:00",
+   "last_seen": "2026-11-07T10:00:48+09:00",
    "new_this_week": true,
    "search_keywords": [
     "中小企業",
@@ -4092,7 +4142,7 @@
    "共通"
   ],
   "checks": {
-   "last_seen": "2026-11-06T10:37:35+09:00"
+   "last_seen": "2026-11-07T10:00:48+09:00"
   },
   "deadline": null,
   "first_seen": "2026-10-20T16:45:38+09:00",
@@ -4192,7 +4242,7 @@
   "body_text": "",
   "business_types": [],
   "checks": {
-   "last_seen": "2026-11-06T10:37:35+09:00",
+   "last_seen": "2026-11-07T10:00:48+09:00",
    "search_keywords": [
     "省エネ",
     "設備"
@@ -4223,7 +4273,7 @@
   ],
   "checks": {
    "deadline_soon": false,
-   "last_seen": "2026-11-06T10:37:35+09:00",
+   "last_seen": "2026-11-07T10:00:48+09:00",
    "new_this_week": true,
    "search_keywords": [
     "デジタル",
@@ -4315,7 +4365,7 @@
   "body_text": "",
   "business_types": [],
   "checks": {
-   "last_seen": "2026-11-06T10:37:35+09:00"
+   "last_seen": "2026-11-07T10:00:48+09:00"
   },
   "deadline": null,
   "first_seen": "2026-10-28T09:35:55+09:00",
@@ -4447,7 +4497,7 @@
   "body_text": "",
   "business_types": [],
   "checks": {
-   "last_seen": "2026-11-06T10:37:35+09:00"
+   "last_seen": "2026-11-07T10:00:48+09:00"
   },
   "deadline": null,
   "first_seen": "2026-11-06T10:37:35+09:00",
@@ -4551,7 +4601,7 @@
   "body_text": "",
   "business_types": [],
   "checks": {
-   "last_seen": "2026-11-06T10:37:35+09:00",
+   "last_seen": "2026-11-07T10:00:48+09:00",
    "search_keywords": [
     "設備"
    ]
@@ -4581,7 +4631,7 @@
   ],
   "checks": {
    "deadline_soon": true,
-   "last_seen": "2026-11-06T10:37:35+09:00",
+   "last_seen": "2026-11-07T10:00:48+09:00",
    "new_this_week": true,
    "search_keywords": [
     "中小企業",
@@ -4620,7 +4670,7 @@
    "共通"
   ],
   "checks": {
-   "last_seen": "2026-11-06T10:37:35+09:00",
+   "last_seen": "2026-11-07T10:00:48+09:00",
    "search_keywords": [
     "中小企業",
     "人材",
@@ -4685,7 +4735,7 @@
    "共通"
   ],
   "checks": {
-   "last_seen": "2026-11-06T10:37:35+09:00",
+   "last_seen": "2026-11-07T10:00:48+09:00",
    "search_keywords": [
     "中小企業",
     "人材",
@@ -4716,7 +4766,7 @@
    "飲食店"
   ],
   "checks": {
-   "last_seen": "2026-11-06T10:37:35+09:00",
+   "last_seen": "2026-11-07T10:00:48+09:00",
    "url_status": 200
   },
   "deadline": null,
@@ -4741,7 +4791,7 @@
   "body_text": "",
   "business_types": [],
   "checks": {
-   "last_seen": "2026-11-06T10:37:35+09:00"
+   "last_seen": "2026-11-07T10:00:48+09:00"
   },
   "deadline": null,
   "first_seen": "2026-10-22T09:04:11+09:00",
@@ -4765,7 +4815,7 @@
   "body_text": "",
   "business_types": [],
   "checks": {
-   "last_seen": "2026-11-06T10:37:35+09:00"
+   "last_seen": "2026-11-07T10:00:48+09:00"
   },
   "deadline": null,
   "first_seen": "2026-10-28T09:35:55+09:00",
@@ -4815,7 +4865,7 @@
    "共通"
   ],
   "checks": {
-   "last_seen": "2026-11-06T10:37:35+09:00",
+   "last_seen": "2026-11-07T10:00:48+09:00",
    "search_keywords": [
     "創業",
     "小規模事業者",
@@ -4847,7 +4897,7 @@
    "共通"
   ],
   "checks": {
-   "last_seen": "2026-11-06T10:37:35+09:00"
+   "last_seen": "2026-11-07T10:00:48+09:00"
   },
   "deadline": null,
   "first_seen": "2026-10-20T16:45:38+09:00",
@@ -4874,7 +4924,7 @@
   ],
   "checks": {
    "deadline_soon": true,
-   "last_seen": "2026-11-06T10:37:35+09:00",
+   "last_seen": "2026-11-07T10:00:48+09:00",
    "new_this_week": false,
    "search_keywords": [
     "中小企業",
@@ -4905,7 +4955,7 @@
   "body_text": "",
   "business_types": [],
   "checks": {
-   "last_seen": "2026-11-06T10:37:35+09:00"
+   "last_seen": "2026-11-07T10:00:48+09:00"
   },
   "deadline": null,
   "first_seen": "2026-10-30T10:04:06+09:00",
@@ -4953,7 +5003,7 @@
   "body_text": "",
   "business_types": [],
   "checks": {
-   "last_seen": "2026-11-06T10:37:35+09:00",
+   "last_seen": "2026-11-07T10:00:48+09:00",
    "search_keywords": [
     "雇用"
    ]
@@ -4980,7 +5030,7 @@
   "body_text": "",
   "business_types": [],
   "checks": {
-   "last_seen": "2026-11-06T10:37:35+09:00",
+   "last_seen": "2026-11-07T10:00:48+09:00",
    "search_keywords": [
     "設備"
    ]
@@ -5010,7 +5060,7 @@
   ],
   "checks": {
    "deadline_soon": false,
-   "last_seen": "2026-11-06T10:37:35+09:00",
+   "last_seen": "2026-11-07T10:00:48+09:00",
    "new_this_week": true,
    "search_keywords": [
     "中小企業"
@@ -5041,7 +5091,7 @@
    "食品卸・小売"
   ],
   "checks": {
-   "last_seen": "2026-11-06T10:37:35+09:00",
+   "last_seen": "2026-11-07T10:00:48+09:00",
    "url_status": 200
   },
   "deadline": null,
@@ -5092,7 +5142,7 @@
    "共通"
   ],
   "checks": {
-   "last_seen": "2026-11-06T10:37:35+09:00"
+   "last_seen": "2026-11-07T10:00:48+09:00"
   },
   "deadline": null,
   "first_seen": "2026-10-20T16:45:38+09:00",
@@ -5116,7 +5166,7 @@
   "body_text": "",
   "business_types": [],
   "checks": {
-   "last_seen": "2026-11-06T10:37:35+09:00"
+   "last_seen": "2026-11-07T10:00:48+09:00"
   },
   "deadline": null,
   "first_seen": "2026-10-22T15:26:12+09:00",
@@ -5140,7 +5190,7 @@
   "body_text": "",
   "business_types": [],
   "checks": {
-   "last_seen": "2026-11-06T10:37:35+09:00"
+   "last_seen": "2026-11-07T10:00:48+09:00"
   },
   "deadline": null,
   "first_seen": "2026-10-24T08:56:20+09:00",
@@ -5167,7 +5217,7 @@
    "食品卸・小売"
   ],
   "checks": {
-   "last_seen": "2026-11-06T10:37:35+09:00",
+   "last_seen": "2026-11-07T10:00:48+09:00",
    "search_keywords": [
     "中小企業",
     "創業",
@@ -5200,7 +5250,7 @@
   "body_text": "",
   "business_types": [],
   "checks": {
-   "last_seen": "2026-11-06T10:37:35+09:00",
+   "last_seen": "2026-11-07T10:00:48+09:00",
    "search_keywords": [
     "設備"
    ]
@@ -5229,7 +5279,7 @@
    "共通"
   ],
   "checks": {
-   "last_seen": "2026-11-06T10:37:35+09:00"
+   "last_seen": "2026-11-07T10:00:48+09:00"
   },
   "deadline": null,
   "first_seen": "2026-10-20T16:45:38+09:00",
@@ -5255,7 +5305,7 @@
    "共通"
   ],
   "checks": {
-   "last_seen": "2026-11-06T10:37:35+09:00",
+   "last_seen": "2026-11-07T10:00:48+09:00",
    "search_keywords": [
     "中小企業",
     "加工",
@@ -5284,7 +5334,7 @@
   "body_text": "",
   "business_types": [],
   "checks": {
-   "last_seen": "2026-11-06T10:37:35+09:00",
+   "last_seen": "2026-11-07T10:00:48+09:00",
    "search_keywords": [
     "雇用"
    ]
@@ -5344,7 +5394,7 @@
   "body_text": "",
   "business_types": [],
   "checks": {
-   "last_seen": "2026-11-06T10:37:35+09:00"
+   "last_seen": "2026-11-07T10:00:48+09:00"
   },
   "deadline": null,
   "first_seen": "2026-11-03T11:59:55+09:00",
@@ -5368,7 +5418,7 @@
   "body_text": "",
   "business_types": [],
   "checks": {
-   "last_seen": "2026-11-06T10:37:35+09:00"
+   "last_seen": "2026-11-07T10:00:48+09:00"
   },
   "deadline": null,
   "first_seen": "2026-10-29T10:01:17+09:00",
@@ -5454,7 +5504,7 @@
    "飲食店"
   ],
   "checks": {
-   "last_seen": "2026-11-06T10:37:35+09:00",
+   "last_seen": "2026-11-07T10:00:48+09:00",
    "search_keywords": [
     "インバウンド",
     "デジタル",
@@ -5492,7 +5542,7 @@
   ],
   "checks": {
    "deadline_soon": true,
-   "last_seen": "2026-11-06T10:37:35+09:00",
+   "last_seen": "2026-11-07T10:00:48+09:00",
    "new_this_week": false,
    "search_keywords": [
     "中小企業",
@@ -5527,7 +5577,7 @@
   ],
   "checks": {
    "deadline_soon": true,
-   "last_seen": "2026-11-06T10:37:35+09:00",
+   "last_seen": "2026-11-07T10:00:48+09:00",
    "new_this_week": true,
    "search_keywords": [
     "中小企業",
@@ -5560,7 +5610,7 @@
    "共通"
   ],
   "checks": {
-   "last_seen": "2026-11-06T10:37:35+09:00"
+   "last_seen": "2026-11-07T10:00:48+09:00"
   },
   "deadline": null,
   "first_seen": "2026-10-20T16:45:38+09:00",
@@ -5584,7 +5634,7 @@
   "body_text": "",
   "business_types": [],
   "checks": {
-   "last_seen": "2026-11-06T10:37:35+09:00"
+   "last_seen": "2026-11-07T10:00:48+09:00"
   },
   "deadline": null,
   "first_seen": "2026-10-31T09:52:31+09:00",
@@ -5608,7 +5658,7 @@
   "body_text": "",
   "business_types": [],
   "checks": {
-   "last_seen": "2026-11-06T10:37:35+09:00"
+   "last_seen": "2026-11-07T10:00:48+09:00"
   },
   "deadline": null,
   "first_seen": "2026-10-27T09:30:19+09:00",
@@ -5658,7 +5708,7 @@
    "共通"
   ],
   "checks": {
-   "last_seen": "2026-11-06T10:37:35+09:00"
+   "last_seen": "2026-11-07T10:00:48+09:00"
   },
   "deadline": null,
   "first_seen": "2026-10-20T16:45:38+09:00",
@@ -5716,7 +5766,7 @@
    "共通"
   ],
   "checks": {
-   "last_seen": "2026-11-06T10:37:35+09:00",
+   "last_seen": "2026-11-07T10:00:48+09:00",
    "search_keywords": [
     "中小企業",
     "人材",
@@ -5859,7 +5909,7 @@
   ],
   "checks": {
    "deadline_soon": false,
-   "last_seen": "2026-11-06T10:37:35+09:00",
+   "last_seen": "2026-11-07T10:00:48+09:00",
    "new_this_week": true,
    "search_keywords": [
     "中小企業",
@@ -5892,7 +5942,7 @@
    "共通"
   ],
   "checks": {
-   "last_seen": "2026-11-06T10:37:35+09:00",
+   "last_seen": "2026-11-07T10:00:48+09:00",
    "search_keywords": [
     "中小企業",
     "雇用"
@@ -5920,7 +5970,7 @@
   "body_text": "",
   "business_types": [],
   "checks": {
-   "last_seen": "2026-11-06T10:37:35+09:00",
+   "last_seen": "2026-11-07T10:00:48+09:00",
    "search_keywords": [
     "設備"
    ]
@@ -5947,7 +5997,7 @@
   "body_text": "",
   "business_types": [],
   "checks": {
-   "last_seen": "2026-11-06T10:37:35+09:00"
+   "last_seen": "2026-11-07T10:00:48+09:00"
   },
   "deadline": null,
   "first_seen": "2026-10-28T09:35:55+09:00",
@@ -5971,7 +6021,7 @@
   "body_text": "",
   "business_types": [],
   "checks": {
-   "last_seen": "2026-11-06T10:37:35+09:00",
+   "last_seen": "2026-11-07T10:00:48+09:00",
    "search_keywords": [
     "人材"
    ]
@@ -6001,7 +6051,7 @@
   ],
   "checks": {
    "deadline_soon": true,
-   "last_seen": "2026-11-06T10:37:35+09:00",
+   "last_seen": "2026-11-07T10:00:48+09:00",
    "new_this_week": false,
    "search_keywords": [
     "中小企業",
@@ -6026,37 +6076,6 @@
   "source_id": "jgrants",
   "title": "【佐賀】令和８年度中小企業最低賃金引上げ支援対策費補助金（業務改善助成金）",
   "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDe6WMAT"
- },
- "e7f8ec47c101542c": {
-  "ai_note": null,
-  "ai_used": false,
-  "body_text": "経営革新計画や先端設備等導入計画の承認を受けた中小企業者に10万円を支援！物価高騰に負けない経営を応援します。 定額 新たな事業を行いたい / 雇用・職場環境を改善したい / 設備整備・IT導入をしたい ■目的・概要 物価高騰の影響を受けている中小企業者が持続可能な経営を維持できるよう、経営革新計画や先端設備等導入計画の承認等を受けた市内の中小企業者等に対する支援を行います。 ■補助対象者 以下の①又は②の要件を満たし、かつ(1)～(6)の要件を全て満たしている中小事業者等 ①経営革新計画を作成し、埼玉県から新規の承認を受けた者 ②先端設備等導入計画を作成し、川越市から新規の認定を受けた者 (1) 市内に事業所を有しており、引き続き市内で事業を継続する意思があること。 (2) 市税を滞納していないこと。 (3) 令和8年3月1日以降、新規に計画を策定し、承認等を受けていること。 (4) 先端設備等導入計画については、従業員に対する賃上げ方針を従業員に表明し、賃上げ方針を位置付けて認定を受けた計画であること。 (5) 暴力団員による不当な行為の防止等に関する法律（平成3年法律第77号）第2条第6号に規定する暴力団員又は同条第2号に規定する暴力団に関与する事業者に該当しないこと。 (6) その他法令及び公序良俗に反していないこと。 ■補助対象事業 (1)経営革新計画 中小企業等経営強化法に基づき、事業者が「新事業活動」に取り組み、「経営の相当程度の向上」を図ることを目的に策定する計画で、埼玉県知事が承認しています。 (2)先端設備等導入計画 中小企業等経営強化法に規定された事業者が、新たな設備投資を通じて労働生産性の向上や事業の効率化を図ることを目的に策定する計画で、川越市長が認定しています。 ■申請方法 郵送又は窓口での受付（メール等では受け付けできません。） (1)郵送の場",
-  "business_types": [
-   "共通"
-  ],
-  "checks": {
-   "last_seen": "2026-11-06T10:37:35+09:00",
-   "search_keywords": [
-    "中小企業",
-    "設備",
-    "賃上げ"
-   ]
-  },
-  "deadline": "2027-03-01T17:15:00+09:00",
-  "first_seen": "2026-10-20T16:45:38+09:00",
-  "id": "e7f8ec47c101542c",
-  "importance": "中",
-  "industries_raw": "漁業 / 建設業 / 製造業 / 電気・ガス・熱供給・水道業 / 情報通信業 / 複合サービス事業 / サービス業（他に分類されないもの） / 農業、林業 / 鉱業、採石業、砂利採取業 / 運輸業、郵便業 / 卸売業、小売業 / 金融業、保険業 / 不動産業、物品賃貸業 / 学術研究、専門・技術サービス業 / 宿泊業、飲食サービス業 / 生活関連サービス業、娯楽業 / 教育、学習支援業 / 医療、福祉",
-  "kind": "補助金・公募",
-  "published": "2026-05-11T08:30:00+09:00",
-  "publisher": "jGrants（デジタル庁）",
-  "regions": [
-   "埼玉県"
-  ],
-  "relevant": true,
-  "source_id": "jgrants",
-  "title": "川越市中小企業者等物価高騰対策経営改善支援金",
-  "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDY6GMAX"
  },
  "ea023c0d36eb3625": {
   "ai_note": null,
@@ -6116,7 +6135,7 @@
    "共通"
   ],
   "checks": {
-   "last_seen": "2026-11-06T10:37:35+09:00"
+   "last_seen": "2026-11-07T10:00:48+09:00"
   },
   "deadline": null,
   "first_seen": "2026-10-20T16:45:38+09:00",
@@ -6213,7 +6232,7 @@
   ],
   "checks": {
    "deadline_soon": true,
-   "last_seen": "2026-11-06T10:37:35+09:00",
+   "last_seen": "2026-11-07T10:00:48+09:00",
    "new_this_week": true,
    "search_keywords": [
     "中小企業",
@@ -6243,7 +6262,7 @@
   "body_text": "",
   "business_types": [],
   "checks": {
-   "last_seen": "2026-11-06T10:37:35+09:00"
+   "last_seen": "2026-11-07T10:00:48+09:00"
   },
   "deadline": null,
   "first_seen": "2026-10-24T08:56:20+09:00",
@@ -6267,7 +6286,7 @@
   "body_text": "",
   "business_types": [],
   "checks": {
-   "last_seen": "2026-11-06T10:37:35+09:00"
+   "last_seen": "2026-11-07T10:00:48+09:00"
   },
   "deadline": null,
   "first_seen": "2026-11-06T10:37:35+09:00",
@@ -6293,7 +6312,7 @@
    "共通"
   ],
   "checks": {
-   "last_seen": "2026-11-06T10:37:35+09:00",
+   "last_seen": "2026-11-07T10:00:48+09:00",
    "search_keywords": [
     "中小企業",
     "雇用"
@@ -6323,7 +6342,7 @@
    "共通"
   ],
   "checks": {
-   "last_seen": "2026-11-06T10:37:35+09:00"
+   "last_seen": "2026-11-07T10:00:48+09:00"
   },
   "deadline": null,
   "first_seen": "2026-10-20T16:45:38+09:00",
@@ -6347,7 +6366,7 @@
   "body_text": "",
   "business_types": [],
   "checks": {
-   "last_seen": "2026-11-06T10:37:35+09:00",
+   "last_seen": "2026-11-07T10:00:48+09:00",
    "search_keywords": [
     "省エネ",
     "設備"
@@ -6419,13 +6438,37 @@
   "title": "狼煙漁港（狼煙地区）の岸壁と船揚場の一部供用開始について",
   "url": "https://www.jfa.maff.go.jp/j/press/seibi/261006.html"
  },
+ "f23337d223da67c7": {
+  "ai_note": null,
+  "ai_used": false,
+  "body_text": "",
+  "business_types": [],
+  "checks": {
+   "last_seen": "2026-11-07T10:00:48+09:00"
+  },
+  "deadline": null,
+  "first_seen": "2026-11-07T10:00:48+09:00",
+  "id": "f23337d223da67c7",
+  "importance": "低",
+  "industries_raw": null,
+  "kind": "行政の発表",
+  "published": "2026-11-06T14:00:00+09:00",
+  "publisher": "農林水産省",
+  "regions": [
+   "全国"
+  ],
+  "relevant": false,
+  "source_id": "maff_press",
+  "title": "「農業の生産性の向上のためのスマート農業技術の活用の促進に関する法律」に基づき開発供給実施計画を認定しました",
+  "url": "https://www.affrc.maff.go.jp/docs/press/261106.html"
+ },
  "f28bca2766cc0252": {
   "ai_note": null,
   "ai_used": false,
   "body_text": "",
   "business_types": [],
   "checks": {
-   "last_seen": "2026-11-06T10:37:35+09:00",
+   "last_seen": "2026-11-07T10:00:48+09:00",
    "search_keywords": [
     "設備"
    ]
@@ -6519,7 +6562,7 @@
   "body_text": "公募要領を参照 エコ・SDGs活動支援がほしい 一般財団法人環境優良車普及機構（以下「機構」という。）では、環境省から 令和8年度二酸化炭素排出抑制対策事業費等補助金（環境配慮型先進トラック・バス導入加速事業（低炭素型ディーゼルトラック普及加速化事業）） の交付決定を受け、機構が管理・運用する補助金を活用して、トラック輸送における二酸化炭素の排出削減を図り、もって地球環境保全に資することを目的として、低炭素型ディーゼルトラックを導入する事業者に対して補助金を交付する事業を実施することとしています。 本補助金の概要、対象事業、応募方法及びその他の留意事項は、 公募要領に記載するとおりですので、応募される方は、公募要領を熟読のうえ、交付規程（令和8年5月12日環補デ第8-006号）に従って手続きを行っていただくようお願いいたします。 ■目的と性格 ・この補助金は、中小トラック事業者が低炭素型ディーゼルトラックを導入する事業を支援することにより、トラック輸送においてエコドライブを含む燃費改善のための取組を継続的に実施・改善する体制を構築することで二酸化炭素排出削減を図り、もって地球環境保全に資することを目的としています。 ・事業の実施によるエネルギー起源二酸化炭素の排出量が確実に削減されることが重要です。このため、事業完了後は事業報告書（燃費改善効果及び二酸化炭素削減効果の実績把握）の提出をしていただくことになります。また適正な財産管理、補助事業である旨の表示(車両へのステッカーの貼付)などが必要です。 ・これらの義務が十分果たされないときは、機構より改善のための指導を行うとともに、事態の重大なものについては交付決定を解除することもあります。また、新たな申請を受理しない場合もあります。 ■応募資格 低炭素型ディーゼルトラックの補助金を受けることができるのは、以下①又は②のいずれか",
   "business_types": [],
   "checks": {
-   "last_seen": "2026-11-06T10:37:35+09:00",
+   "last_seen": "2026-11-07T10:00:48+09:00",
    "search_keywords": [
     "中小企業"
    ]
@@ -6549,7 +6592,7 @@
    "食品卸・小売"
   ],
   "checks": {
-   "last_seen": "2026-11-06T10:37:35+09:00",
+   "last_seen": "2026-11-07T10:00:48+09:00",
    "search_keywords": [
     "加工",
     "地域資源",
@@ -6581,7 +6624,7 @@
   "body_text": "",
   "business_types": [],
   "checks": {
-   "last_seen": "2026-11-06T10:37:35+09:00",
+   "last_seen": "2026-11-07T10:00:48+09:00",
    "search_keywords": [
     "商店街"
    ]
@@ -6611,7 +6654,7 @@
   ],
   "checks": {
    "deadline_soon": false,
-   "last_seen": "2026-11-06T10:37:35+09:00",
+   "last_seen": "2026-11-07T10:00:48+09:00",
    "new_this_week": true,
    "search_keywords": [
     "中小企業"
@@ -6640,7 +6683,7 @@
   "body_text": "",
   "business_types": [],
   "checks": {
-   "last_seen": "2026-11-06T10:37:35+09:00",
+   "last_seen": "2026-11-07T10:00:48+09:00",
    "search_keywords": [
     "衛生"
    ]
@@ -6755,7 +6798,7 @@
   ],
   "checks": {
    "deadline_soon": true,
-   "last_seen": "2026-11-06T10:37:35+09:00",
+   "last_seen": "2026-11-07T10:00:48+09:00",
    "new_this_week": false,
    "search_keywords": [
     "中小企業"
@@ -6786,7 +6829,7 @@
    "共通"
   ],
   "checks": {
-   "last_seen": "2026-11-06T10:37:35+09:00",
+   "last_seen": "2026-11-07T10:00:48+09:00",
    "search_keywords": [
     "小規模事業者"
    ]
@@ -6815,7 +6858,7 @@
    "共通"
   ],
   "checks": {
-   "last_seen": "2026-11-06T10:37:35+09:00"
+   "last_seen": "2026-11-07T10:00:48+09:00"
   },
   "deadline": null,
   "first_seen": "2026-10-20T16:45:38+09:00",
@@ -6841,7 +6884,7 @@
    "共通"
   ],
   "checks": {
-   "last_seen": "2026-11-06T10:37:35+09:00"
+   "last_seen": "2026-11-07T10:00:48+09:00"
   },
   "deadline": null,
   "first_seen": "2026-10-20T16:45:38+09:00",
@@ -6865,7 +6908,7 @@
   "body_text": "",
   "business_types": [],
   "checks": {
-   "last_seen": "2026-11-06T10:37:35+09:00",
+   "last_seen": "2026-11-07T10:00:48+09:00",
    "search_keywords": [
     "衛生"
    ]
@@ -6930,7 +6973,7 @@
    "共通"
   ],
   "checks": {
-   "last_seen": "2026-11-06T10:37:35+09:00"
+   "last_seen": "2026-11-07T10:00:48+09:00"
   },
   "deadline": null,
   "first_seen": "2026-10-20T16:45:38+09:00",
@@ -6957,7 +7000,7 @@
   ],
   "checks": {
    "deadline_soon": false,
-   "last_seen": "2026-11-06T10:37:35+09:00",
+   "last_seen": "2026-11-07T10:00:48+09:00",
    "new_this_week": true,
    "search_keywords": [
     "中小企業",
@@ -6992,7 +7035,7 @@
   "body_text": "",
   "business_types": [],
   "checks": {
-   "last_seen": "2026-11-06T10:37:35+09:00",
+   "last_seen": "2026-11-07T10:00:48+09:00",
    "search_keywords": [
     "設備"
    ]
